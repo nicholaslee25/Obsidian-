@@ -1,6 +1,6 @@
 ﻿# Log
 
-Append-only record of all sessions and operations. Greppable by prefix: `## [YYYY-MM-DD]`
+Append-only record of all sessions and operations. Greppable by prefix: `## [YYYY-MM-DD]` — auto-sync enabled 2026-05-21
 
 ---
 
