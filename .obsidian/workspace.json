@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "78fb338eeb4730df",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2e7e35b81439a79",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c737ab9f395502b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fa9110001e7170f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "f5de38f58f75d731",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f37ca8d513382b4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cc024c9815c4796d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ec2a2f9b842a2793",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "06401610964213df",
+    "type": "split",
+    "children": [
+      {
+        "id": "3100bb757b9df2c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9e3a3bd596106c9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wiki/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for index"
+            }
+          },
+          {
+            "id": "64a1cc0271ee3bdf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "wiki/index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from index"
+            }
+          },
+          {
+            "id": "09fae21ebf6699b7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5fcee369aba60125",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b90465645ae98f02",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "1c737ab9f395502b",
+  "lastOpenFiles": [
+    "wiki/projects/wood cutting board.md",
+    "wiki/projects/zen sand table.md",
+    "wiki/you/wishlist.md",
+    "wiki/skills/baking.md",
+    "wiki/index.md",
+    "wiki/log.md",
+    "CLAUDE.md",
+    "wiki/you/person — nykel.md",
+    "wiki/you/claude.md",
+    "wiki/you/culture.md",
+    "wiki/you/goals.md",
+    "wiki/you/goal — quit YouTube.md",
+    "wiki/projects/potential/floating gear.md",
+    "wiki/projects/potential/wireless charging nightstand.md",
+    "wiki/projects/potential/wood etched baby yoda.md",
+    "wiki/projects/potential/wood etched baby yoda.md.tmp.4340.c7ff30fbe1a5",
+    "wiki/projects/potential/custom rubiks cube.md",
+    "wiki/projects/wood bench.md",
+    "wiki/projects/wooden bookshelf dividers.md",
+    "wiki/projects/custom hanger.md",
+    "wiki/projects/custom glasses case.md",
+    "wiki/projects/custom bookmarks.md",
+    "wiki/projects/lego fish tank for josh.md",
+    "wiki/projects/custom calendar.md",
+    "wiki/projects/wooden speaker.md",
+    "wiki/projects/floating lightbulb.md",
+    "wiki/projects/LED wooden lamp.md",
+    "wiki/projects/potential",
+    "wiki/index.md.tmp.4340.d47cbc922fff",
+    "wiki/topics/keyboards.md.tmp.4340.feff4bf46900",
+    "wiki/projects/woodwork shelf.md.tmp.4340.eaff40678ec2",
+    "wiki/baking",
+    "wiki/cooking",
+    "wiki/Reading/Short Stories",
+    "wiki/Reading/Literature",
+    "wiki/Reading"
+  ]
+}
