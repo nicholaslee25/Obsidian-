@@ -58,6 +58,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[game farming bot]] — automated game farming via screen capture + mouse control
 - [[copper plating oxidized gift]] — electroplate + patina an object as a gift
 - [[symmetrical gear arm gripper]] — rack & pinion parallel gripper, spring-loaded rod, symmetrical arms
+- [[3d printed pascal triangle]] — 3D printed Pascal's triangle as a display piece; representation TBD
 - [[woodwork hangboard]] — handmade wooden fingerboard for climbing/grip training
 - [[wood radiator cover]] — decorative wooden radiator cover for mom; measurements TBD
 
