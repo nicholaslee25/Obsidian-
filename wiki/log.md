@@ -66,3 +66,9 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 ## [2026-05-20] update | Added wood cutting board project
 
 - `projects/wood cutting board.md` -- created
+
+## [2026-05-27] update | Three new projects logged
+
+- `projects/discord wiki bot.md` — Discord bot powered by Claude API, queries the wiki, answers questions from Discord
+- `projects/game farming bot.md` — automated game farming via screen capture + mouse control; game TBD
+- `projects/copper plating oxidized gift.md` — electroplate an object + patina/oxidize for a gift; object + recipient TBD
