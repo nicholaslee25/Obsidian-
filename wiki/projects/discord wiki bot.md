@@ -1,47 +1,34 @@
 # Discord Wiki Bot
 
 **Type:** Project
-**Tags:** #project #software #discord #bot #wiki
-**Status:** Planning
+**Tags:** #project #software #discord #claude-code
+**Status:** Ready to build
 **Last updated:** 2026-05-27
 
 ---
 
 ## Overview
 
-A Discord bot that acts as a wiki assistant — ask it questions in Discord, it reads the 空心菜 wiki and answers using the relevant pages. Powered by the Claude API.
+Connect Claude Code directly to Discord so it's accessible from anywhere (phone, etc.). Not a custom bot — Claude Code itself runs in Discord via a direct integration.
 
-Goal: access the second brain from anywhere, especially phone.
+Tutorial: [Connect Claude Code to Discord in 5 Minutes](https://www.youtube.com/watch?v=lDlSGmCXht4)
 
-## Stack
+This is better than a standalone bot — full Claude Code (with wiki access, tools, hooks) available in Discord rather than a limited API wrapper.
 
-- **Language:** Python or Node.js (TBD)
-- **Discord library:** discord.py or discord.js
-- **LLM:** Claude API (Anthropic SDK)
-- **Wiki source:** local `.md` files in `空心菜/wiki/`
-- **Hosting:** local machine (laptop must be running) or small server for always-on
+## Approach
 
-## How It Works
-
-1. User sends a message or slash command in Discord
-2. Bot reads relevant wiki pages (index.md → route to specific pages)
-3. Passes wiki content + question to Claude API
-4. Returns response in Discord
+Follow the YouTube tutorial — 5-minute setup. Likely uses:
+- Discord bot token + channel as I/O pipe
+- Claude Code running locally, bridged to Discord
+- Laptop needs to be running for it to work
 
 ## Progress
 
-Planning — not started
-
-## Open Questions
-
-- Python or Node.js?
-- Always-on (hosted) or local-only?
-- Slash commands or natural language messages?
-- Which Discord server / channel?
+Not started — tutorial queued
 
 ## Notes
 
-*(add dev progress, decisions, and issues here)*
+*(add setup steps, issues, and config notes here)*
 
 ---
 
