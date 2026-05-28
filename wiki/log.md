@@ -72,3 +72,4 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 - `projects/discord wiki bot.md` — Discord bot powered by Claude API, queries the wiki, answers questions from Discord
 - `projects/game farming bot.md` — automated game farming via screen capture + mouse control; game TBD
 - `projects/copper plating oxidized gift.md` — electroplate an object + patina/oxidize for a gift; object + recipient TBD
+- `projects/symmetrical gear arm gripper.md` — rack & pinion parallel gripper driven by spring-loaded rod; normally open/closed TBD, actuation TBD
