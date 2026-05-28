@@ -57,6 +57,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[discord wiki bot]] — Discord bot that queries the wiki via Claude API
 - [[game farming bot]] — automated game farming via screen capture + mouse control
 - [[copper plating oxidized gift]] — electroplate + patina an object as a gift
+- [[symmetrical gear arm gripper]] — rack & pinion parallel gripper, spring-loaded rod, symmetrical arms
 
 ### Potential
 - [[custom rubiks cube]] — low plausibility, flagged
