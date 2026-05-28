@@ -54,6 +54,10 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[zen sand table]] -- CoreXY/magnet driven sand plotter; actuation + hidden mechanism TBD
 - [[wooden keyboard]] — custom keyboard with a handmade wooden case
 
+- [[discord wiki bot]] — Discord bot that queries the wiki via Claude API
+- [[game farming bot]] — automated game farming via screen capture + mouse control
+- [[copper plating oxidized gift]] — electroplate + patina an object as a gift
+
 ### Potential
 - [[custom rubiks cube]] — low plausibility, flagged
 - [[wood etched baby yoda]] — pyrography or laser etch
