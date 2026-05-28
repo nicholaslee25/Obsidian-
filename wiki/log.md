@@ -73,5 +73,6 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 - `projects/game farming bot.md` — automated game farming via screen capture + mouse control; game TBD
 - `projects/copper plating oxidized gift.md` — electroplate an object + patina/oxidize for a gift; object + recipient TBD
 - `projects/symmetrical gear arm gripper.md` — rack & pinion parallel gripper driven by spring-loaded rod; normally open/closed TBD, actuation TBD
+- `projects/3d printed pascal triangle.md` — 3D printed Pascal's triangle display piece; representation TBD
 - `projects/woodwork hangboard.md` — wooden fingerboard for climbing training
 - `projects/wood radiator cover.md` — decorative wood cover for mom's radiator; waiting on measurements
