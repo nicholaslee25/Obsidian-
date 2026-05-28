@@ -11,7 +11,7 @@
 
 Automate farming in a game using screen capture + mouse/keyboard control. Claude reads the game state from screenshots and executes actions — grinding resources, repeating loops, whatever the farm requires.
 
-**Game:** TBD
+**Game:** Marvel Contest of Champions (MCOC)
 
 ## Approach
 
