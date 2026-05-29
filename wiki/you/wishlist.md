@@ -9,6 +9,7 @@
 ## Stuff I Want
 
 - Power sliding skateboard wheels
+- Midnight Clover high top Converse (source TBD)
 
 ---
 
