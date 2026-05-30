@@ -54,6 +54,7 @@
 | [iLoveIMG](https://www.iloveimg.com) | All-in-one image editing tools online — possibly paywalled, TBD |
 | [tiled.art](https://tiled.art) | Tessellation art generator — create and explore repeating geometric patterns |
 | [Anime.js](https://animejs.com) | JavaScript animation library — clean, powerful, covers basically every animation you'd want |
+| [FFF by cmiscm](https://fff.cmiscm.com) | Cards of aesthetically pleasing, brain-scratching animations — good for inspiration, zoning out, or that q-tip feeling |
 | paperme | URL TBD — unlimited free photo/paper templates (music, grid, ruled, etc.) |
 
 ---
