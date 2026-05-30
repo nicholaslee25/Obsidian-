@@ -31,6 +31,7 @@
 | [Vocal Remover](https://vocalremover.org) | AI-powered MP3 splitter — separates audio into vocals and music tracks. Great for remixing, karaoke, sampling |
 | [iLoveIMG](https://www.iloveimg.com) | All-in-one image editing tools online — resize, compress, crop, convert, etc. Possibly paywalled, TBD |
 | [Skill-Lync Resources](https://resources.skill-lync.com/?tab=courses) | Engineering simulation and CAE courses — FEA, CFD, automotive, aerospace |
+| [Eye Candy](https://eyecannndy.com) | Video effects reference — identify effects you see but don't know the name of |
 
 ---
 
