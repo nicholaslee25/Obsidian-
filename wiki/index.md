@@ -74,6 +74,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[reading]] — books + one film to watch
 - [[useful websites]] — curated list of useful sites + why they're useful
 - [[youtube watch later]] — 500-ish links to chip away at: motivation, humility, learning
+- [[places to visit]] — been there + go again tracker with notes
 
 ## Sources
 *(none yet)*
