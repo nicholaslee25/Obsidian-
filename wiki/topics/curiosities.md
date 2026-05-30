@@ -10,6 +10,32 @@ Answers to things worth knowing. Short, dense, no padding.
 
 ---
 
+## What is tilt-shift photography?
+
+**Tilt-shift** is a technique that makes real scenes look like miniature models. Achieved two ways:
+
+1. **Tilt-shift lens** (physical): the lens plane tilts relative to the image sensor, exploiting the **Scheimpflug principle** — the plane of focus rotates, creating an extremely narrow band of sharpness across the scene instead of a flat plane parallel to the sensor. Everything outside that band goes soft.
+2. **Post-processing**: selectively blur the top and bottom of an image to simulate the same effect.
+
+Why it looks like a miniature: our brains associate very shallow depth of field with close-up macro photography. When applied to a wide scene (a city, a stadium, a crowd from above), the brain reads it as a tiny physical model being photographed up close. The perspective compression from a high shooting angle amplifies the illusion.
+
+---
+
+## What is the Fibonacci sequence in stock charts?
+
+The **Fibonacci sequence** (0, 1, 1, 2, 3, 5, 8, 13, 21...) produces ratios that converge on the **golden ratio (φ ≈ 1.618)**. The key ratios used in trading: **23.6%, 38.2%, 50%, 61.8%, 78.6%** (retracements) and **127.2%, 161.8%, 261.8%** (extensions).
+
+**How it's used:**
+- Identify a significant price move (swing low → swing high, or vice versa)
+- Draw horizontal lines at the Fibonacci ratios between those two points
+- Those levels are treated as potential **support and resistance** — areas where price might pause, bounce, or reverse during a pullback
+
+**What they show:** After a trend, price rarely goes straight back. Fib levels mark the common "resting points" where buyers or sellers step back in. The 38.2% and 61.8% levels are watched most closely.
+
+**Caveat:** Effectiveness is debated. Part of why they "work" is self-fulfilling — enough traders watch the same levels that they become real by collective action. Not a guarantee, but widely embedded in technical analysis toolkits.
+
+---
+
 ## What is the efficient compute frontier?
 
 The **efficient compute frontier** (also called the compute-optimal frontier) defines the optimal tradeoff between model size and training data for a given compute budget — the sweet spot where you get maximum performance per FLOP.
