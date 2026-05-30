@@ -17,6 +17,7 @@
 | [Shigley's Mechanical Engineering Design (PDF)](https://www.mechfamily-ju.com/storage/images/files/file_1731443577xeDvd.pdf) | The mechanical engineering design bible — stress, fatigue, shafts, gears, fasteners, all of it |
 | [The Engineering Toolbox](https://www.engineeringtoolbox.com) | Staple reference for everything engineering — theory, math, application, material properties, unit conversions |
 | [Bartosz Ciechanowski — Blog](https://ciechanow.ski/archives/) | Interactive deep-dives into mechanics and physics — beautifully explained with live diagrams. Also has a YouTube channel |
+| [Animagraffs](https://animagraffs.com) | Animated, highly detailed visual explainers — how engines, machines, and systems work. Even better for visual learning |
 | [Setosa](https://setosa.io/#/) | Visual, interactive explanations of math, stats, and CS concepts — same energy as Ciechanowski but broader topics |
 | [HowStuffWorks](https://www.howstuffworks.com) | Broad, accessible breakdowns of how things work — engineering, science, culture, animals, all of it |
 
