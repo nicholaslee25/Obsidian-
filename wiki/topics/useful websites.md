@@ -16,6 +16,7 @@
 | [The Engineering Toolbox](https://www.engineeringtoolbox.com) | Staple reference for everything engineering — theory, math, application, material properties, unit conversions |
 | [Skill-Lync Resources](https://resources.skill-lync.com/?tab=courses) | Engineering simulation and CAE courses — FEA, CFD, automotive, aerospace |
 | [Project Rho — Atomic Rockets](https://projectrho.com/public_html/rocket/) | Deep-dive into real rocket science and space travel math — highly technical, nerds only |
+| [Electude Car Simulator](https://simulator.electude.com/simulator) | Simulate car repairs and diagnose faults — good for learning automotive systems hands-on |
 
 ---
 
