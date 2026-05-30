@@ -55,6 +55,7 @@
 | [tiled.art](https://tiled.art) | Tessellation art generator — create and explore repeating geometric patterns |
 | [Anime.js](https://animejs.com) | JavaScript animation library — clean, powerful, covers basically every animation you'd want |
 | [FFF by cmiscm](https://fff.cmiscm.com) | Cards of aesthetically pleasing, brain-scratching animations — good for inspiration, zoning out, or that q-tip feeling |
+| [Paper Design](https://app.paper.design) | Converts images into dynamic black and white paper-style designs |
 | paperme | URL TBD — unlimited free photo/paper templates (music, grid, ruled, etc.) |
 
 ---
