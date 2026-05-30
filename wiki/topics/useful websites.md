@@ -34,6 +34,7 @@
 | [Eye Candy](https://eyecannndy.com) | Video effects reference — identify effects you see but don't know the name of |
 | [ArnisaMC](https://arnismc.com) | Rebuilding real-world locations in Minecraft — reference and inspiration |
 | [August](https://meetaugust.ai) | Health AI — tracks and interprets health data |
+| [Instructables](https://www.instructables.com) | Step-by-step DIY guides for everything — one of the best maker/project resources on the internet |
 | paperme | URL TBD — unlimited free photo/paper templates (music, grid, ruled, etc.), downloadable |
 
 ---
