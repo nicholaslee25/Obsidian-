@@ -38,6 +38,7 @@
 | [Setosa](https://setosa.io/#/) | Visual, interactive explanations of math, stats, and CS concepts |
 | [HowStuffWorks](https://www.howstuffworks.com) | Broad, accessible breakdowns of how things work — engineering, science, culture, animals, all of it |
 | [Mindluster](https://www.mindluster.com) | Free courses across the board — soft skills, hard skills, professional, hobby. No paywall |
+| [MIT OpenCourseWare](https://ocw.mit.edu) | Free MIT course materials — lectures, problem sets, exams across every subject |
 | [coddy.tech](https://coddy.tech) | Duolingo-style coding practice — bite-sized lessons, gamified |
 | [Instructables](https://www.instructables.com) | Step-by-step DIY guides for everything — one of the best maker resources on the internet |
 | [Old Maps Online](https://oldmapsonline.org/en) | Browse historical maps from around the world — search by location and era |
