@@ -23,6 +23,7 @@
 | [Project Rho — Atomic Rockets](https://projectrho.com/public_html/rocket/) | Deep-dive into real rocket science and space travel math — highly technical, written for nerds and sci-fi writers alike |
 | [blink.new](https://blink.new) | AI-powered web app builder — describe what you want, get a working app fast |
 | Excel Guru | URL TBD |
+| [Paper Animator](https://paperanimator.com) | Paper/sketch-style animation effects for videos — sick for creative video editing |
 
 ---
 
