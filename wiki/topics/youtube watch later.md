@@ -8,7 +8,7 @@
 
 Chipping away at this. Tick off as watched. Add new ones at the bottom of the right section.
 
-**Categories:** Motivational/Discipline · Academic/Educational · Documentary · Science · Tech/DIY · Music · Entertainment
+**Categories:** Motivational/Discipline · Academic/Educational · Finance · Documentary · Science · Tech/DIY · Music · Entertainment
 
 ---
 
