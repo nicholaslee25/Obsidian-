@@ -26,6 +26,8 @@ Chipping away at this. Tick off as watched. Add new ones at the bottom of the ri
 ## Academic / Educational
 
 - [ ] [Renting vs. Buying a Home: The 8.71% Rule](https://www.youtube.com/watch?v=m8NqcKPfFEc)
+- [ ] [1955 vs 2025, who actually had it better?](https://www.youtube.com/watch?v=J4qqIJ312zI)
+- [ ] [Your Brain Actually Can't Tell Your Rooms Apart](https://www.youtube.com/watch?v=snAhsXyO3Ck)
 
 ---
 
