@@ -101,6 +101,14 @@
 
 ---
 
+## Sources
+
+| Source | Notes |
+|---|---|
+| [The Corporation Stack — YT](https://www.youtube.com/@TheCorporation_Stack/search?query=website) | YouTube channel — source for a bunch of the sites on this list |
+
+---
+
 ## Related
 
 - [[reading]]
