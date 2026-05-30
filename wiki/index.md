@@ -34,7 +34,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[LED wooden lamp]] — wood + electronics lighting piece
 - [[floating lightbulb]] — magnetic levitation + wireless power
 - [[wooden speaker]] — bluetooth, handmade enclosure
-- [[compass]] — GPS compass pointing to the only Olive Garden in NYC
+- [[compass]] — custom GPS compass pointing to a configurable destination; inspired by Olive Garden
 - [[moon cycle clock]] — mechanical/electronic moon phase display
 - [[custom calendar]] — wall, desk flip, or perpetual
 - [[lego fish tank for josh]] — gift for Josh
