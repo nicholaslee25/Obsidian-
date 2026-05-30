@@ -1,31 +1,60 @@
 # YouTube Watch Later
 
 **Type:** Topic
-**Tags:** #resources #youtube #motivation #learning #humility
+**Tags:** #resources #youtube #motivation #learning
 **Last updated:** 2026-05-30
 
 ---
 
 Chipping away at this. Tick off as watched. Add new ones at the bottom of the right section.
 
+**Categories:** Motivational/Discipline · Academic/Educational · Documentary · Science · Tech/DIY · Music · Entertainment
+
 ---
 
-## Motivation
+## Motivational / Discipline
 
 - [ ] [I Started a 9-5.](https://www.youtube.com/watch?v=v1ZQZGejMu8)
 - [ ] [The Fear of Living a Mediocre Life](https://www.youtube.com/watch?v=gnLYNrSPIwg)
-
----
-
-## Humility
-
 - [ ] [Don't Go to Pharmacy School Until You Watch This](https://www.youtube.com/watch?v=MLrcsyQUiV0)
+- [ ] [How to Pull an All-Nighter](https://www.youtube.com/watch?v=3-EZDgorZho)
+- [ ] [how to *quickly* escape a dopamine hole](https://www.youtube.com/watch?v=eXQ3VVRuy1I)
 
 ---
 
-## Learning
+## Academic / Educational
 
-- [ ] 
+- [ ] [Renting vs. Buying a Home: The 8.71% Rule](https://www.youtube.com/watch?v=m8NqcKPfFEc)
+
+---
+
+## Documentary
+
+- [ ] [Mad Cow Disease: Feeding Cows to Cows](https://www.youtube.com/watch?v=nvVCka0bRz4)
+
+---
+
+## Science
+
+*(none yet)*
+
+---
+
+## Tech / DIY
+
+- [ ] [1 year with a 3D printer - here's what I learned.](https://www.youtube.com/watch?v=NmApjrWrE6Y)
+
+---
+
+## Music
+
+*(none yet)*
+
+---
+
+## Entertainment
+
+*(none yet)*
 
 ---
 
