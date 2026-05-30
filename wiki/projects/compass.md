@@ -9,7 +9,9 @@
 
 ## Overview
 
-A physical DIY GPS-powered compass that always points toward a fixed destination — specifically, the only Olive Garden in NYC. Not magnetic north. Olive Garden north.
+A physical DIY GPS-powered compass that points toward a custom fixed destination (configurable coordinates). Not magnetic north — points to wherever you set it.
+
+Inspired by the idea of pointing it at something specific (e.g. the only Olive Garden in NYC), but the actual build is a general-purpose GPS compass.
 
 GPS module reads live location → microcontroller calculates bearing to hardcoded target coordinates → servo drives a physical needle.
 
