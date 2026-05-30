@@ -54,6 +54,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[zen sand table]] -- CoreXY/magnet driven sand plotter; actuation + hidden mechanism TBD
 - [[wooden keyboard]] — custom keyboard with a handmade wooden case
 
+- [[rotary encoder knob]] — custom magnetic rotary encoder knob; use case TBD
 - [[ollama local llm]] — local LLM runner setup; use case TBD
 - [[discord wiki bot]] — Discord bot that queries the wiki via Claude API
 - [[game farming bot]] — automated game farming via screen capture + mouse control
