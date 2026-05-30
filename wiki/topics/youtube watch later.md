@@ -24,6 +24,12 @@ Chipping away at this. Tick off as watched. Add new ones at the bottom of the ri
 
 ---
 
+## Personal Development
+
+- [ ] [The High Cost of Being a Second-Hand Thinker — 3Blue1Brown](https://www.youtube.com/watch?v=Rtkac4WHC1o&t=4175s)
+
+---
+
 ## Academic / Educational
 
 - [ ] [1955 vs 2025, who actually had it better?](https://www.youtube.com/watch?v=J4qqIJ312zI)
