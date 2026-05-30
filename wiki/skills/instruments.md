@@ -20,6 +20,7 @@
 | Country Roads | Beginner chord progression, sing-along |
 | Sweet Home Alabama | Iconic intro riff, rhythm guitar |
 | Blur | Chord strumming |
+| Tada Kimi ni Hare — Yorushika | Fingerpicking, iconic Yorushika track |
 | Emerald Green Window — Yorushika | Fingerpicking, Japanese indie feel |
 | Sunny Day for You — Yorushika | Fingerpicking, chord melody |
 | Mia and Sebastian's Theme | Arpeggios, fingerstyle, La La Land |
