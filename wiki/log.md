@@ -67,6 +67,11 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 
 - `projects/wood cutting board.md` -- created
 
+## [2026-05-29] update | Added Ollama project + useful websites additions
+
+- `projects/ollama local llm.md` — Ollama local LLM runner; use case TBD
+- `topics/useful websites.md` — added CircuitLab, CircuitJS, Mindluster
+
 ## [2026-05-29] update | Created useful websites page
 
 - `topics/useful websites.md` — new page, first entry: coddy.tech (Duolingo-style coding practice)
