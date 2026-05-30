@@ -20,6 +20,7 @@ Chipping away at this. Tick off as watched. Add new ones at the bottom of the ri
 - [ ] [How to Pull an All-Nighter](https://www.youtube.com/watch?v=3-EZDgorZho)
 - [ ] [how to *quickly* escape a dopamine hole](https://www.youtube.com/watch?v=eXQ3VVRuy1I)
 - [ ] [The 7 Silent Killers of Success](https://www.youtube.com/watch?v=l4Sc2QwQ-nc)
+- [ ] [What It Really Takes to Become a Millionaire (Unfiltered)](https://www.youtube.com/watch?v=C5sDb-CWWE0)
 
 ---
 
