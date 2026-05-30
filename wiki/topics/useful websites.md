@@ -40,6 +40,7 @@
 | [Mindluster](https://www.mindluster.com) | Free courses across the board — soft skills, hard skills, professional, hobby. No paywall |
 | [coddy.tech](https://coddy.tech) | Duolingo-style coding practice — bite-sized lessons, gamified |
 | [Instructables](https://www.instructables.com) | Step-by-step DIY guides for everything — one of the best maker resources on the internet |
+| [Old Maps Online](https://oldmapsonline.org/en) | Browse historical maps from around the world — search by location and era |
 
 ---
 
