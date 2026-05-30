@@ -71,6 +71,7 @@ Master catalog of all wiki pages. Updated after every operation.
 ## Topics
 - [[keyboards]] — switches, layouts, cases, keycaps — also a solid gift category
 - [[reading]] — books + one film to watch
+- [[useful websites]] — curated list of useful sites + why they're useful
 
 ## Sources
 *(none yet)*
