@@ -28,6 +28,7 @@
 | [tiled.art](https://tiled.art) | Tessellation art generator — create and explore repeating geometric patterns |
 | [MapGenie](https://mapgenie.io) | Interactive game maps — check for Silksong when you actually get around to playing it |
 | [GeoFS](https://www.geo-fs.com) | Free browser-based flight simulator using real satellite imagery — looks like a lot of fun |
+| [Vocal Remover](https://vocalremover.org) | AI-powered MP3 splitter — separates audio into vocals and music tracks. Great for remixing, karaoke, sampling |
 
 ---
 
