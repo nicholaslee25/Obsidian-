@@ -80,13 +80,20 @@
 
 ---
 
-## Fun & Misc
+## Games
 
 | Website | Why It's Useful |
 |---|---|
 | [MapGenie](https://mapgenie.io) | Interactive game maps — check for Silksong when you actually get around to playing it |
-| [GeoFS](https://www.geo-fs.com) | Free browser-based flight simulator using real satellite imagery |
 | [ArnisaMC](https://arnismc.com) | Rebuilding real-world locations in Minecraft — reference and inspiration |
+
+---
+
+## Fun & Misc
+
+| Website | Why It's Useful |
+|---|---|
+| [GeoFS](https://www.geo-fs.com) | Free browser-based flight simulator using real satellite imagery |
 
 ---
 
