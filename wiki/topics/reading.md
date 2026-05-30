@@ -40,6 +40,14 @@
 - The Things We Do in Secret *(light novel)*
 - Atomic Habits
 - Hitchhiker's Guide to the Galaxy
+- Open Circuits *(photography of cross-sectioned electronics — gorgeous)*
+- Div, Grad, Curl, and All That *(informal vector calculus — H.M. Schey)*
+- Journey to the West
+- Chronicles of Prydain *(Lloyd Alexander — fantasy series)*
+- Fahrenheit 451
+- Renegades trilogy *(Marissa Meyer)*
+- Fifth Wave trilogy *(Rick Yancey)*
+- Usuzumi no Hate *(manga)*
 - *(check photos 4/4/24 for more)*
 
 ---
