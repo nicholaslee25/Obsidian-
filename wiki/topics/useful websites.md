@@ -21,6 +21,8 @@
 | [Setosa](https://setosa.io/#/) | Visual, interactive explanations of math, stats, and CS concepts — same energy as Ciechanowski but broader topics |
 | [HowStuffWorks](https://www.howstuffworks.com) | Broad, accessible breakdowns of how things work — engineering, science, culture, animals, all of it |
 | [Project Rho — Atomic Rockets](https://projectrho.com/public_html/rocket/) | Deep-dive into real rocket science and space travel math — highly technical, written for nerds and sci-fi writers alike |
+| [blink.new](https://blink.new) | AI-powered web app builder — describe what you want, get a working app fast |
+| Excel Guru | URL TBD |
 
 ---
 
