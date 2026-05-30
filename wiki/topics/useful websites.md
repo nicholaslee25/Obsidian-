@@ -30,6 +30,7 @@
 | [GeoFS](https://www.geo-fs.com) | Free browser-based flight simulator using real satellite imagery — looks like a lot of fun |
 | [Vocal Remover](https://vocalremover.org) | AI-powered MP3 splitter — separates audio into vocals and music tracks. Great for remixing, karaoke, sampling |
 | [iLoveIMG](https://www.iloveimg.com) | All-in-one image editing tools online — resize, compress, crop, convert, etc. Possibly paywalled, TBD |
+| [Skill-Lync Resources](https://resources.skill-lync.com) | Engineering simulation and CAE resources — FEA, CFD, automotive, aerospace. Very sick apparently |
 
 ---
 
