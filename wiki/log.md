@@ -67,6 +67,10 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 
 - `projects/wood cutting board.md` -- created
 
+## [2026-05-29] update | Created useful websites page
+
+- `topics/useful websites.md` — new page, first entry: coddy.tech (Duolingo-style coding practice)
+
 ## [2026-05-27] update | Three new projects logged
 
 - `projects/discord wiki bot.md` — Discord bot powered by Claude API, queries the wiki, answers questions from Discord
