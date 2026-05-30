@@ -18,6 +18,7 @@
 - Egg tarts *(redemption arc)*
 - Rice pudding
 - Matcha pudding
+- DIY Lindor truffles
 
 ---
 
