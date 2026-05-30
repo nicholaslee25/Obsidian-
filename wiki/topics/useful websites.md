@@ -26,6 +26,7 @@
 | [Excel Guru (FormulaBot)](https://analytics.formulabot.com/dashboard) | AI-powered Excel/Sheets formula assistant — describe what you want, get the formula |
 | [Paper Animator](https://paperanimator.com) | Paper/sketch-style animation effects for videos — sick for creative video editing |
 | [tiled.art](https://tiled.art) | Tessellation art generator — create and explore repeating geometric patterns |
+| [MapGenie](https://mapgenie.io) | Interactive game maps — not super practical but cool. Check when Silksong eventually drops |
 
 ---
 
