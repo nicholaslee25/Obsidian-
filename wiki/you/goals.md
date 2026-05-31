@@ -31,18 +31,34 @@
 - Chinese — actively learning, going "poorly" by your own assessment (which means you're being honest)
 - Spanish — 5 years of classes gathering dust, worth recovering
 
+## Professional
+- Engineering career — climb via being genuinely likable *and* capable
+- EIT exam (FE exam) — take during or right after senior year; start light studying at work
+- Medical field — still a consideration (open question)
+
 ## Habits
-- Quit YouTube — reclaim those hours for actual hobbies
+- Quit YouTube — educational only; "educational without learning is glorified entertainment"
 - Break the obsession → burnout → boredom cycle
+- Study Chinese + math/EIT daily at work — two birds
+
+## Things to Quit / Reduce
+- Sugar
+- YouTube (redundant but worth naming twice)
+- Outbursts / pride
+- Lust
 
 ## Craft & Projects
 - Build way more things
 - Stop being so precious about imperfections — or at least recognize that giving them away is still a win
+- Start a YouTube channel to document the journey
 
 ---
 
 ## Related
 - [[person — nykel]]
+- [[priorities]]
+- [[things to learn]]
 - [[balisong]]
 - [[chinese]]
 - [[music]]
+- [[youtube channel]]
