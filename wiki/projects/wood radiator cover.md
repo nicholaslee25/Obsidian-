@@ -13,6 +13,7 @@ A wooden radiator cover for mom. Decorative + functional — hides the radiator,
 
 **Gift for:** Mom
 **Measurements:** TBD — need to measure radiator dimensions
+**Urgency: HIGH** — needs to get done. Get measurements ASAP so design can start.
 
 ## Design Considerations
 
