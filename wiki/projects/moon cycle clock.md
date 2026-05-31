@@ -35,6 +35,8 @@ Open questions:
 - Show time as well or purely moon phase?
 - WiFi synced or RTC module?
 - Gift or keeping?
+- **Motor type** — needs research; what stepper fits the disc advance on a 29.5-day cycle?
+- **Shaft adapter/connector** — look up the model for attaching motor shaft to the disc; need to find this online
 
 ---
 
