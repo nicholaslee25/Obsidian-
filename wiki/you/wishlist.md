@@ -10,6 +10,8 @@
 
 - Power sliding skateboard wheels
 - Midnight Clover high top Converse (source TBD)
+- Magnetic parts trays (for workbench use)
+- Magnetic wristband (for holding screws/parts while building)
 
 ---
 
