@@ -76,6 +76,36 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 
 - `topics/useful websites.md` — new page, first entry: coddy.tech (Duolingo-style coding practice)
 
+## [2026-05-31] ingest | Big info dump — new pages, updates, priority system
+
+Pages created:
+- `topics/photography.md` — favorite styles, plain-English settings
+- `topics/pc parts.md` — monitor types (IPS/TN/VA/OLED) + specs
+- `topics/things to learn.md` — math, EIT, philosophy, tech, finance
+- `you/priorities.md` — tiered priority framework (Now/Soon/Queue/Someday) + frequency table
+- `projects/gyroscope visualization.md` — idea stub
+- `projects/clear epoxy.md` — research checklist
+- `projects/windshield washer cannon.md` — car mod idea
+- `projects/pharmacy for noobs.md` — needs parent input
+- `projects/drum repair.md` — needs dad input
+- `projects/youtube channel.md` — document the journey
+
+Pages updated:
+- `you/goals.md` — added professional goals (EIT, medical consideration), things to quit/reduce, YouTube channel
+- `projects/woodwork clock.md` — major update: discrete oscillator circuit direction, full parts list, build path, circuit review flags
+- `projects/moon cycle clock.md` — added motor type + shaft adapter as open questions
+- `projects/wood radiator cover.md` — marked HIGH URGENCY
+- `topics/keyboards.md` — added PCB section, modding techniques table, external peripherals
+- `projects/game farming bot.md` — confirmed MCOC, marked active
+
+Pending (needs Nykel's input before Claude can process):
+- 2–3 dozen notes dump
+- YouTube watch later / open tabs
+- Flashcard app decision (Anki vs Quizlet cross-device)
+- Radiator measurements
+- Spreadsheet / "sheet of everything"
+- Japan trip photos situation
+
 ## [2026-05-27] update | Three new projects logged
 
 - `projects/discord wiki bot.md` — Discord bot powered by Claude API, queries the wiki, answers questions from Discord
