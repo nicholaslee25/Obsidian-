@@ -29,12 +29,13 @@ Depends on game type:
 
 ## Progress
 
-Planning — game TBD
+Active — game confirmed: **MCOC (Marvel Contest of Champions)**. Currently coding. Learning screen capture + AI-assisted page recognition as a transferable skill.
+
+> "Learning code and page recognition with AI is a very useful skill in a world where AI is very underoptimized."
 
 ## Open Questions
 
-- Which game?
-- Browser or desktop?
+- Desktop app or emulator + browser approach?
 - What exactly is being farmed (resources, XP, items)?
 - Any anti-bot detection to work around?
 
