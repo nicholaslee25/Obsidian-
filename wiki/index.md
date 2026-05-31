@@ -96,5 +96,4 @@ Master catalog of all wiki pages. Updated after every operation.
 
 ---
 
-*Last updated: 2026-05-16*
-*Total pages: 7*
+*Last updated: 2026-05-31*
