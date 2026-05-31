@@ -78,7 +78,10 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[floating gear]] — levitating gear display piece
 
 ## Topics
-- [[keyboards]] — switches, layouts, cases, keycaps — also a solid gift category
+- [[keyboards]] — switches, layouts, cases, keycaps, PCB, modding, external peripherals
+- [[photography]] — favorite styles (long exposure, reflections), settings plain English; building out
+- [[pc parts]] — monitor types (IPS/TN/VA/OLED), specs explained plainly; more sections TBD
+- [[things to learn]] — math (calc, linear algebra, algorithms), EIT prep, philosophy, tech, finance
 - [[reading]] — books + one film to watch
 - [[useful websites]] — curated list of useful sites + why they're useful
 - [[curiosities]] — short answers to random things worth knowing
