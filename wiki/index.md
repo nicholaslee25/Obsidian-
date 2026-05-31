@@ -58,12 +58,18 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[rotary encoder knob]] — custom magnetic rotary encoder knob; use case TBD
 - [[ollama local llm]] — local LLM runner setup; use case TBD
 - [[discord wiki bot]] — Discord bot that queries the wiki via Claude API
-- [[game farming bot]] — automated game farming via screen capture + mouse control
+- [[game farming bot]] — MCOC farming bot; screen capture + AI page recognition; active
 - [[copper plating oxidized gift]] — electroplate + patina an object as a gift
 - [[symmetrical gear arm gripper]] — rack & pinion parallel gripper, spring-loaded rod, symmetrical arms
 - [[3d printed pascal triangle]] — 3D printed Pascal's triangle as a display piece; representation TBD
 - [[woodwork hangboard]] — handmade wooden fingerboard for climbing/grip training
-- [[wood radiator cover]] — decorative wooden radiator cover for mom; measurements TBD
+- [[wood radiator cover]] — decorative wooden radiator cover for mom; ⚠️ HIGH URGENCY — get measurements
+- [[gyroscope visualization]] — build something that visualizes/uses gyroscope orientation data; form TBD
+- [[clear epoxy]] — resin casting; research phase (molds, layers, cure, cost)
+- [[windshield washer cannon]] — high-pressure washer pump mod for tailgaters; harmless
+- [[pharmacy for noobs]] — plain-language med/pharmacy guide; needs parent input
+- [[drum repair]] — repair a drum; needs dad input
+- [[youtube channel]] — document the journey: builds, skills, cars, learning
 
 ### Potential
 - [[custom rubiks cube]] — low plausibility, flagged
