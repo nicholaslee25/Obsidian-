@@ -2,8 +2,8 @@
 
 **Type:** Project
 **Tags:** #project #woodworking #clock
-**Status:** Brainstorming
-**Last updated:** 2026-05-15
+**Status:** Active — circuit design phase
+**Last updated:** 2026-05-31
 
 ---
 
