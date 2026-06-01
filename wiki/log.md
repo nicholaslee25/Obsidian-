@@ -76,6 +76,14 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 
 - `topics/useful websites.md` — new page, first entry: coddy.tech (Duolingo-style coding practice)
 
+## [2026-06-01] ingest | Seventh dump — planetary gears, BMS, steppers, gardening
+
+Pages created:
+- `skills/gardening.md` — green onions, shampoo ginger lily, tomatoes, cabbage; per-plant tips; wildlife defense table (birds/squirrels); best practices
+
+Pages updated:
+- `topics/curiosities.md` — added: planetary gear system (uses + project potential), BMS (functions, balancing types, key ICs), unipolar vs bipolar steppers, internal cycloidal robotic actuator (MIT Mini Cheetah, Mjbots, build path)
+
 ## [2026-06-01] ingest | Sixth dump — family reflection, math, options, electronics, projects
 
 Pages created:
