@@ -36,6 +36,8 @@ Chipping away at this. Tick off as watched. Add new ones at the bottom of the ri
 - [ ] [Asking Rich and Poor People Controversial Questions](https://www.youtube.com/watch?v=z2dVI6CmPkQ) — bias, experience, and education differences
 - [ ] [If You're Feeling Overwhelmed — HealthyGamerGG](https://www.youtube.com/watch?v=7VfSCQnGfk4)
 - [ ] 43 Minutes Straight of Solid Communication Advice *(link TBD — add when found)*
+- [ ] [Why You Are Always Tired — Answers in Progress](https://www.youtube.com/results?search_query=why+you+are+always+tired+answers+in+progress)
+- [ ] [What Your Dad Forgot to Teach You](https://www.youtube.com/results?search_query=what+your+dad+forgot+to+teach+you)
 
 ---
 
