@@ -61,6 +61,7 @@ Chipping away at this. Tick off as watched. Add new ones at the bottom of the ri
 ## Finance
 
 - [ ] [Renting vs. Buying a Home: The 8.71% Rule](https://www.youtube.com/watch?v=m8NqcKPfFEc)
+- [ ] [How Does the Stock Market Work?](https://www.youtube.com/watch?v=p7HKvqRI_Bo)
 
 ---
 
