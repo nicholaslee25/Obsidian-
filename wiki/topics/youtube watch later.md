@@ -37,6 +37,8 @@ Chipping away at this. Tick off as watched. Add new ones at the bottom of the ri
 
 - [ ] [1955 vs 2025, who actually had it better?](https://www.youtube.com/watch?v=J4qqIJ312zI)
 - [ ] [Your Brain Actually Can't Tell Your Rooms Apart](https://www.youtube.com/watch?v=snAhsXyO3Ck)
+- [ ] [How to Cram AP Physics C in 1 Hour](https://www.youtube.com/results?search_query=cram+AP+physics+C+1+hour) — just to see how much you remember
+- [ ] [All the Math in the World](https://www.youtube.com/watch?v=ZWH-4GJaErM)
 
 ---
 
