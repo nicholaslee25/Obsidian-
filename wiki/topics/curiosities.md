@@ -412,6 +412,234 @@ Songs that use it: *Freight Train* (Elizabeth Cotten), *Wildwood Flower*, most C
 
 ---
 
+## Brush vs. brushless motors
+
+**Brushed DC motor:**
+Current flows through physical **brushes** (carbon contacts) that rub against a **commutator** ring on the rotating shaft. This mechanically switches which coils get powered as the motor turns, creating a rotating magnetic field. Simple, cheap, no controller needed — connect to power and it spins. Downside: brushes wear out, create electrical noise and sparks, have friction losses.
+
+**Brushless DC motor (BLDC):**
+No physical contact. Permanent magnets on the rotor; coils on the stator. An **electronic speed controller (ESC)** senses rotor position (via Hall sensors or back-EMF) and switches current to the correct coils in sequence. No wear, more efficient, more power-dense, quieter, longer lifespan. Requires a controller — won't run from raw DC.
+
+| | Brushed | Brushless |
+|---|---|---|
+| Controller needed | No | Yes (ESC) |
+| Efficiency | Lower (~75–80%) | Higher (~85–95%) |
+| Lifespan | Limited by brush wear | Much longer |
+| Cost | Cheaper | More expensive |
+| Noise | More electrical noise | Less |
+| Best for | Simple toys, low-cost builds | Drones, RC cars, CNC spindles, power tools |
+
+---
+
+## (Re)learning math: Chain rule, parametric chain rule, and the Jacobian
+
+**Chain rule (derivatives):**
+> d/dx[f(g(x))] = f'(g(x)) · g'(x) — "derivative of outside × derivative of inside"
+
+Example: d/dx[sin(x²)] = cos(x²) · 2x
+
+**Integration version (u-substitution):**
+∫f(g(x)) · g'(x) dx = F(g(x)) + C
+Let u = g(x), du = g'(x)dx → transforms the integral to ∫f(u)du which is often easier to solve.
+
+**Parametric chain rule:**
+If x = x(t) and y = y(t), then: **dy/dx = (dy/dt) / (dx/dt)**
+
+Useful when a curve is defined by a parameter (like time) rather than directly as y = f(x).
+
+**Jacobian:**
+When you have a multi-variable transformation — e.g., (u, v) → (x, y) — the Jacobian is the **matrix of all partial derivatives**:
+
+```
+J = | ∂x/∂u   ∂x/∂v |
+    | ∂y/∂u   ∂y/∂v |
+```
+
+**det(J)** = the "stretching factor" — how area (or volume in 3D) scales under that transformation. Used in change-of-variables for multi-variable integrals: ∬f(x,y) dx dy = ∬f(x(u,v), y(u,v)) |det(J)| du dv
+
+Intuition: if a transformation squishes area by half, det(J) = 0.5. If it flips orientation, det(J) is negative.
+
+Visual reference: [Visualizing Chain Rule and Product Rule](https://www.youtube.com/watch?v=YG15m2VwSjA)
+
+---
+
+## ISO/IEC 17025 — Lab accreditation standard
+
+**ISO/IEC 17025** is the international standard for the **competence of testing and calibration laboratories**. A lab accredited to 17025 has been independently verified to produce technically valid results.
+
+Covers:
+- Management requirements (quality system, document control, handling complaints)
+- Technical requirements (equipment calibration, measurement uncertainty, staff competence, test methods)
+- Impartiality requirements (no conflicts of interest)
+
+Why it matters: regulators (FDA, EPA, government bodies) and customers trust 17025-accredited results as audit-ready. Required for labs that serve aerospace, medical devices, food safety, environmental testing, and similar fields. The audit body is typically a national accreditation body (A2LA in the US, UKAS in the UK).
+
+---
+
+## Benefits of engineering consulting
+
+Instead of working for one company, a consultant is hired by many — project to project.
+
+| Benefit | What it means |
+|---|---|
+| Higher hourly rate | Clients pay a premium for specialized expertise on-demand — often 2–3× employee rate |
+| Variety | New problems, industries, and teams constantly |
+| Flexibility | Set your own schedule, choose your clients |
+| Independence | You own your work style and tools |
+| Skill premium | Niche expertise (FEA, controls, electronics) commands higher rates than generalist roles |
+| Tax advantages | Business expenses are deductible as a self-employed consultant |
+
+**Tradeoffs:** No benefits (health insurance, 401k, paid leave). Income is variable and requires client acquisition. Can be isolating. Works best when you have a reputation or niche.
+
+**Path:** Usually people consult after building 5–10 years of credibility as an employee first — then leverage that network.
+
+---
+
+## What are stock options? (Full explanation)
+
+You know the basics — here's the full picture.
+
+**A call option** = the right (not obligation) to **buy** 100 shares at the **strike price** before **expiration**.
+**A put option** = the right to **sell** 100 shares at the strike price.
+
+You pay a **premium** (price per share × 100) to own this right. If you don't exercise it, you lose the premium. That's the max loss for a buyer.
+
+---
+
+**What makes up the option price (the premium)?**
+
+Three components:
+
+1. **Intrinsic value** — how "in the money" is it right now?
+   - Call with strike $50, stock at $55 → intrinsic value = $5/share
+   - Out of the money = zero intrinsic value
+
+2. **Time value (Theta decay)** — more time until expiration = more opportunity = more premium
+   - Time value bleeds away every day, accelerating near expiration
+   - Theta is the "decay" per day. Sellers love theta; buyers hate it.
+
+3. **Implied volatility (IV) / Vega** — this is your "steepness" intuition
+   - IV is the market's expectation of future price movement
+   - High IV = bigger expected swings = higher premium, even far from the money
+   - A stock moving 5%/day has high IV → options are expensive
+   - You can profit from IV changes even if the stock barely moves (IV crush after earnings)
+
+---
+
+**The Greeks (how option prices move):**
+
+| Greek | What it measures |
+|---|---|
+| **Delta** (Δ) | How much option price moves per $1 stock move. 0.5 delta = option gains $0.50 per $1 stock rise |
+| **Theta** (Θ) | Time decay per day (negative for buyers) |
+| **Vega** (ν) | Sensitivity to implied volatility changes |
+| **Gamma** (Γ) | Rate of change of delta — how fast delta accelerates as price moves toward strike |
+
+**Why people sell options:** Collect premium, profit from time decay (theta positive). But risk is theoretically unlimited on a naked call.
+
+**Why you can't always exercise:** Contracts require buying 100 shares at strike — if strike = $200, that's $20,000. Most retail traders don't have that. So they sell the contract itself when it has value, rather than exercising it.
+
+---
+
+## What are the best future investments? (Post-COVID landscape)
+
+Not financial advice — patterns worth knowing:
+
+| Theme | Why | Examples |
+|---|---|---|
+| AI & semiconductors | AI is a generational infrastructure build. Chips are the bottleneck. | NVDA, TSM, AMD, ASML |
+| Energy transition | Massive capital flowing into solar, wind, grid infrastructure by policy mandate | NEE, ENPH, grid hardware ETFs |
+| Copper & critical minerals | EVs, grid expansion, and data centers all need copper. Supply constrained. | FCX, copper ETFs, lithium miners |
+| India / Southeast Asia | Demographic growth + manufacturing shift from China | VWO, INDA, country-specific ETFs |
+| Healthcare / biotech | Aging populations + AI-accelerated drug discovery | XBI, specific biotech if you research |
+| Defense | Geopolitical reality post-Ukraine/Taiwan tension | RTX, LMT, defense ETFs |
+| Real estate (selectively) | Long-term still appreciates in supply-constrained cities | REITs or direct if you can |
+
+**Post-COVID specific:** Rates rose sharply → bonds and cash are finally viable (CDs, T-bills, HYSA) for the first time in 15 years. Don't ignore the risk-free rate when comparing to equities.
+
+---
+
+## How to build a to-do list (as a project)
+
+Core architecture is simple. Stack depends on how far you want to take it.
+
+**Minimal version (CLI or local app):**
+- Text file or SQLite database (zero setup)
+- Python script: add task, list tasks, mark done, delete
+- ~50 lines of code. Teaches file I/O or basic SQL.
+
+**Web version:**
+- Backend: Flask or FastAPI (Python) — REST API with endpoints: GET /tasks, POST /tasks, PATCH /tasks/:id, DELETE /tasks/:id
+- Database: SQLite → PostgreSQL when you need scale
+- Frontend: plain HTML/JS fetch calls, or React if you want to practice
+
+**Features to add progressively:**
+1. Title, done/not-done
+2. Priority level, category/tag
+3. Due date
+4. Recurring tasks
+5. Notes per task
+6. Sync across devices (requires server/cloud DB)
+
+Good first real project — teaches CRUD, REST, and database fundamentals end-to-end.
+
+---
+
+## What is JDK 17?
+
+**JDK** = Java Development Kit — everything you need to develop and run Java programs: the compiler (javac), the JVM (runs bytecode), standard libraries, and development tools.
+
+**Version 17** is an **LTS (Long-Term Support)** release (2021). LTS versions receive security and stability updates for years — production systems standardize on them.
+
+**JDK vs JRE vs JVM:**
+- **JVM** — Java Virtual Machine. Executes Java bytecode. Platform-specific (Windows/Mac/Linux JVMs exist).
+- **JRE** — Java Runtime Environment. JVM + standard libraries. Enough to *run* Java apps.
+- **JDK** — JRE + compiler + development tools. What you need to *write and build* Java.
+
+**Why version matters:** Each version adds language features. Java 17 added sealed classes, pattern matching for instanceof, records. LTS = trust it for production. Non-LTS versions are short-lived experiments.
+
+---
+
+## How to make a galvo laser
+
+**Galvanometer mirrors (galvos)** are tiny motorized mirrors driven by electromagnetic coils — they can deflect a laser beam extremely fast and precisely. Two mirrors handle X and Y axes.
+
+**How it works:** Each galvo is essentially a rotary actuator — coil creates a magnetic field, permanent magnet on the mirror shaft rotates it. Analog voltage (or digital PWM) controls angle. Full scan in milliseconds.
+
+**To build one:**
+- **Pre-built galvo scanners** (~$50–200 from Chinese suppliers) include two mirrors + driver boards + analog input. Most common for laser shows = 20K or 30K scanners (scan speed in points per second).
+- **Laser:** CO2 (cutting/engraving), diode (cheap, visible), or DPSS green (488/532nm — great for shows)
+- **Control:** Analog X/Y signals (±5V or ±10V range). ILDA protocol for laser show software. Or drive with a microcontroller DAC output.
+- **Safety:** Laser safety goggles rated for your wavelength. CO2 requires hard enclosure.
+
+Use cases: laser engraver, laser show, LIDAR, galvo clock (draw clock face with laser).
+
+---
+
+## Cycloidal drive vs. harmonic drive
+
+Both are compact, high-ratio speed reduction gearboxes. Used in robotics, robotic arms, servo systems.
+
+**Harmonic drive (strain wave gear):**
+- Three parts: wave generator (elliptical bearing), flexspline (flexible cup-shaped gear, 2 fewer teeth than circular spline), circular spline (rigid ring gear)
+- Wave generator deforms the flex spline into an oval — engages circular spline at two points
+- Each full rotation of the wave generator advances the flex spline by **2 teeth**
+- Ratio = (teeth on circular spline) / 2 — achieves 50:1 to 320:1 in one stage
+- Very low backlash. Used in robot joints, satellites, CNC.
+- Weakness: flexspline fatigues over time under high load
+
+**Cycloidal drive:**
+- Eccentric cam rotates a cycloidal disc against a ring of outer pins
+- Disc has slightly fewer lobes than the number of pins
+- Each rotation of the cam advances the disc one "lobe-worth"
+- High ratio, very high torque capacity, extremely low backlash, more robust than harmonic
+- More complex to machine; more parts
+
+**How to CAD a cycloidal:**
+The disc profile is mathematically defined — parametric equations for the cycloid curve. In Fusion 360: use the equation-driven curve tool or a parametric sketch. Many tutorials on YouTube search: "fusion 360 cycloidal drive."
+
+---
+
 ## Does carbon monoxide rise or sink?
 
 Neither consistently. CO has a molecular weight of ~28 g/mol — nearly identical to air (~29 g/mol) — so it doesn't float or sink by molecular weight alone. It **disperses and mixes** with air.

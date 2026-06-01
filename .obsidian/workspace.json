@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c2e7e35b81439a79",
+        "id": "00bf18d1844a4c52",
         "type": "tabs",
         "children": [
           {
-            "id": "1c737ab9f395502b",
+            "id": "86279511af9849f5",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -179,8 +179,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "1c737ab9f395502b",
+  "active": "86279511af9849f5",
   "lastOpenFiles": [
+    "wiki/projects/potential/floating gear.md",
+    "wiki/you/love and relationships.md",
     "wiki/projects/rotary encoder knob.md",
     "wiki/topics/curiosities.md",
     "wiki/topics/places to visit.md",
@@ -205,8 +207,6 @@
     "wiki/you/claude.md",
     "wiki/you/culture.md",
     "wiki/you/goals.md",
-    "wiki/you/goal — quit YouTube.md",
-    "wiki/projects/potential/floating gear.md",
     "wiki/projects/potential/wood etched baby yoda.md.tmp.4340.c7ff30fbe1a5",
     "wiki/projects/potential",
     "wiki/index.md.tmp.4340.d47cbc922fff",
