@@ -39,6 +39,12 @@ Full collection: [Goodreads — David Gemmell Quotes](https://www.goodreads.com/
 
 ---
 
+## Personal Mantras
+
+> *"The people I admire are those that work hard. How can I expect an equivalent to respect me if I don't work my 🍑 off?"*
+
+---
+
 ## On Procrastination
 
 > *"Procrastination is the thief of time."* — Edward Young
