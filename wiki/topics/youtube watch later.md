@@ -32,6 +32,13 @@ Chipping away at this. Tick off as watched. Add new ones at the bottom of the ri
 - [ ] [The High Cost of Being a Second-Hand Thinker — 3Blue1Brown](https://www.youtube.com/watch?v=Rtkac4WHC1o&t=4175s)
 - [ ] [Why This Guy Quit Medicine](https://www.youtube.com/watch?v=xvD7Ii-UUTc) — calm, well-spoken; worth the watch
 - [ ] [Everything I Learned at Stanford Business School in 28 Minutes](https://www.youtube.com/watch?v=vIkRbAvaQjs)
+- [ ] [Asking Rich and Poor People Controversial Questions](https://www.youtube.com/watch?v=z2dVI6CmPkQ) — bias, experience, and education differences
+
+---
+
+## Religion / Faith
+
+- [ ] [You vs You](https://www.youtube.com/watch?v=QkCa--fyGjA)
 
 ---
 
