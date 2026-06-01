@@ -13,6 +13,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[goals]] — all goals in one place (career, social, fitness, language, habits, craft, professional, employers)
 - [[priorities]] — tiered priority framework + current priority list + frequency table
 - [[bible verses]] — verses that stick; Proverbs 16
+- [[love and relationships]] — channels, media that resonates, personal notes; Love of Kill / Call of the Night reflection
 - [[culture]] — Indian and Chinese
 - [[claude]] — who I am, how I operate, my voice in this wiki
 
