@@ -19,6 +19,18 @@ The **categorical imperative** — Kant's universal rule for ethics. A shortcut:
 
 ---
 
+## Why I Do This
+
+→ [Watch this first](https://www.youtube.com/watch?v=tPe7ZfCBhMg)
+
+- Just reflecting... everybody in our family feels alone, plugged in elsewhere (if anywhere at all), and underappreciated.
+  - Missy as an 11 year old saw her dad.
+    - As an adult — I want to see our family.
+- This man is selfless, loving, caring, stupid, and flawed. But he tried — and nobody was there to try with him.
+  - **So I want to be the one who tries and never stops trying.**
+
+---
+
 ## On Being a Generalist
 
 > *"A jack of all trades is a master of none, but often better than a master of one."*
