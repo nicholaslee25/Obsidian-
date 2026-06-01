@@ -53,7 +53,23 @@ Conceptual areas worth studying — not skills (those live in `skills/`) and not
 
 ## Finance
 
-*(add: investing, tax basics, compound interest, credit — as needed; see also [[roth IRA]], [[credit cards]], [[robinhood]])*
+*(add: investing, tax basics, compound interest, credit — as needed; see also [[roth IRA]], [[credit cards]], [[robinhood]], [[finance]])*
+
+---
+
+## Git & GitHub
+
+**Git:** Version control system. Tracks changes to files over time — like a time machine for code. You can revert, branch, merge, and collaborate without losing work.
+
+**GitHub:** Hosts Git repositories online. Collaboration platform + where open source lives. Employers look at your GitHub.
+
+**Key concepts:**
+- `git init` / `git add` / `git commit` — the basic save loop
+- `git branch` / `git merge` — parallel workstreams
+- `git push` / `git pull` — sync with GitHub
+- Pull requests — collaborative code review
+
+**Learn interactively:** [learngitbranching.js.org](https://learngitbranching.js.org) — visual and gamified
 
 ---
 
