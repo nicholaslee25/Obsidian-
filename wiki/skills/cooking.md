@@ -21,6 +21,9 @@
 - Tandoori chicken
 - Chazuke
 - Hot green peas
+- Biryani
+- Chili oil
+- Kimchi (watermelon, radish, and/or cabbage)
 
 ---
 
