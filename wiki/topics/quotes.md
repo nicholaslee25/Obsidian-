@@ -57,6 +57,8 @@ Full collection: [Goodreads — David Gemmell Quotes](https://www.goodreads.com/
 
 > *"Witnessing a child's joy is one of the most satisfying feelings somebody can experience."*
 
+> *"Why not you? — Who can break the cycle, stop victimizing themselves, and make it out?"*
+
 ---
 
 ## On Procrastination
