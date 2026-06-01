@@ -87,11 +87,15 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[keyboards]] — switches, layouts, cases, keycaps, PCB, modding, external peripherals
 - [[photography]] — favorite styles (long exposure, reflections), settings plain English; building out
 - [[pc parts]] — monitor types (IPS/TN/VA/OLED), specs explained plainly; more sections TBD
-- [[things to learn]] — math (calc, linear algebra, algorithms), EIT prep, philosophy, tech, finance
+- [[things to learn]] — math, EIT prep, philosophy, tech/electronics, finance, Git/GitHub
+- [[finance]] — clawbacks, HYSA, CD rates, Schwab note, finance people
+- [[quotes]] — David Gemmell, procrastination; things worth rereading
+- [[entertainment]] — anime to watch, music playlists
+- [[people of interest]] — Ray Kurzweil (futurist/engineer), Bulwer-Lytton (Victorian author)
 - [[reading]] — books + one film to watch
-- [[useful websites]] — curated list of useful sites + why they're useful
-- [[curiosities]] — short answers to random things worth knowing
-- [[youtube watch later]] — 500-ish links to chip away at: motivation, humility, learning
+- [[useful websites]] — curated list; now includes PCB tools, CAD costs, MongoDB, Fluxbench
+- [[curiosities]] — short answers; now includes device drivers, 3-phase power, impedance, Reynolds/Prandtl/Nusselt, vacuum physics, algorithms, Geneva mechanism, and more
+- [[youtube watch later]] — watch later list; multiple new videos added
 - [[places to visit]] — been there + go again tracker with notes
 
 ## Sources
