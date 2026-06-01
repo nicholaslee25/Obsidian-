@@ -48,7 +48,36 @@
 - Renegades trilogy *(Marissa Meyer)*
 - Fifth Wave trilogy *(Rick Yancey)*
 - Usuzumi no Hate *(manga)*
+- The Secrets of the Immortal Nicholas Flamel *(series — Michael Scott)*
+- Magisterium *(series — Cassandra Clare & Holly Black)*
 - *(check photos 4/4/24 for more)*
+
+---
+
+## Short Stories Worth Reading
+
+### To Make You Think
+
+| Story | Author | Why |
+|---|---|---|
+| The Last Question | Isaac Asimov | Entropy, AI, and the end of the universe. Best Asimov. |
+| Story of Your Life | Ted Chiang | Language, determinism, time. Became *Arrival*. |
+| Harrison Bergeron | Kurt Vonnegut | Equality taken to its logical extreme. Disturbing and short. |
+| The Lottery | Shirley Jackson | Conformity, tradition, violence. One of the most taught short stories ever. |
+| Flowers for Algernon | Daniel Keyes | Intelligence, identity, what makes us human. Will gut you. |
+| The Library of Babel | Jorge Luis Borges | Infinity, knowledge, meaning. Mind-bending. |
+| Nightfall | Isaac Asimov | Civilization, darkness, psychology. Classic. |
+
+### Eldritch Horror
+
+| Story | Author | Why |
+|---|---|---|
+| The Colour Out of Space | H.P. Lovecraft | Best Lovecraft. Creeping wrongness rather than jump scares. |
+| The Call of Cthulhu | H.P. Lovecraft | The classic. Cosmic indifference as horror. |
+| The Music of Erich Zann | H.P. Lovecraft | Short, tight, genuinely unsettling. |
+| Pickman's Model | H.P. Lovecraft | What you imagine is always worse than what's shown. |
+| The Yellow Wallpaper | Charlotte Perkins Gilman | Psychological disintegration. Not traditionally eldritch but qualifies. |
+| I Have No Mouth and I Must Scream | Harlan Ellison | Existential horror. One of the most disturbing stories written. |
 
 ---
 
