@@ -98,6 +98,7 @@ Chipping away at this. Tick off as watched. Add new ones at the bottom of the ri
 ## Entertainment
 
 - [ ] [How to Cram AP Physics C in 1 Hour](https://www.youtube.com/results?search_query=cram+AP+physics+C+1+hour) *(also in Academic)*
+- [ ] [1 Hour Loop — Meme Anime Song](https://www.youtube.com/results?search_query=1+hour+loop+meme+anime+song) *(find the specific one)*
 
 ---
 
