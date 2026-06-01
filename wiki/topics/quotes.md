@@ -43,6 +43,8 @@ Full collection: [Goodreads — David Gemmell Quotes](https://www.goodreads.com/
 
 > *"The people I admire are those that work hard. How can I expect an equivalent to respect me if I don't work my 🍑 off?"*
 
+> *"Witnessing a child's joy is one of the most satisfying feelings somebody can experience."*
+
 ---
 
 ## On Procrastination
