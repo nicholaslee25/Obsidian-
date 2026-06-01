@@ -76,6 +76,23 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 
 - `topics/useful websites.md` — new page, first entry: coddy.tech (Duolingo-style coding practice)
 
+## [2026-06-01] update | Eighth dump — voltage regs, new projects, drawing skill, employers
+
+Pages created:
+- `projects/custom usb stick chassis.md` — custom USB drive housing; wood/resin/metal options
+- `projects/custom chessboard.md` — maple/walnut chessboard; storage base option
+- `skills/drawing.md` — new skill, not started; fundamentals → figure → perspective path
+
+Pages updated:
+- `you/potential employers.md` — added Spacelabs Healthcare + JPL (the dream)
+- `projects/wood cutting board.md` — full feature brainstorm: shape, grain, juice groove, inlay, rubber feet, finish
+- `skills/music.md` — added Song of Storms fingerstyle
+- `topics/quotes.md` — added "Why not you?" to Personal Mantras
+- `topics/curiosities.md` — added voltage regulators entry (linear/LDO vs switching, LM317 design steps, reference link)
+- `topics/youtube watch later.md` — added: voltage regulators (Tech/DIY), Why You're Always Tired + What Your Dad Forgot (Personal Dev), 1hr meme anime loop (Entertainment)
+
+---
+
 ## [2026-06-01] ingest | Seventh dump — planetary gears, BMS, steppers, gardening
 
 Pages created:
