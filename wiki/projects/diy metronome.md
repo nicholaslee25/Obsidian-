@@ -37,6 +37,14 @@ Two main types:
 - Buzzer or speaker output
 - Optional: display for BPM value
 
+## Reference Video
+
+[DIY Metronome build](https://www.youtube.com/watch?v=57carjNxI9A) — watch for direction
+
+## Visual Output Ideas
+
+Considering: programmable LED fan, rotary encoder visual, or some spinning display element. If it involves a spinning component (like a persistence-of-vision LED fan), a **slip ring** will be needed to pass electrical signal through a rotating shaft without tangling wires.
+
 ## Notes
 
 *(add schematic, code, build progress here)*
