@@ -412,6 +412,87 @@ Songs that use it: *Freight Train* (Elizabeth Cotten), *Wildwood Flower*, most C
 
 ---
 
+## What is a Schmitt trigger? (Hysteresis in hardware)
+
+A **Schmitt trigger** is a comparator circuit with **hysteresis** — it has two different switching thresholds instead of one. The output switches HIGH when input crosses an upper threshold, and switches LOW only when input drops below a lower threshold. The gap between them is the **hysteresis band**.
+
+**Why it matters:** Without it, any noisy analog signal hovering near a threshold causes the output to chatter — toggling rapidly dozens of times per second. With hysteresis, noise within the band is completely ignored. The output only flips when the signal clearly moves past a defined level.
+
+**How to build one:** Use an op-amp or comparator with **positive feedback** (the output feeds back to the non-inverting input via a resistor divider). The output state shifts the reference voltage, creating the two thresholds automatically.
+
+**Uses:** Debouncing mechanical switches, cleaning up sensor outputs, building oscillators (RC + Schmitt trigger = square wave generator), anywhere noisy analog needs to become clean digital.
+
+---
+
+## Reed switch vs. Hall effect sensor
+
+Both detect the presence of a magnet. Different in every other way.
+
+| | Reed Switch | Hall Effect Sensor |
+|---|---|---|
+| How it works | Magnetic field physically closes two ferromagnetic contacts | Magnetic field generates a voltage across a semiconductor (Hall effect) — no moving parts |
+| Power needed | No — it's just a switch | Yes — needs VCC |
+| Wear | Mechanical contacts wear out over time | None — solid state |
+| Speed | Slow (~1kHz max) | Fast (kHz–MHz) |
+| Bounce | Yes — needs debouncing | No |
+| Cost | Very cheap | Slightly more |
+| Output | Binary on/off | Digital or analog (can read field strength) |
+| Best for | Door sensors, low-cycle detection, simple presence detection | Speed sensors, rotary encoders, motor control, high-cycle applications |
+
+---
+
+## How to blacken metal
+
+Method depends on the metal and how durable you need it.
+
+| Method | Metal | How | Durability |
+|---|---|---|---|
+| **Gun bluing (hot)** | Steel | Immerse in hot alkaline salt solution → forms magnetite (Fe₃O₄) | High |
+| **Gun bluing (cold)** | Steel | Brush-on chemical solution | Low-medium |
+| **Heat bluing** | Steel/spring steel | Heat until oxide forms — blue-black color at ~300°C | Medium |
+| **Liver of sulfur** | Copper, brass, silver | Brush on solution → dark patina | Medium |
+| **Chemical blackening / black oxide** | Steel | Industrial alkaline salt bath | High |
+| **Cerakote / powder coat** | Any | Coating, not a surface treatment | Very high |
+
+Heat bluing is the most satisfying to do by hand — watch the metal change color as temperature climbs. Ties directly into the [[copper plating oxidized gift]] project.
+
+---
+
+## How are biosignals read, processed, and turned into devices?
+
+**Biosignals** are electrical or mechanical signals from biological processes:
+
+| Signal | Source | Amplitude |
+|---|---|---|
+| ECG (electrocardiogram) | Heart electrical activity | ~1 mV |
+| EEG (electroencephalogram) | Brain electrical activity | ~10–100 µV |
+| EMG (electromyogram) | Muscle electrical activity | ~1–10 mV |
+| PPG (photoplethysmogram) | Blood volume pulse (optical) | Analog light level |
+| GSR / EDA | Skin conductance (stress) | Resistance change |
+
+**Reading them:**
+1. Electrodes contact skin and pick up microvolt-scale signals
+2. **Instrumentation amplifier** — high gain, very low noise, high CMRR (rejects common-mode noise from both electrodes equally — critical for weak biosignals)
+3. **Filtering** — 60Hz notch filter (removes power line noise), bandpass for signal of interest (ECG: 0.5–150Hz, EEG: 0.5–50Hz)
+4. **ADC** — digitize the analog signal at adequate sample rate
+
+**Processing:**
+- FFT for frequency content (EEG frequency bands: delta, theta, alpha, beta, gamma)
+- Wavelet transforms for time-frequency analysis
+- Peak detection for heart rate (R-peak detection in ECG)
+- ML classifiers for gesture recognition (EMG)
+
+**Key ICs:**
+- ADS1299 (TI) — 8-channel biosignal amplifier, very low noise, used in EEG/ECG
+- AD8232 (Analog Devices) — ECG signal conditioning IC
+- MAX30102 — integrated PPG sensor (SpO2 + heart rate), optical
+
+**Open-source platforms:** OpenBCI, Arduino + bio-signal shield
+
+This connects directly to signal processing coursework — the filter design, amplifier theory, and Fourier analysis you're studying are exactly what biosignal devices use.
+
+---
+
 ## What is DC offset?
 
 In AC circuits, a signal normally oscillates symmetrically around zero — equal positive and negative swings. **DC offset** is when that signal has a non-zero average value, meaning it's shifted up or down from zero.
