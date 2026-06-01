@@ -19,6 +19,11 @@
 - Rice pudding
 - Matcha pudding
 - DIY Lindor truffles
+- (No churn) cannoli ice cream
+- Skillet berry crumble
+- Raspberry lemon drop cheesecake bars
+- Spiced date bread pudding
+- Matcha tiramisu
 
 ---
 
