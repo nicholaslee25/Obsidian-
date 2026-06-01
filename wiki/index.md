@@ -66,11 +66,16 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[woodwork hangboard]] — handmade wooden fingerboard for climbing/grip training
 - [[wood radiator cover]] — decorative wooden radiator cover for mom; ⚠️ HIGH URGENCY — get measurements
 - [[gyroscope visualization]] — build something that visualizes/uses gyroscope orientation data; form TBD
-- [[clear epoxy]] — resin casting; research phase (molds, layers, cure, cost)
+- [[clear epoxy]] — resin casting; casting vs. epoxy resin explained; research phase
 - [[windshield washer cannon]] — high-pressure washer pump mod for tailgaters; harmless
 - [[pharmacy for noobs]] — plain-language med/pharmacy guide; needs parent input
 - [[drum repair]] — repair a drum; needs dad input
 - [[youtube channel]] — document the journey: builds, skills, cars, learning
+- [[custom speakers]] — full speaker build + dead earbud conversion
+- [[diy battery charger]] — build a charger; need to learn battery chemistry + CC/CV first
+- [[throwing hook game]] — wooden ring-toss hook game
+- [[diy metronome]] — rotary encoder tempo control; includes encoder deep-dive notes
+- [[mechatronics beginner]] — get into mechatronics + inverse kinematics
 
 ### Potential
 - [[custom rubiks cube]] — low plausibility, flagged
