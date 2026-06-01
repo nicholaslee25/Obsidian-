@@ -141,6 +141,9 @@
 | Channel | Why It's Useful |
 |---|---|
 | [Fluxbench](https://www.youtube.com/@Fluxbench) | Electronics, tech, and corporate/industry deep-dives. Covers technical AND professional questions. |
+| [Robonyx](https://www.youtube.com/@Robonyx) | Tinkering, robotics, DIY electronics. Great for project inspiration and practical builds. |
+| [Sisyphus 55](https://www.youtube.com/@Sisyphus55) | Love, relationships, meaning — philosophical but grounded. Favorite. |
+| [OliSUNvia](https://www.youtube.com/results?search_query=OliSUNvia) | Same energy as Sisyphus 55. Favorite. |
 | [The Corporation Stack](https://www.youtube.com/@TheCorporation_Stack) | Source for a bunch of sites on this list |
 
 ---
