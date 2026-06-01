@@ -76,6 +76,33 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 
 - `topics/useful websites.md` — new page, first entry: coddy.tech (Duolingo-style coding practice)
 
+## [2026-05-31] ingest | Second big info dump — consolidation session
+
+Pages created:
+- `projects/custom speakers.md` — full build + dead earbud conversion
+- `projects/diy battery charger.md` — needs battery chemistry learning first
+- `projects/throwing hook game.md` — wooden ring-hook game
+- `projects/diy metronome.md` — rotary encoder deep-dive + build plan
+- `projects/mechatronics beginner.md` — IK, servo arms, starting point
+- `topics/quotes.md` — David Gemmell, procrastination
+- `topics/finance.md` — clawbacks, HYSA, CD rates, finance people
+- `topics/entertainment.md` — anime, music playlists
+- `topics/people of interest.md` — Ray Kurzweil, Bulwer-Lytton
+- `you/bible verses.md` — Proverbs 16
+
+Pages updated:
+- `skills/english.md` — added flippant, percolate
+- `skills/baking.md` — added 5 new wanna-bake items
+- `languages/chinese.md` — added full vocab table (characters/pinyin/english/direct/type); 慢慢吃, 笨蛋, 厚, 薄, plus existing phrases
+- `topics/curiosities.md` — massive additions: device drivers, biphasic defib, CS algorithms, ghost scrolling, pipe leaks, hydrofoils, Geneva mechanism, 3-phase power, impedance, Reynolds/Prandtl/Nusselt, Newtonian fluids, vacuum physics, Gauss, non-lethal weapons, Travis picking, tinkering section (Teensy 4, ESP32)
+- `topics/useful websites.md` — added PCB fabrication/design tools, CAD software costs, MongoDB, Fluxbench channel
+- `topics/youtube watch later.md` — added 7 new videos across categories
+- `topics/things to learn.md` — added Git/GitHub section
+- `projects/clear epoxy.md` — added casting vs epoxy resin + floating objects technique
+- `you/goals.md` — added Philips Healthcare + Reliant Medical as potential employers
+
+Note: efficient compute frontier was ALREADY in curiosities — confirmed, not a duplicate.
+
 ## [2026-05-31] ingest | Big info dump — new pages, updates, priority system
 
 Pages created:
