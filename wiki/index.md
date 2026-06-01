@@ -116,4 +116,4 @@ Master catalog of all wiki pages. Updated after every operation.
 
 ---
 
-*Last updated: 2026-05-31*
+*Last updated: 2026-06-01*
