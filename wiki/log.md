@@ -76,6 +76,23 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 
 - `topics/useful websites.md` — new page, first entry: coddy.tech (Duolingo-style coding practice)
 
+## [2026-05-31] ingest | Fourth dump — curiosities, books, anime, wishlist, cars
+
+Pages created:
+- `topics/cars.md` — comprehensive placeholder: maintenance, components, brands, drivetrain, mods, driving knowledge
+
+Pages updated:
+- `topics/entertainment.md` — added Summertime Rendering, Your Lie in April
+- `topics/reading.md` — added Secrets of the Immortal Nicholas Flamel, Magisterium; added short story recs (thinking + eldritch horror) — confirmed Renegades + Usuzumi no Hate already present
+- `you/wishlist.md` — added Big Purchases section: Ninja Creami 👑, Genmitsu Cubiko CNC, Carvera Air
+- `topics/quotes.md` — added Personal Mantras section with hard work quote
+- `you/goals.md` — added Steinbach Pianos as potential employer
+- `wiki/skills/music.md` — added Lost in Paradise (2nd JJK opening)
+- `topics/youtube watch later.md` — added Life Church sermon
+- `topics/useful websites.md` — added Humble Bundle to Games section
+- `topics/curiosities.md` — added: Schmitt trigger, reed switch vs Hall effect, how to blacken metal, biosignals
+- `topics/curiosities.md` — car knowledge redirects to [[cars]] page
+
 ## [2026-05-31] ingest | Third dump — quotes, media, keyboards, channels, personal
 
 Pages created:
