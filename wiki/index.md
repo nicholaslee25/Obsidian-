@@ -10,8 +10,9 @@ Master catalog of all wiki pages. Updated after every operation.
 ## You
 - [[wishlist]] -- stuff Nykel wants
 - [[person — nykel]] — master profile
-- [[goals]] — all goals in one place (career, social, fitness, language, habits, craft, professional)
+- [[goals]] — all goals in one place (career, social, fitness, language, habits, craft, professional, employers)
 - [[priorities]] — tiered priority framework + current priority list + frequency table
+- [[bible verses]] — verses that stick; Proverbs 16
 - [[culture]] — Indian and Chinese
 - [[claude]] — who I am, how I operate, my voice in this wiki
 
