@@ -34,6 +34,8 @@ Chipping away at this. Tick off as watched. Add new ones at the bottom of the ri
 - [ ] [Why This Guy Quit Medicine](https://www.youtube.com/watch?v=xvD7Ii-UUTc) — calm, well-spoken; worth the watch
 - [ ] [Everything I Learned at Stanford Business School in 28 Minutes](https://www.youtube.com/watch?v=vIkRbAvaQjs)
 - [ ] [Asking Rich and Poor People Controversial Questions](https://www.youtube.com/watch?v=z2dVI6CmPkQ) — bias, experience, and education differences
+- [ ] [If You're Feeling Overwhelmed — HealthyGamerGG](https://www.youtube.com/watch?v=7VfSCQnGfk4)
+- [ ] 43 Minutes Straight of Solid Communication Advice *(link TBD — add when found)*
 
 ---
 
