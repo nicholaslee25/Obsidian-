@@ -65,6 +65,7 @@ Chipping away at this. Tick off as watched. Add new ones at the bottom of the ri
 ## Tech / DIY
 
 - [ ] [1 year with a 3D printer - here's what I learned.](https://www.youtube.com/watch?v=NmApjrWrE6Y)
+- [ ] [Tiny Home Robotics Lab — 25 Tips by Will Cogley](https://www.youtube.com/watch?v=z_9knFW2QJY)
 
 ---
 
