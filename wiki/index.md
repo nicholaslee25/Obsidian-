@@ -12,6 +12,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[person — nykel]] — master profile
 - [[goals]] — all goals in one place (career, social, fitness, language, habits, craft, professional, employers)
 - [[priorities]] — tiered priority framework + current priority list + frequency table
+- [[potential employers]] — Philips Healthcare, Reliant Medical, Steinbach Pianos
 - [[bible verses]] — verses that stick; Proverbs 16
 - [[love and relationships]] — channels, media that resonates, personal notes; Love of Kill / Call of the Night reflection
 - [[culture]] — Indian and Chinese
