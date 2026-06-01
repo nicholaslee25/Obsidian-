@@ -90,8 +90,8 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[pc parts]] — monitor types (IPS/TN/VA/OLED), specs explained plainly; more sections TBD
 - [[things to learn]] — math, EIT prep, philosophy, tech/electronics, finance, Git/GitHub
 - [[finance]] — clawbacks, HYSA, CD rates, Schwab note, finance people
-- [[quotes]] — David Gemmell, procrastination; things worth rereading
-- [[entertainment]] — anime to watch, music playlists
+- [[quotes]] — Kant (top), jack of all trades, David Gemmell, procrastination
+- [[entertainment]] — anime (Summer Hikaru Died, Blood-C, In/Spectre, Jii-san Baa-san), light novels, music playlists
 - [[people of interest]] — Ray Kurzweil (futurist/engineer), Bulwer-Lytton (Victorian author)
 - [[reading]] — books + one film to watch
 - [[useful websites]] — curated list; now includes PCB tools, CAD costs, MongoDB, Fluxbench
