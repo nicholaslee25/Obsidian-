@@ -76,6 +76,20 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 
 - `topics/useful websites.md` — new page, first entry: coddy.tech (Duolingo-style coding practice)
 
+## [2026-06-01] ingest | Sixth dump — family reflection, math, options, electronics, projects
+
+Pages created:
+- `projects/dad's guitars database.md`
+- `projects/pole dropper reflex machine.md`
+
+Pages updated:
+- `topics/quotes.md` — "Why I Do This" section added directly under Kant — family reflection + video link + commitment to try
+- `skills/cooking.md` — added biryani, chili oil, kimchi
+- `topics/youtube watch later.md` — added: progress in life, overwhelmed (HealthyGamerGG), 43min communication advice (placeholder), diff eq (Zach Star), chain rule visual, Maxwell's equations, stock market, motor speed controller, optocouplers
+- `topics/curiosities.md` — added: brush vs brushless motors, chain rule/parametric/Jacobian, ISO 17025, engineering consulting benefits, stock options (full Greeks + IV explanation), future investments, to-do list project, JDK 17, galvo laser, cycloidal vs harmonic drive
+- `you/potential employers.md` — added engineering consulting as career path
+- Confirmed: `projects/pharmacy for noobs.md` exists ✓
+
 ## [2026-05-31] ingest | Fifth dump — curiosities, games page, guzheng notation, metronome update
 
 Pages created:
