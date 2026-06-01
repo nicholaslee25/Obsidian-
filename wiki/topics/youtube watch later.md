@@ -68,13 +68,13 @@ Chipping away at this. Tick off as watched. Add new ones at the bottom of the ri
 
 ## Music
 
-*(none yet)*
+- [ ] [eve — Last Dance playlist](https://www.youtube.com/results?search_query=eve+last+dance+playlist)
 
 ---
 
 ## Entertainment
 
-*(none yet)*
+- [ ] [How to Cram AP Physics C in 1 Hour](https://www.youtube.com/results?search_query=cram+AP+physics+C+1+hour) *(also in Academic)*
 
 ---
 
