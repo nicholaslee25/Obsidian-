@@ -6,6 +6,11 @@
 
 ---
 
+> *"Act in such a way that you treat humanity, whether in your own person or in the person of any other, never merely as a means to an end, but always at the same time as an end."*
+> — Immanuel Kant
+
+---
+
 ## Money & Career
 - Make a lot of money
 - Climb the ladder through being genuinely likable *and* capable — both, not just one
