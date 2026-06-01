@@ -412,6 +412,208 @@ Songs that use it: *Freight Train* (Elizabeth Cotten), *Wildwood Flower*, most C
 
 ---
 
+## Does carbon monoxide rise or sink?
+
+Neither consistently. CO has a molecular weight of ~28 g/mol — nearly identical to air (~29 g/mol) — so it doesn't float or sink by molecular weight alone. It **disperses and mixes** with air.
+
+However, CO from combustion (car exhaust, gas appliances) is **hot when produced**, and hot gas rises due to convection. As it cools, it spreads evenly through the room. In practice, CO concentrations are relatively uniform throughout a space.
+
+**Detector placement:** Mid-wall to near-ceiling (5 feet or higher) catches it whether it's still rising or already mixed. Don't put it at floor level — CO isn't like propane (which is heavier and sinks).
+
+---
+
+## Project inspiration: What can you make from a broken laptop?
+
+YouTube video — watch and brainstorm. Potential salvage from a dead laptop:
+- Screen (repurpose as external monitor or control display)
+- Battery cells (Li-ion 18650s — repack into power bank)
+- Keyboard + trackpad (USB controller mod)
+- Speakers
+- Webcam
+- WiFi card
+- Cooling fan
+- Hard drive / SSD
+- Hinges and chassis hardware
+
+*(YouTube: search "things to make from a broken laptop" — watch first, then come back and add specific project ideas here)*
+
+---
+
+## (Re)learning math: Cross product with a determinant
+
+The cross product **a × b** of two 3D vectors is computed as a 3×3 determinant:
+
+```
+a × b = | i   j   k  |
+        | a₁  a₂  a₃ |
+        | b₁  b₂  b₃ |
+```
+
+Expand along the top row:
+- **i** component: (a₂b₃ − a₃b₂)
+- **j** component: −(a₁b₃ − a₃b₁)
+- **k** component: (a₁b₂ − a₂b₁)
+
+Result is a vector perpendicular to both **a** and **b**. Magnitude = |a||b|sin(θ) = area of the parallelogram they form.
+
+Right-hand rule: curl fingers from **a** toward **b** — thumb points in the direction of **a × b**.
+
+---
+
+## (Re)learning math: Representing higher-power curves in linear algebra
+
+You're right that a matrix represents a linear system (rows = equations, columns = variables). Higher powers seem to break that — but you can handle them by **changing what the variables represent**.
+
+**Key idea: introduce substitution variables**
+
+For a polynomial equation like y = ax² + bx + c, treat x², x, and 1 as three separate "variables": let u₁ = x², u₂ = x, u₃ = 1. Now it's linear: y = au₁ + bu₂ + cu₃.
+
+**Vandermonde matrix** — used for polynomial curve fitting. If you have n data points (x₁, y₁) ... (xₙ, yₙ), build:
+
+```
+| 1   x₁   x₁²   x₁³ |   | a₀ |   | y₁ |
+| 1   x₂   x₂²   x₂³ | × | a₁ | = | y₂ |
+| 1   x₃   x₃²   x₃³ |   | a₂ |   | y₃ |
+| 1   x₄   x₄²   x₄³ |   | a₃ |   | y₄ |
+```
+
+Columns are powers of x — each row is one data point evaluated at those powers. Solve for the coefficient vector [a₀, a₁, a₂, a₃] using standard linear algebra (Gaussian elimination, or least squares for overdetermined systems). This is how polynomial regression works under the hood.
+
+---
+
+## How do recommendation systems work?
+
+Systems that predict what a user wants based on data. Two main approaches:
+
+**Collaborative filtering:** "Users like you also liked..." — finds patterns in user behavior without knowing anything about the items themselves. Builds a user-item matrix (rows = users, columns = items, values = ratings). Uses matrix factorization (SVD) to find latent features. Netflix, Spotify, Amazon all use variants of this.
+
+**Content-based filtering:** "Because you liked X, here's something similar..." — analyzes item attributes and matches to user history. Needs metadata about items.
+
+**Hybrid:** Most real systems combine both.
+
+**Deep learning approach:** Neural collaborative filtering — embeddings for users and items, dot product or MLP to predict preference. More powerful than classic matrix factorization.
+
+**The cold start problem:** New users or items have no data — hard to recommend anything. Usually solved with popularity-based defaults or onboarding questionnaires.
+
+Reference: [NVIDIA — Recommendation Systems](https://www.nvidia.com/en-us/glossary/recommendation-system/)
+
+---
+
+## What is a Support Vector Machine (SVM)?
+
+An ML algorithm that classifies data by finding the **optimal hyperplane** that maximally separates two classes. The "support vectors" are the data points closest to the boundary — they're the only ones that matter for defining it.
+
+**Key idea — maximum margin:** SVM doesn't just find any separating line, it finds the one with the largest gap between classes. Wider margin = better generalization.
+
+**Kernel trick:** For data that isn't linearly separable in the original space, SVM maps it to a higher-dimensional space where it becomes separable — without actually computing the high-dimensional coordinates (just the distances). Common kernels: linear, polynomial, RBF (radial basis function).
+
+**When to use:** Small-to-medium datasets, high-dimensional feature spaces (text classification), when you need a clear margin of separation. Neural nets often outperform it at scale.
+
+---
+
+## What is the consistency rule in fiction?
+
+The concept you're thinking of is **internal consistency** — sometimes called **verisimilitude** or more practically, **Sanderson's Laws of Magic**.
+
+**Brandon Sanderson's First Law:** *"An author's ability to solve conflict with magic is directly proportional to how well the reader understands said magic."*
+
+The broader principle: within a fictional world, you can define any rules, physics, or logic you want — but you must **apply them consistently**. The reader accepts your world's rules through suspension of disbelief, but the moment you violate your own established rules without justification, the contract breaks.
+
+- You can have FTL travel — just pick a mechanism and be consistent
+- You can have magic that works on sacrifice — but it must always work on sacrifice
+- You can have a villain who can't lie — but he really can't, ever
+
+**Verisimilitude** = the quality of appearing true and believable *within* the world's own logic. You're not trying to match real life — you're trying to match your own rules.
+
+---
+
+## NSF/ANSI 456 — Vaccine storage standard
+
+**NSF/ANSI 456** is the American standard for pharmaceutical-grade refrigerators and freezers used to store vaccines. Defines:
+
+- Temperature performance requirements (vaccines typically need 2–8°C refrigeration or −15 to −50°C freezing)
+- Temperature uniformity across the storage unit
+- Temperature recovery time after door opening
+- Alarm requirements for temperature excursions
+- No frost-free cycling in freezers (frost-free units cause temperature swings that degrade some vaccines)
+
+Key practical point: a standard household fridge/freezer does NOT meet NSF 456. Vaccines require purpose-built units with tighter temperature control and logging. Relevant for pharmacy context.
+
+---
+
+## Current transformers vs. voltage transformers — and how transformers work
+
+**How a transformer works:** Two coils of wire wound around a shared magnetic core. AC current in the primary coil creates a changing magnetic field in the core, which induces an AC voltage in the secondary coil. Voltage ratio = turns ratio: V₂/V₁ = N₂/N₁.
+
+**Voltage transformer (PT — potential transformer):** Standard transformer. Steps voltage up or down. Used for measurement to safely scale down high voltages (e.g., 11kV → 110V) for meters and instruments. High input impedance.
+
+**Current transformer (CT):** Designed to measure current, not voltage. Primary is often just the wire carrying the current (one "turn" through the core). Secondary has many turns. Outputs a small, proportional current (e.g., 1000A primary → 5A secondary at 200:1 ratio). Low input impedance — secondary must NEVER be open-circuited while energized (dangerously high voltage will develop).
+
+Use case: power monitoring, protection relays, smart meters. The clamp meter you've seen around a wire — that's a CT.
+
+---
+
+## How do Janney / train couplers work?
+
+The **Janney coupler** (patented 1873, now the AAR standard in North America) is the automatic knuckle coupler used on virtually all North American freight rail.
+
+**How it works:**
+1. Each coupler has a **knuckle** — a hook-shaped jaw that can pivot open or closed
+2. As two cars approach, the knuckles contact each other and pivot open
+3. They lock into each other automatically — no one needs to be between the cars
+4. A **pin (knuckle pin)** drops to lock the assembly
+5. To uncouple: pull a lever to retract the pin and open the knuckle
+
+**Draft gear:** The large spring/buffer assembly behind the coupler absorbs shock forces during coupling and train acceleration/braking — prevents cars from slamming into each other.
+
+Why it matters: before Janney couplers, brakemen had to stand between moving cars to insert a pin manually — extremely dangerous. The automatic coupler eliminated most of those deaths.
+
+---
+
+## Why are trusses the strongest structural shape?
+
+Because **triangles are the only inherently rigid polygon**.
+
+A rectangle deforms into a parallelogram when force is applied — it needs diagonal bracing to resist shear. A triangle cannot change shape without changing the length of its members. It's geometrically rigid by definition.
+
+**What this means structurally:**
+- Every member in a truss carries only **axial force** — pure tension or pure compression along its length
+- No bending moments in the members (bending is what breaks beams)
+- Axial forces are far more efficient: the entire cross-section works uniformly
+- The geometry distributes loads through the whole structure rather than concentrating stress
+
+**Why it's strong per weight:** Steel is strongest along its axis. A thin rod resists axial load efficiently but bends easily. Put those rods in a triangle — now none of them bend, all of them pull or push. Massive strength-to-weight ratio.
+
+Relevant to your tensegrity table — tensegrity uses tension + compression members in a similar spirit, except the members never touch, and tension cables handle what would normally be bending loads.
+
+---
+
+## Cool Stuff
+
+### Solar panels that repel dust
+
+Researchers (including NASA and MIT) have developed **electrostatic dust-repelling solar panels** — an electric field is applied across the panel surface, which exerts force on the electrically charged dust particles and moves them off the surface.
+
+Designed for: Mars rovers and desert solar farms where manual cleaning isn't viable. A panel coated in dust loses 30–40% efficiency. No water needed, works autonomously.
+
+Current status (2024): being piloted at utility-scale solar farms. Not yet mainstream but close to commercial viability.
+
+---
+
+## Types of connectors (hobbyist electronics)
+
+| Connector | What it is | Common use |
+|---|---|---|
+| **Spade / spade terminal** | Flat tab that slides onto a stud or post. Crimp-on. | Power connections, car audio, battery terminals |
+| **BNC (Bayonet Neill-Concelman)** | Coaxial connector with a quarter-turn bayonet lock. RF and video. | Oscilloscope probes, RF equipment, camera/SDI video |
+| **Barrel plug / DC barrel jack** | Cylindrical plug-and-socket for DC power. Defined by inner/outer diameter (common: 5.5mm outer / 2.1mm inner). | DC power adapters, Arduino power |
+| **Compression connector** | Screws or compresses onto a cable end to form a sealed connection — no soldering. | Coax cable (RG6, RG59), antenna connections |
+| **JST** | Small plastic snap connectors in various pin counts. Standard in RC hobby and battery packs. | LiPo batteries, small PCB wiring |
+| **XT30 / XT60** | High-current gold-plated bullet connectors. 30A / 60A rated. | Drone batteries, e-bikes |
+| **Dupont** | Female/male pin headers used on breadboards and Arduino GPIO. | Prototyping, jumper wires |
+
+---
+
 ## What is a Schmitt trigger? (Hysteresis in hardware)
 
 A **Schmitt trigger** is a comparator circuit with **hysteresis** — it has two different switching thresholds instead of one. The output switches HIGH when input crosses an upper threshold, and switches LOW only when input drops below a lower threshold. The gap between them is the **hysteresis band**.
