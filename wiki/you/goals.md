@@ -41,10 +41,7 @@
 - EIT exam (FE exam) — take during or right after senior year; start light studying at work
 - Medical field — still a consideration (open question)
 
-**Potential employers to look into:**
-- **Philips Healthcare** — medical imaging, patient monitoring, health informatics. Intersection of engineering + medicine.
-- **Reliant Medical** — look into what they do; consider fit
-- **Steinbach Pianos** — piano design/manufacturing; intersection of music + engineering + craft
+→ See [[potential employers]] for the full list.
 
 ## Habits
 - Quit YouTube — educational only; "educational without learning is glorified entertainment"
