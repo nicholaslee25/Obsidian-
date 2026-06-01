@@ -16,6 +16,7 @@
 |---|---|---|
 | Sultans of Swing — Dire Straits | Both solos | Not started |
 | Here in the Power of Christ | Full song | Not started |
+| Lost in Paradise — Ali (ft. AKLO) | Full guitar (2nd JJK opening) | Not started |
 
 ### Techniques to Learn
 
