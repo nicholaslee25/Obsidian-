@@ -203,7 +203,228 @@ Detergent is a **surfactant** — it lowers the surface tension of water so it c
 
 ---
 
+---
+
+## What is a device driver?
+
+Software that acts as a **translator between the OS and a hardware device**. Hardware speaks its own protocol; the OS speaks in generic terms ("print this"). The driver bridges the two — it knows the specific commands that printer, GPU, or USB chip actually understands. When something works plug-and-play, it's because a driver was either pre-installed or fetched automatically. When it doesn't, you go find the driver manually.
+
+---
+
+## Biphasic vs. monophasic defibrillator shocks
+
+**Monophasic:** current flows in one direction only. Requires higher energy (~360J). More myocardial damage. Older technology.
+
+**Biphasic:** current flows in one direction, then reverses — two phases. More effective at lower energy (~150–200J). Less tissue damage. Standard in all modern AEDs and hospital defibrillators.
+
+Why it's better: the biphasic waveform more closely matches the heart's own action potential, depolarizing the entire myocardium more effectively without frying it.
+
+---
+
+## Most common and useful CS algorithms
+
+| Algorithm | What it does | Useful to you? |
+|---|---|---|
+| Binary search | Find item in sorted list in O(log n) | Yes — anytime you search |
+| BFS / DFS | Traverse graphs and trees | Yes — pathfinding, state machines |
+| Dijkstra's | Shortest path in a weighted graph | Yes — compass, routing |
+| A\* | Like Dijkstra but with a heuristic (faster) | Yes — robotics, zen sand table |
+| QuickSort / MergeSort | Sort a list efficiently | Background knowledge |
+| Dynamic programming | Solve complex problems by breaking into subproblems | Yes — optimization |
+| Hashing | O(1) lookup via hash map | Yes — game bot state tracking |
+| Flood fill | Fill connected region (like paint bucket) | Yes — game bot screen detection |
+
+---
+
+## How to fix ghost scrolling on a mouse
+
+Scroll wheel ghosts because dust and debris interrupt the optical sensor or mechanical encoder inside the wheel. **Fix: take apart the mouse, blow out the scroll wheel assembly with compressed air.** Usually 100% effective. No disassembly required on most mice — just a can of air aimed at the scroll wheel gap.
+
+---
+
+## How to fix a leak in a pipe
+
+| Leak type | Temp fix | Permanent fix |
+|---|---|---|
+| Pinhole or hairline crack | Epoxy putty stick, pipe repair clamp, or rubber sleeve + clamp | Cut out bad section, replace with new pipe + couplings |
+| Joint leak | PTFE tape (thread joints) or pipe joint compound | Disassemble and re-tape/re-seal |
+| Small crack | Plumber's epoxy over cleaned dry surface | Replace section |
+
+Don't use electrical tape — it fails under water pressure. Epoxy or a proper clamp only for emergency fixes.
+
+---
+
+## How do hydrofoil boards work?
+
+A hydrofoil board has a **wing-like foil mounted on a strut below the hull**. At low speed, the board sits on the water surface. As speed increases, the foil generates **lift** (same principle as an airplane wing — faster flow over the top surface creates lower pressure, slower flow below creates higher pressure → net upward force). Once lift exceeds the board's weight, it rises completely out of the water. With no hull drag, it's faster and smoother. The rider shifts their weight to control pitch; the foil shape controls stall speed and max lift.
+
+---
+
+## Geneva mechanism — what it is and the design equations
+
+A Geneva mechanism converts **continuous rotation into intermittent rotation** (step-pause-step-pause). Used in film projectors, watches, indexing machines.
+
+**How it works:** A driving wheel with a pin engages slots in the driven wheel, rotating it one step, then a locking arc holds it stationary until the next pin engagement.
+
+**Key equations:**
+
+Number of slots: **n** (minimum 3, most common is 4)
+
+Rotation per step: **360° / n**
+
+Half the angle between slots: **α = 180° / n**
+
+Distance between wheel centers: **d = r / sin(α)** where r = driving pin radius from center
+
+Locking arc half-angle: **β = 90° − α**
+
+With n=4: each step = 90°, α = 45°, β = 45°. Clean and symmetric — that's why it's the most common.
+
+---
+
+## How was 3-phase power discovered? Why is it so much better?
+
+**Discovered:** Nikola Tesla (1887–1888), independently around the same time by Mikhail Dolivo-Dobrovolsky (who built the first 3-phase power transmission system in 1891).
+
+**Why 3 phases are so much better:**
+1. **Continuous power delivery** — 3 phases offset 120° apart = power is never zero. One phase is always near peak.
+2. **Less wire for the same power** — 3 phases share a neutral; balanced loads don't need a neutral at all. 75% of the copper cost of single-phase for the same power.
+3. **Rotating magnetic fields** — 3-phase naturally produces a smoothly rotating field. This is exactly what an AC induction motor needs to spin — no extra components required.
+4. **No torque ripple** — single-phase motors pulse; 3-phase motors run smoothly.
+5. **Efficient long-distance transmission** — higher voltage, lower current, less heat loss in wires.
+
+---
+
+## What is impedance (vs. resistance)?
+
+**Resistance (R):** Opposition to current in a DC circuit. Fixed value. Dissipates energy as heat. Ohm's law: V = IR.
+
+**Impedance (Z):** Opposition to current in an AC circuit. Combines resistance AND **reactance** (opposition from capacitors and inductors). Z = √(R² + X²). Measured in ohms.
+
+**Reactance (X):**
+- Capacitors block DC, pass AC. Reactance decreases as frequency increases: **Xc = 1 / (2πfC)**
+- Inductors pass DC, block AC. Reactance increases with frequency: **Xl = 2πfL**
+
+Why it matters: speaker impedance (4Ω, 8Ω) tells the amp how "hard" it has to work. Impedance matching maximizes power transfer in RF and audio circuits.
+
+---
+
+## Reynolds, Prandtl, and Nusselt numbers
+
+Dimensionless numbers used in heat transfer and fluid mechanics to describe flow behavior without needing units.
+
+**Reynolds number (Re):** Ratio of inertial forces to viscous forces.
+- Re < 2,300 → laminar flow (smooth, layered)
+- Re > 4,000 → turbulent flow (chaotic, mixing)
+- Formula: Re = ρVL / μ (density × velocity × length / dynamic viscosity)
+
+**Prandtl number (Pr):** Ratio of momentum diffusivity to thermal diffusivity.
+- Low Pr (liquid metals): heat spreads faster than momentum → thin thermal boundary layers
+- High Pr (oils): momentum spreads faster → thick thermal boundary layers
+- Water ≈ 7, air ≈ 0.7
+
+**Nusselt number (Nu):** Dimensionless convective heat transfer coefficient.
+- Nu = 1 → pure conduction
+- Higher → convection is dominant
+- Used to calculate actual heat transfer rate: h = Nu × k / L
+
+Together: Re tells you if flow is turbulent (affects Nu), Pr tells you the fluid's thermal behavior, Nu gives you the actual heat transfer coefficient.
+
+---
+
+## Newtonian vs. non-Newtonian fluids / compressible vs. incompressible
+
+**Newtonian:** Viscosity is constant regardless of shear rate. Water, air, most oils. V = IR equivalent — consistent behavior.
+
+**Non-Newtonian:**
+- *Shear thinning (pseudoplastic):* gets less viscous under stress. Ketchup, blood, nail polish, paint.
+- *Shear thickening (dilatant):* gets more viscous under stress. Cornstarch + water (oobleck), quicksand-like.
+- *Bingham plastic:* acts solid until yield stress is met, then flows. Toothpaste, mayonnaise, concrete.
+
+**Compressible:** Density changes significantly with pressure. Gases at high speed (approaching Mach 1+). Matters for aerodynamics, nozzles, shock waves. Requires more complex equations.
+
+**Incompressible:** Density stays constant. Liquids and slow-moving gases (most engineering fluid problems). Simplifies math significantly.
+
+---
+
+## Vacuum physics
+
+| Vacuum level | Pressure | Behavior |
+|---|---|---|
+| Low vacuum | > 1 mbar | Still lots of molecules. Behaves roughly like air. Roughing pump sufficient. |
+| Medium vacuum | 1–10⁻³ mbar | Mean free path grows; molecules start hitting walls more than each other |
+| High vacuum | < 10⁻³ mbar | Molecules mostly hit walls. Thermal conductivity near zero. Turbopump needed. |
+| Ultra-high vacuum | < 10⁻⁷ mbar | Near-space conditions. Particle accelerators, surface science. Requires bakeout. |
+
+**Temperature:** Lower temp = lower molecular kinetic energy = lower vapor pressure = easier to pump down. Cryogenic traps help pumps by freezing out remaining gas molecules.
+
+**Pump staging:** Single pump types rarely cover the full range. Roughing pump first (atm → ~1 mbar), then diffusion or turbomolecular pump for high vacuum.
+
+**Container material:** Outgassing is the enemy. Absorbed water and gases slowly release from surfaces into the vacuum. Stainless steel outgasses less than plastics. Baking the chamber at 150–200°C drives out surface water before pumping down.
+
+---
+
+## Gauss' collective works
+
+**Carl Friedrich Gauss (1777–1855)** — called the "Prince of Mathematics." One of the most prolific mathematicians in history, often working independently before others knew fields existed.
+
+Major contributions:
+- **Number theory** — *Disquisitiones Arithmeticae* (1801), still a foundational text
+- **Gaussian distribution** (normal curve) — the bell curve used everywhere in statistics
+- **Gauss's law** — one of Maxwell's four equations; describes electric fields from charge distributions
+- **Differential geometry** — *Theorema Egregium*: intrinsic curvature of a surface exists independently of how it's embedded in space
+- **Celestial mechanics** — calculated the orbit of Ceres from limited observations in 1801, to everyone's amazement
+- **Complex numbers** — proved the fundamental theorem of algebra (every polynomial has a root in complex numbers)
+- **Non-Euclidean geometry** — developed privately, never published (feared controversy). Influenced Bolyai and Lobachevsky
+- **Geomagnetism** — devised methods for mapping Earth's magnetic field; the unit of magnetic flux density (Gauss) is named for him
+
+---
+
+## How to build non-lethal weapons (capacitor gun context)
+
+A **capacitor discharge gun / Gauss gun / coilgun** fires a ferromagnetic projectile using a magnetic pulse from a rapidly discharged capacitor bank.
+
+Basic principle:
+1. Charge a capacitor bank to high voltage
+2. Discharge through a coil around the barrel
+3. Magnetic pulse accelerates a steel projectile down the tube
+
+**"Firing a blank"** = discharge with no projectile → loud pop, spark, no projectile.
+
+⚠️ **Important safety note:** The capacitor bank is genuinely dangerous even when "firing blanks." High-voltage capacitors (>50V) can kill. Always add a bleeder/discharge resistor circuit so the caps fully discharge when not in use. The gun fires blanks; the electronics can still hurt you.
+
+Non-lethal designation applies to the projectile velocity, not the electronics.
+
+---
+
+## What is Travis picking?
+
+A fingerpicking guitar technique developed by Merle Travis, popularized by Chet Atkins.
+
+**How it works:**
+- Thumb alternates between bass strings (usually the root and fifth of the chord) on beats 1 and 3 — this is the "boom-chick" pattern
+- Fingers pick melody and inner notes on the off-beats (2 and 4) simultaneously
+- Creates the illusion of two guitarists playing at once: bass line + melody
+
+**Why it's cool:** Self-accompaniment — you're playing rhythm and lead at the same time. Foundational to country, folk, and fingerstyle guitar.
+
+Songs that use it: *Freight Train* (Elizabeth Cotten), *Wildwood Flower*, most Chet Atkins material, *The Boxer* (Simon & Garfunkel fingerpicking sections).
+
+---
+
+## Tech — Tinkering (Components to Consider Buying)
+
+Hardware worth knowing about and potentially getting for projects:
+
+| Component | What it is | Why interesting |
+|---|---|---|
+| **Teensy 4.0 / 4.1** | High-performance ARM microcontroller (600MHz). More powerful than Arduino. USB-native, small form factor. | Great for projects needing speed: audio processing, fast PWM, high-frequency control. Better than Arduino for most DIY electronics. |
+| **WiFi module (ESP8266 / ESP32)** | Microcontroller with built-in WiFi (and BT on ESP32). Much cheaper than adding a shield to Arduino. | Moon clock WiFi sync, NFC WiFi project, any connected device. The ESP32 is practically the default MCU for connected projects now. |
+
+---
+
 ## Related
 
 - [[useful websites]]
 - [[reading]]
+- [[things to learn]]
