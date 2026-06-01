@@ -81,6 +81,8 @@ Chipping away at this. Tick off as watched. Add new ones at the bottom of the ri
 
 - [ ] [1 year with a 3D printer - here's what I learned.](https://www.youtube.com/watch?v=NmApjrWrE6Y)
 - [ ] [Tiny Home Robotics Lab — 25 Tips by Will Cogley](https://www.youtube.com/watch?v=z_9knFW2QJY)
+- [ ] [Motor Speed Controller (DIY)](https://www.youtube.com/watch?app=desktop&v=UPTU6nYSaMo)
+- [ ] [How Optocouplers and Rectifiers Work](https://www.youtube.com/watch?v=3AVHqV_xASQ)
 
 ---
 
