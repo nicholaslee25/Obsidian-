@@ -36,6 +36,24 @@
 
 **Status:** Future interest. Low priority.
 
+### How to Read Guzheng Sheet Music
+
+Guzheng uses **Jianpu (简谱)** — numbered musical notation. Common in Chinese traditional music.
+
+| Symbol | Meaning |
+|---|---|
+| 1 2 3 4 5 6 7 | Do Re Mi Fa Sol La Ti (C D E F G A B in C major) |
+| Dot above number | One octave higher |
+| Dot below number | One octave lower |
+| Two dots above | Two octaves higher |
+| Underline (1 line) | Eighth note |
+| Underline (2 lines) | Sixteenth note |
+| Dash after number | Extends note by one beat |
+| 0 | Rest |
+| **1 =** at start | Key signature — "1 =" followed by root note (e.g., "1 = D" means D major) |
+
+The key signature shifts what pitch each number refers to. "1" is always the tonic of whatever key you're in.
+
 ---
 
 ## Related
