@@ -29,6 +29,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[baking]] -- cooked log + wanna bake list
 - [[laundry]] — wash cycles by fabric, ironing, care labels
 - [[knife sharpening]] — whetstone grit progression, grinder technique
+- [[gardening]] — green onions, shampoo ginger lily, tomatoes, cabbage; wildlife defense; best practices
 
 ## Projects
 - [[tensegrity table]] — compression + tension, floating structure
