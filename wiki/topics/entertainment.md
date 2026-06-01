@@ -14,6 +14,8 @@
 | In/Spectre | Mystery + folklore + logic puzzles. Light novel adaptation. |
 | The Summer Hikaru Died | Horror + grief + supernatural. Manga/anime. |
 | Blood-C | Horror anime. Dark, violent, don't watch before bed. |
+| Summertime Rendering | Mystery, time loops, supernatural horror. Highly rated. |
+| Your Lie in April | Music + grief + romance. Beautiful and will ruin you. |
 
 ## Light Novels / Manga — To Read
 
