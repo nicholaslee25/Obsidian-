@@ -1030,6 +1030,32 @@ In AC circuits, a signal normally oscillates symmetrically around zero — equal
 
 ---
 
+## How do voltage regulators work? How do you design one?
+
+A voltage regulator takes a noisy or variable input voltage and outputs a stable, precise lower voltage.
+
+**Linear regulators (LDO — Low Dropout):**
+- The simple kind. A transistor acts as a variable resistor between input and output, burning off excess voltage as heat.
+- **Dropout voltage** = minimum difference between Vin and Vout for the regulator to work. LDOs have very low dropout (~0.3–0.5V). Classic 7805 needs ~2V overhead.
+- Pros: simple, low noise. Cons: inefficient — wasted power = (Vin − Vout) × Iout as heat. Bad for big voltage drops.
+
+**Switching regulators (buck/boost/buck-boost):**
+- **Buck** (step-down): rapidly switches a transistor on/off, stores energy in an inductor + capacitor. Output = fraction of input. Very efficient (85–95%).
+- **Boost** (step-up): same principle but output > input. Also efficient.
+- **Buck-boost**: output can be above or below input. More complex.
+- Pros: efficient, handles big voltage differences. Cons: switching noise (need good output filtering), more components, EMI.
+
+**Design a simple LDO circuit:**
+1. Pick regulator IC (e.g., LM317 adjustable, or fixed 3.3V/5V like AMS1117)
+2. Check datasheet: max input voltage, dropout, quiescent current, output capacitor requirements
+3. For LM317: Vout = 1.25V × (1 + R2/R1) — pick resistors to set output
+4. Add input cap (0.1µF ceramic) close to IC, output cap (10µF electrolytic minimum) for stability
+5. Heatsink if power dissipation > ~0.5W
+
+**Reference:** [How to Design Voltage Regulators](https://www.youtube.com/watch?v=d-j0onzzuNQ)
+
+---
+
 ## Tech — Tinkering (Components to Consider Buying)
 
 Hardware worth knowing about and potentially getting for projects:
