@@ -13,6 +13,8 @@ Places worth looking into — what they do, why they might fit.
 | **Philips Healthcare** | Medical imaging, patient monitoring, health informatics | Engineering + medicine intersection |
 | **Reliant Medical** | TBD — look into | TBD |
 | **Steinbach Pianos** | Piano design and manufacturing | Music + engineering + craft |
+| **Spacelabs Healthcare** | Patient monitoring, telemetry, defibrillation systems | Close to Philips lane — medical devices + signal processing |
+| **Jet Propulsion Laboratory (JPL)** | NASA's robotic spacecraft center — rovers, probes, deep space | Robotics, controls, the impossible dream. "Literally never going to happen but... sure ig" |
 
 ---
 
