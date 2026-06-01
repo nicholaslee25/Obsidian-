@@ -412,6 +412,97 @@ Songs that use it: *Freight Train* (Elizabeth Cotten), *Wildwood Flower*, most C
 
 ---
 
+## Uses of a planetary gear system
+
+A planetary gearset has three parts: **sun gear** (center), **planet gears** (orbit the sun), **ring gear** (outer, internal teeth), and a **carrier** (holds the planets). What makes it powerful: you can fix any one part and get different ratios from the same hardware.
+
+| Fix this | Input | Output | Effect |
+|---|---|---|---|
+| Ring gear | Sun | Carrier | Speed reduction (most common) |
+| Carrier | Sun | Ring | High-speed increase |
+| Sun | Ring | Carrier | Reverse reduction |
+
+**Why it's compact:** Multiple planet gears share the load simultaneously — much higher torque density than a standard spur gear train of the same volume.
+
+**Uses:**
+- **Power tools** — every cordless drill has a planetary gearbox inside (that's the satisfying "click" when you change torque settings)
+- **Automatic transmissions** — combine multiple planetary sets for multiple gear ratios
+- **Electric motors** — planetary reducer + motor = compact high-torque actuator
+- **Robotic joints** — combined with cycloidal or harmonic drive concepts
+- **Bicycle hubs** — internally-geared hubs use planetary sets
+
+**Project potential:** 3D printable. Add a DC motor to the sun gear, fix the ring, get output at the carrier. Cheap, compact, high torque. Good first gearbox build.
+
+---
+
+## Battery Management Systems (BMS)
+
+The circuit that makes a lithium battery pack safe. Without it, Li-ion cells are fire hazards — they cannot be left unprotected.
+
+**What a BMS does:**
+
+| Function | Why it matters |
+|---|---|
+| **Overvoltage protection** | Li-ion cells max out at ~4.2V. Above that → thermal runaway (fire) |
+| **Undervoltage protection** | Below ~2.5–3V → permanent capacity damage |
+| **Overcurrent / short circuit** | Cuts power instantly if current spikes |
+| **Temperature monitoring** | Stops charge/discharge if too hot or cold |
+| **Cell balancing** | In series packs, individual cells drift apart in voltage over time — BMS equalizes them |
+
+**Cell balancing types:**
+- *Passive balancing:* bleeds excess charge from high cells as heat via resistors. Simple, cheap, wastes energy.
+- *Active balancing:* transfers charge from high cells to low cells. More efficient, more complex.
+
+**Key ICs:** BQ76940 (TI, up to 15S), BQ29700, or integrated "protection IC + FET" packages for simple single-cell builds.
+
+**Connects to:** [[diy battery charger]] project.
+
+---
+
+## Unipolar vs. bipolar stepper motors
+
+Both are stepper motors — both step in discrete increments by energizing coils in sequence.
+
+| | Bipolar | Unipolar |
+|---|---|---|
+| Wires | 4 (two coils) | 5 or 6 (coils with center tap) |
+| How current works | Reverses direction through each coil | Only one half of coil energized at a time |
+| Driver needed | H-bridge (e.g., DRV8837, A4988) | Simple switches — no H-bridge needed |
+| Torque | Higher — full coil used | Lower — only half coil active |
+| Complexity | Slightly more complex driver | Simpler driver |
+| Modern use | Preferred for almost everything | Legacy; hobbyist simplicity use case |
+
+**Why bipolar wins in practice:** H-bridge ICs are cheap and widely available. The torque advantage is significant. Your SM-5VDC and most stepper motors you'll encounter are bipolar.
+
+**Unipolar use case:** When you really need the simplest possible driver and torque doesn't matter.
+
+---
+
+## Internal cycloidal robotic actuator
+
+A compact robotic joint that integrates a **cycloidal drive + motor (+ sometimes encoder)** into a single coaxial unit. The direction robotics is heading.
+
+**Why it's interesting:**
+- Cycloidal reduction gives very high torque density — a small motor outputs huge torque
+- Near-zero backlash — critical for precise robot arm positioning
+- **Backdrivable** — the joint can be moved by external force (safe for collaborative robots and compliant manipulation)
+- All in one: motor + reducer + output bearing in a hockey-puck-sized unit
+
+**Real examples:**
+- MIT Mini Cheetah actuator — open-source, 3D printed + machined
+- Mjbots moteus — open-source brushless driver + actuator platform
+- T-Motor AK series — commercial, widely used in research arms
+
+**To build one:**
+- BLDC motor (outrunner style preferred for torque) + cycloidal disc + output bearing
+- See [[cycloidal drive vs. harmonic drive]] for the disc geometry
+- Control with FOC (field-oriented control) driver — mjbots moteus or ODrive
+- Parametric CAD: design disc in Fusion 360 using cycloidal equations, then machine or print
+
+**Connects to:** [[mechatronics beginner]], [[symmetrical gear arm gripper]]
+
+---
+
 ## Brush vs. brushless motors
 
 **Brushed DC motor:**
