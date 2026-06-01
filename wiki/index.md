@@ -78,6 +78,8 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[throwing hook game]] — wooden ring-toss hook game
 - [[diy metronome]] — rotary encoder tempo control; includes encoder deep-dive notes
 - [[mechatronics beginner]] — get into mechatronics + inverse kinematics
+- [[dad's guitars database]] — catalogue dad's guitar collection
+- [[pole dropper reflex machine]] — reaction-time tester: random drop + timer
 
 ### Potential
 - [[custom rubiks cube]] — low plausibility, flagged
