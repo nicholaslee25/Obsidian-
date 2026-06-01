@@ -76,6 +76,20 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 
 - `topics/useful websites.md` — new page, first entry: coddy.tech (Duolingo-style coding practice)
 
+## [2026-05-31] ingest | Third dump — quotes, media, keyboards, channels, personal
+
+Pages created:
+- `you/love and relationships.md` — Sisyphus 55, OliSUNvia, Love of Kill/Call of the Night reflection (post-D breakup), A Day Before Us
+
+Pages updated:
+- `topics/quotes.md` — Kant categorical imperative added to top; "jack of all trades" full quote added
+- `you/goals.md` — Kant quote added at very top per request
+- `topics/youtube watch later.md` — added: strategic thinking, ages 1–100 regrets, tiny home robotics lab, rich/poor controversial questions, You vs You (religion section added)
+- `topics/curiosities.md` — added DC offset; confirmed Secure Boot + TPM already present
+- `topics/keyboards.md` — added TKL definition, TFT screen, QMK/VIA explained, Zuoya GMK87, Akko 5087S; expanded layout table
+- `topics/entertainment.md` — added: The Summer Hikaru Died, Blood-C, The Empty Box and Zeroth Maria, A Day Before Us
+- `topics/useful websites.md` — added Robonyx, Sisyphus 55, OliSUNvia to YouTube channels
+
 ## [2026-05-31] ingest | Second big info dump — consolidation session
 
 Pages created:
