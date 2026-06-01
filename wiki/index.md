@@ -25,6 +25,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[lockpicking]] — want to learn, need cheap locks and a practice spot
 - [[english]] — vocab and phrases table
 - [[chinese]] — active, going "poorly"
+- [[drawing]] — want to learn; fundamentals first
 - [[cooking]] -- cooked log + wanna cook list + beverages
 - [[baking]] -- cooked log + wanna bake list
 - [[laundry]] — wash cycles by fabric, ironing, care labels
