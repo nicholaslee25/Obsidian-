@@ -76,6 +76,21 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 
 - `topics/useful websites.md` — new page, first entry: coddy.tech (Duolingo-style coding practice)
 
+## [2026-05-31] ingest | Fifth dump — curiosities, games page, guzheng notation, metronome update
+
+Pages created:
+- `topics/fun games.md` — Chameleon, Codenames, Throw Throw Burrito, Exploding Kittens, Poker quick ref
+
+Pages updated:
+- `topics/curiosities.md` — added: CO density, broken laptop inspiration, cross product with determinant, Vandermonde/higher-power curves, recommendation systems, SVM, fiction consistency rule (Sanderson's Laws/verisimilitude), NSF/ANSI 456, current vs voltage transformers, Janney couplers, trusses, cool stuff (electrostatic dust-repelling solar panels), connector types (spade, BNC, barrel, compression, JST, XT60, Dupont)
+- `topics/entertainment.md` — added Kimi no Na Wa (Your Name)
+- `projects/diy metronome.md` — added reference video + slip ring note for spinning display
+- `wiki/skills/music.md` — added Jianpu notation guide for guzheng
+- `topics/quotes.md` — added child's joy mantra
+- `topics/useful websites.md` — added GreatScott! YouTube channel
+
+Note: "tensity table" in dump = tensegrity table — already filed. Confirmed with user.
+
 ## [2026-05-31] ingest | Fourth dump — curiosities, books, anime, wishlist, cars
 
 Pages created:
