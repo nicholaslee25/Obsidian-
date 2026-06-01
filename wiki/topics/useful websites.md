@@ -29,6 +29,32 @@
 
 ---
 
+## Engineering — PCB Design & Fabrication
+
+| Tool/Service | Type | Notes |
+|---|---|---|
+| [JLCPCB](https://jlcpcb.com) | Fabrication | Most popular budget PCB fab. Fast turnaround, very cheap for small runs. |
+| [PCBWay](https://www.pcbway.com) | Fabrication | Slightly pricier than JLC, more advanced options, better customer service reputation |
+| [KiCad](https://www.kicad.org) | Design software | Free, open-source, industry-capable. Best choice for hobbyists. |
+| [EagleCAD](https://www.autodesk.com/products/eagle) | Design software | Industry standard, now owned by Autodesk. Free tier limited to 2 layers, 80cm² board. |
+| [Cadence OrCAD X](https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/orcad.html) | Design software | Professional/enterprise-grade. Overkill for hobby use. |
+
+**Recommendation:** KiCad for design + JLCPCB for fabrication is the standard hobbyist stack.
+
+---
+
+## Engineering — CAD Software (Personal Accounts)
+
+| Software | Personal License Cost | Notes |
+|---|---|---|
+| **Fusion 360** | Free for personal/hobbyist use (with limitations) | Autodesk's hobbyist-friendly offering. Cloud-based. Good for everything. |
+| **Inventor** | ~$2,155/year (no free tier for personal) | Autodesk's professional mechanical CAD. No meaningful hobby license. |
+| **SolidWorks** | ~$4,000–$10,000+/year standard; ~$99/year Maker license (limited) | Industry standard. Expensive. SolidWorks Maker tier exists but has restrictions. |
+
+**Recommendation:** Fusion 360 free tier covers almost everything you'd need as a hobbyist/student.
+
+---
+
 ## Learning & Visual
 
 | Website | Why It's Useful |
