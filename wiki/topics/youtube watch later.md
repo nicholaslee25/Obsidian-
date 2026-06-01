@@ -14,6 +14,8 @@ Chipping away at this. Tick off as watched. Add new ones at the bottom of the ri
 
 ## Motivational / Discipline
 
+- [ ] [Use Strategic Thinking to Create the Life You Want](https://www.youtube.com/results?search_query=use+strategic+thinking+to+create+the+life+you+want)
+- [ ] [I Asked Ages 1–100 Their Biggest Regret](https://www.youtube.com/watch?v=52tZTTMFzfA)
 - [ ] [I Started a 9-5.](https://www.youtube.com/watch?v=v1ZQZGejMu8)
 - [ ] [The Fear of Living a Mediocre Life](https://www.youtube.com/watch?v=gnLYNrSPIwg)
 - [ ] [Don't Go to Pharmacy School Until You Watch This](https://www.youtube.com/watch?v=MLrcsyQUiV0)
