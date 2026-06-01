@@ -128,6 +128,23 @@
 
 ---
 
+## Software — Databases & Dev
+
+| Tool | What it is | Notes |
+|---|---|---|
+| [MongoDB](https://www.mongodb.com) | NoSQL document database | Stores data as JSON-like documents instead of rows/columns. Flexible schema — great for data that doesn't fit neatly into tables. Common in web backends. ELI5 thread: [Reddit](https://www.reddit.com/r/mongodb/comments/5ouiug/eli5_what_is_mongodb_and_what_is_used_for/) |
+
+---
+
+## YouTube Channels
+
+| Channel | Why It's Useful |
+|---|---|
+| [Fluxbench](https://www.youtube.com/@Fluxbench) | Electronics, tech, and corporate/industry deep-dives. Covers technical AND professional questions. |
+| [The Corporation Stack](https://www.youtube.com/@TheCorporation_Stack) | Source for a bunch of sites on this list |
+
+---
+
 ## Sources
 
 | Source | Notes |
