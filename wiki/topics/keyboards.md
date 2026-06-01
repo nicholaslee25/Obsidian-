@@ -64,9 +64,43 @@ The circuit board inside the keyboard. Determines which switches are compatible,
 
 ---
 
+## Layouts — More Detail
+
+| Term | Meaning |
+|---|---|
+| **TKL (Tenkeyless)** | 87-key layout — removes the numpad. Saves desk space, keeps arrow keys and nav cluster. Most popular non-full-size layout. |
+| **75%** | Similar to TKL but tighter — nav cluster compressed, function row kept. |
+| **65%** | Arrow keys kept, no function row, no nav cluster. Common enthusiast choice. |
+| **60%** | No function row, no arrows, no nav. Compact. Uses layers heavily. |
+
+## Display & Input Add-ons (on keyboards)
+
+| Feature | What it is |
+|---|---|
+| **TFT screen** | Small LCD/TFT display embedded in the keyboard. Shows WPM, active layer, system stats, animations, art. Mostly cosmetic but cool. |
+| **Rotary encoder / knob** | Programmable scroll wheel on the keyboard. Common uses: volume, scroll, zoom, media seek. |
+| **Scroll wheel** | Variant of encoder — infinite scroll, typically for media or zoom control. |
+
+## QMK and VIA
+
+**QMK (Quantum Mechanical Keyboard):** Open-source firmware for keyboards. Full programmability — remap every key, create layers, add macros, control RGB, define encoder behavior. Requires flashing the keyboard.
+
+**VIA:** A GUI front-end for QMK-compatible boards. Remap keys visually without writing any code or reflashing. Plug in the keyboard, open VIA in browser, drag and drop key assignments. Much easier entry point than raw QMK.
+
+**QMK/VIA compatible** = the keyboard supports this stack. Highly desirable for any custom or modded build.
+
+## Boards Worth Knowing
+
+| Board | What it is |
+|---|---|
+| **Zuoya GMK87** | Budget TKL (87-key), hot-swap, gasket mount. Good build quality for the price. One of the best-value TKLs. |
+| **Akko 5087S** | 87-key TKL, QMK/VIA compatible, hot-swap. Akko is known for value + modability. Good starting custom board. |
+
+---
+
 ## Boards / Gear Worth Knowing
 
-*(add as you explore — switches you've tried, boards you want, keycaps you like)*
+*(add switches you've tried, specific boards, keycap sets)*
 
 ---
 
