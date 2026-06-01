@@ -81,6 +81,8 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[mechatronics beginner]] — get into mechatronics + inverse kinematics
 - [[dad's guitars database]] — catalogue dad's guitar collection
 - [[pole dropper reflex machine]] — reaction-time tester: random drop + timer
+- [[custom usb stick chassis]] — custom housing for a USB drive; wood, resin, or metal options
+- [[custom chessboard]] — handmade maple/walnut chessboard; storage base optional
 
 ### Potential
 - [[custom rubiks cube]] — low plausibility, flagged
