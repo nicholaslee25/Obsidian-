@@ -16,6 +16,7 @@
 | Blood-C | Horror anime. Dark, violent, don't watch before bed. |
 | Summertime Rendering | Mystery, time loops, supernatural horror. Highly rated. |
 | Your Lie in April | Music + grief + romance. Beautiful and will ruin you. |
+| Kimi no Na Wa (Your Name) | Bodyswap + time + distance. One of the most visually stunning anime films made. |
 
 ## Light Novels / Manga — To Read
 
