@@ -39,9 +39,22 @@ Upside: grammar is simpler than Spanish. No conjugation, no gendered nouns.
 
 ---
 
-## Notes / Vocab Wins
+## Vocab & Phrases
 
-*(add things here as they stick)*
+Table columns: Characters | Pinyin | English | Direct Translation | Type
+
+| Characters | Pinyin | English | Direct Translation | Type |
+|---|---|---|---|---|
+| 好活 | hǎo huó | Nice work / Well done | Good work | Colloquial praise |
+| 哈哈 | hā hā | Lol / Haha | Ha ha | Expression |
+| 加油 | jiā yóu | Keep going / You got this | Add oil | Encouragement |
+| 真的吗 | zhēn de ma | Seriously? / Really? | Really? | Expression |
+| 什么时候开始 | shén me shí hou kāi shǐ | When do we start? | What time start? | Phrase |
+| 好的，继续 | hǎo de, jì xù | Alright, keep going | Good, continue | Phrase |
+| 慢慢吃 | màn màn chī | Enjoy your meal / Take your time eating | Slow slow eat | Saying / courtesy |
+| 笨蛋 | bèn dàn | Idiot / Dummy | Stupid egg | Vocab / colloquial insult |
+| 厚 | hòu | Thick | Thick | Vocab |
+| 薄 | báo | Thin | Thin | Vocab |
 
 ---
 
