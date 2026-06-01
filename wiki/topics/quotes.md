@@ -10,6 +10,23 @@ Quotes that hit. No fluff, no wallpaper posters. Things worth rereading.
 
 ---
 
+## The One Rule — Immanuel Kant
+
+> *"Act in such a way that you treat humanity, whether in your own person or in the person of any other, never merely as a means to an end, but always at the same time as an end."*
+> — Immanuel Kant, *Groundwork of the Metaphysics of Morals*
+
+The **categorical imperative** — Kant's universal rule for ethics. A shortcut: before you do something, ask "what if everyone did this?" and "am I using this person, or respecting them?" If either answer is bad, don't do it.
+
+---
+
+## On Being a Generalist
+
+> *"A jack of all trades is a master of none, but often better than a master of one."*
+
+The full quote — not the half that gets misused. Being broadly capable is a feature, not a flaw.
+
+---
+
 ## David Gemmell
 
 Soldier, warrior, and heroic fiction author. Writes about ordinary people choosing courage.
