@@ -21,6 +21,8 @@
 | Propitious / Auspicious | Giving or indicating a good chance of success; favorable |
 | Polysemous | Having multiple meanings (e.g. polysemous words) |
 | Unscrupulous | Lacking morals |
+| Flippant | Inappropriately casual or disrespectful about something serious |
+| Percolate | (1) Filter gradually through a porous surface; (2) slowly spread, develop, or spread through a group |
 
 ---
 
