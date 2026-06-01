@@ -412,6 +412,22 @@ Songs that use it: *Freight Train* (Elizabeth Cotten), *Wildwood Flower*, most C
 
 ---
 
+## What is DC offset?
+
+In AC circuits, a signal normally oscillates symmetrically around zero — equal positive and negative swings. **DC offset** is when that signal has a non-zero average value, meaning it's shifted up or down from zero.
+
+**In audio:** A DC offset on a speaker signal means the speaker cone is sitting displaced from its rest position before any audio even plays. Causes:
+- Distortion (asymmetric clipping)
+- Wasted amplifier headroom
+- Heat buildup in the voice coil
+- Can physically damage speakers long-term
+
+**Sources:** Amplifier imperfections, power supply noise bleeding into signal paths, ground loops, bad capacitor coupling.
+
+**Fix:** A DC-blocking capacitor in series (passes AC, blocks DC). Most audio equipment has these built in. If you're measuring with an oscilloscope and see the waveform floating above or below zero — that's DC offset.
+
+---
+
 ## Tech — Tinkering (Components to Consider Buying)
 
 Hardware worth knowing about and potentially getting for projects:
