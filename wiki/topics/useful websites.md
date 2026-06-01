@@ -117,6 +117,7 @@
 |---|---|
 | [MapGenie](https://mapgenie.io) | Interactive game maps — check for Silksong when you actually get around to playing it |
 | [ArnisaMC](https://arnismc.com) | Rebuilding real-world locations in Minecraft — reference and inspiration |
+| [Humble Bundle](https://www.humblebundle.com) | Pay-what-you-want game bundles. Often includes books and software too. |
 
 ---
 
