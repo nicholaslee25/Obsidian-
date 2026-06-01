@@ -39,6 +39,7 @@ Chipping away at this. Tick off as watched. Add new ones at the bottom of the ri
 ## Religion / Faith
 
 - [ ] [You vs You](https://www.youtube.com/watch?v=QkCa--fyGjA)
+- [ ] [When You Don't Like Who You're Becoming — Life Church](https://www.life.church/media/messages/a-better-way/when-you-dont-like-who-youre-becoming/)
 
 ---
 
