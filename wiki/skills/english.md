@@ -39,6 +39,12 @@
 
 ---
 
+## Resources
+
+- [Expand Your Vocabulary (YouTube)](https://www.youtube.com/watch?v=uLN6IdRtDhg)
+
+---
+
 ## Related
 
 - [[goals]]
