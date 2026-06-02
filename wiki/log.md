@@ -76,6 +76,22 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 
 - `topics/useful websites.md` — new page, first entry: coddy.tech (Duolingo-style coding practice)
 
+## [2026-06-01] update | Ninth dump — home ownership, Nietzsche, guitar, EagleCAD, cooking
+
+Pages created:
+- `topics/home ownership.md` — buying checklist, house maintenance schedule, landlord responsibilities, house flipping
+
+Pages updated:
+- `topics/people of interest.md` — added Friedrich Nietzsche (full entry: Will to Power, Übermensch, amor fati, eternal recurrence, master-slave morality, misappropriation note)
+- `skills/music.md` — added Overwhelmed to songs to learn
+- `skills/english.md` — added vocab YouTube resource link
+- `skills/cooking.md` — added Hainanese chicken to Wanna Cook
+- `topics/useful websites.md` — EagleCAD entry expanded with Jeremy Blum tutorial series + Gerber file guide; added Vaughn Gene "Teach Yourself Anything" to Learning section
+
+Note: Most food items from dump already existed (Chow mein, Pho, Tandoori, Chazuke, Hot green peas, Fermented Rice Alc in Beverages). Egg tarts/rice pudding/matcha pudding already in baking.md.
+
+---
+
 ## [2026-06-01] update | Eighth dump — voltage regs, new projects, drawing skill, employers
 
 Pages created:
