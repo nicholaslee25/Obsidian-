@@ -67,6 +67,7 @@
 | [MIT OpenCourseWare](https://ocw.mit.edu) | Free MIT course materials — lectures, problem sets, exams across every subject |
 | [coddy.tech](https://coddy.tech) | Duolingo-style coding practice — bite-sized lessons, gamified |
 | [Instructables](https://www.instructables.com) | Step-by-step DIY guides for everything — one of the best maker resources on the internet |
+| [Teach Yourself Anything — Vaughn Gene](https://www.youtube.com/results?search_query=vaughn+gene+teach+yourself+anything) | Framework for self-teaching any skill |
 | [Old Maps Online](https://oldmapsonline.org/en) | Browse historical maps from around the world — search by location and era |
 
 ---
