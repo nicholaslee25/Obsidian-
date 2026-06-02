@@ -36,7 +36,7 @@
 | [JLCPCB](https://jlcpcb.com) | Fabrication | Most popular budget PCB fab. Fast turnaround, very cheap for small runs. |
 | [PCBWay](https://www.pcbway.com) | Fabrication | Slightly pricier than JLC, more advanced options, better customer service reputation |
 | [KiCad](https://www.kicad.org) | Design software | Free, open-source, industry-capable. Best choice for hobbyists. |
-| [EagleCAD](https://www.autodesk.com/products/eagle) | Design software | Industry standard, now owned by Autodesk. Free tier limited to 2 layers, 80cm² board. |
+| [EagleCAD](https://www.autodesk.com/products/eagle) | Design software | Industry standard, now owned by Autodesk. Free tier limited to 2 layers, 80cm² board. School-recommended. [Jeremy Blum tutorial series](https://www.youtube.com/results?search_query=jeremy+blum+eagle+cad+tutorial) (start with tutorials 1 & 2). [How to create a Gerber file in EagleCAD](https://www.youtube.com/results?search_query=how+to+create+gerber+file+eagle+cad) |
 | [Cadence OrCAD X](https://www.cadence.com/en_US/home/tools/pcb-design-and-analysis/orcad.html) | Design software | Professional/enterprise-grade. Overkill for hobby use. |
 
 **Recommendation:** KiCad for design + JLCPCB for fabrication is the standard hobbyist stack.
