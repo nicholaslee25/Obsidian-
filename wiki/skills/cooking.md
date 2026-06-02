@@ -24,6 +24,7 @@
 - Biryani
 - Chili oil
 - Kimchi (watermelon, radish, and/or cabbage)
+- Hainanese chicken
 
 ---
 
