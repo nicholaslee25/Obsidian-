@@ -92,6 +92,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[floating gear]] — levitating gear display piece
 
 ## Topics
+- [[home ownership]] — buying checklist, house maintenance schedule, landlord responsibilities, house flipping (ARV, 70% rule, BRRRR)
 - [[keyboards]] — switches, layouts, cases, keycaps, PCB, modding, external peripherals
 - [[photography]] — favorite styles (long exposure, reflections), settings plain English; building out
 - [[pc parts]] — monitor types (IPS/TN/VA/OLED), specs explained plainly; more sections TBD
