@@ -38,6 +38,36 @@ People worth knowing about — thinkers, engineers, writers, characters.
 
 ---
 
+## Friedrich Nietzsche
+
+**Who:** 19th-century German philosopher. One of the most influential — and most misread — thinkers in Western philosophy.
+
+**Core ideas:**
+
+| Concept | What it actually means |
+|---|---|
+| **"God is dead"** | Not a celebration — a diagnosis. The Enlightenment destroyed the moral framework Christianity provided. Without it, what grounds morality? Nietzsche saw nihilism as the inevitable crisis to follow. |
+| **Will to Power** *(Wille zur Macht)* | The fundamental human drive — not just power over others, but self-mastery, growth, creative expression. The drive to overcome. |
+| **Übermensch** *(Overman/Superman)* | An ideal figure who creates their own values rather than inheriting them from religion or society. Not a political leader — the antithesis of herd conformity. |
+| **Eternal Recurrence** | Thought experiment: What if you had to live your life, exactly as it is, over and over infinitely? Would you say *yes*? It's a test of amor fati. |
+| **Amor Fati** *(Love of Fate)* | Embrace everything that happens — not passive resignation, but active love of your life as it is. "Not merely bear what is necessary... but love it." |
+| **Master-slave morality** | Masters create values (good/bad). Slaves, unable to overcome masters, invert values — calling weakness "good" and strength "evil." Nietzsche called this *ressentiment*. |
+| **Nihilism** | He didn't advocate it — he diagnosed it as the spiritual disease of modernity and was trying to find a way through it. |
+
+**Books (roughly in order of approachability):**
+- *Thus Spoke Zarathustra* — allegorical, poetic; introduces the Übermensch and eternal recurrence
+- *Beyond Good and Evil* — dense critique of philosophy and morality
+- *The Gay Science* — contains "God is dead"; more accessible than it sounds
+- *On the Genealogy of Morality* — historical critique of where our moral concepts came from
+- *Twilight of the Idols* — late career, sharp, readable
+
+**Important note on misappropriation:**
+Nietzsche's sister Elisabeth, after his death, edited his unpublished notes into *The Will to Power* and twisted his work to support German nationalism and antisemitism. Nietzsche himself was explicitly anti-nationalist and anti-antisemitic. The Nazis stole his image; his actual philosophy is incompatible with it.
+
+**Why he's interesting:** He asked the questions most people are afraid to ask. Not a source of answers so much as a very sharp interrogation of the ones we take for granted.
+
+---
+
 ## Related
 
 - [[reading]]
