@@ -76,6 +76,19 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 
 - `topics/useful websites.md` — new page, first entry: coddy.tech (Duolingo-style coding practice)
 
+## [2026-06-02] update | Tenth dump — songs list, culture, Raspberry Pi project
+
+Pages created:
+- `projects/raspberry pi ai assistant.md` — Pi-hosted voice assistant; Faster-Whisper STT + Piper TTS + Claude API + internet search layer; 3 reference videos noted; full build path checklist
+
+Pages updated:
+- `skills/music.md` — songs table expanded from 5 → 33 entries; added Artist column; new songs: Riptide, I'm Yours, Hey Soul Sister, Country Roads, Sweet Home Alabama, 4× Yorushika (Blur, Emerald Green Window, Sunny Day for You, Spring Thief), Mia & Sebastian's Theme, Howl's Moving Castle, River Flows in You, NGNL OP, Cannon in D, Carry On Wayward Son, Come Sail Away, Again (YUI), Adventure of a Lifetime, Tongue Tied, Until I Found You, Start Me Up, Mr. Brightside, 7 Nation Army, Iron Man, Veil, Wistoria Ending, Glorious Day, Silent Night
+- `you/culture.md` — restructured into Chinese and Indian sections; Chinese etiquette table added (tea tapping, teapot lid refill signal, don't step over people); Indian section placeholder
+
+Note: All vocab/phrases/books from dump already existed in english.md and reading.md — no changes needed.
+
+---
+
 ## [2026-06-01] update | Ninth dump — home ownership, Nietzsche, guitar, EagleCAD, cooking
 
 Pages created:
