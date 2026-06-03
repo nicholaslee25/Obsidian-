@@ -76,6 +76,12 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 
 - `topics/useful websites.md` — new page, first entry: coddy.tech (Duolingo-style coding practice)
 
+## [2026-06-02] update | Le'bama — Pi 4 vs 5 comparison + Ollama confirmed viable
+
+- `projects/raspberry pi ai assistant.md` — LLM options table updated (Ollama now a confirmed path alongside Claude API); Pi 4 vs Pi 5 comparison table added specific to Le'bama's stack; Ollama model performance benchmarks on Pi hardware included
+
+---
+
 ## [2026-06-02] update | Le'bama stack update
 
 - `projects/raspberry pi ai assistant.md` — renamed to Le'bama; stack updated: Rhasspy (voice pipeline) + Home Assistant (smart home) + Claude (brain) + Piper (TTS); architecture diagram updated with simple intent vs. open query branching; added ⚠️ note on Claude "locally hosted" (API vs. Ollama trade-offs); new open questions (Rhasspy 2 vs 3, same Pi vs dedicated HA Pi, wake word)
