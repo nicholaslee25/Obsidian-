@@ -1,86 +1,104 @@
-# Raspberry Pi AI Assistant
+# Le'bama — Raspberry Pi AI Assistant
 
 **Type:** Project
-**Tags:** #project #electronics #ai #raspberrypi #software
+**Tags:** #project #electronics #ai #raspberrypi #software #homeassistant
 **Last updated:** 2026-06-02
 
 ---
 
 ## Concept
 
-A voice assistant running on a Raspberry Pi — locally hosted interface, Claude as the brain, internet access enabled. Goal: replace Alexa/Google with something actually personal and controllable.
+Le'bama — a personal voice assistant running on a Raspberry Pi. Rhasspy handles the voice pipeline, Home Assistant is the smart home hub, Claude is the brain, Piper handles speech output. Goal: replace Alexa/Google with something actually yours.
 
 ---
 
 ## Reference Videos
 
 1. [my local, AI Voice Assistant (I replaced Alexa!!)](https://www.youtube.com/watch?v=XvbVePuP7NY)
-2. [Create an AI Voice Assistant in 5 minutes - Powered by GPT-4o](https://www.youtube.com/watch?v=E7qxYWLWOtk) *(swap GPT-4o → Claude API)*
+2. [Create an AI Voice Assistant in 5 minutes - Powered by GPT-4o](https://www.youtube.com/watch?v=E7qxYWLWOtk) *(architecture reference — swap GPT-4o → Claude)*
 3. [I Built a Local AI Assistant: 100% Free & No Subscriptions!](https://www.youtube.com/watch?v=7ffF3fumhcQ)
+
+---
+
+## Stack
+
+| Layer | Tool | Notes |
+|---|---|---|
+| **Voice pipeline** | Rhasspy | Open-source, fully offline voice assistant framework. Handles wake word → STT → intent recognition → TTS orchestration. Integrates with Home Assistant via MQTT. |
+| **Smart home hub** | Home Assistant | Runs on Pi (or dedicated Pi). Controls lights, switches, thermostats, media. Le'bama routes home automation intents here. |
+| **LLM / Brain** | Claude *(see note below)* | For complex queries beyond simple home automation. |
+| **TTS** | Piper | Fast, local, runs on Pi. Many voice options. Free. |
+| **Hardware** | Raspberry Pi 4 or 5 | Pi 5 preferred for Rhasspy + HA together |
+| **Microphone** | USB mic or ReSpeaker HAT | ReSpeaker has built-in noise cancellation |
+| **Speaker** | 3.5mm or USB | Anything works |
 
 ---
 
 ## Architecture
 
 ```
-[Wake Word] → [Microphone] → [STT] → [Claude API] → [TTS] → [Speaker]
-                                           ↑
-                                    [Internet / Tools]
+[Wake Word — Rhasspy]
+        ↓
+[STT — Rhasspy / Whisper]
+        ↓
+[Intent recognized?]
+    ↙           ↘
+[Simple intent]   [Open query / complex]
+[Home Assistant]  [Claude → response]
+        ↘           ↙
+        [Piper TTS → Speaker]
 ```
 
-### Components
-
-| Layer | Tool / Option | Notes |
-|---|---|---|
-| **Hardware** | Raspberry Pi 4 or 5 | Pi 5 preferred for speed; Pi 4 works |
-| **Microphone** | USB mic or ReSpeaker HAT | ReSpeaker has built-in noise cancellation + wake word chip |
-| **Speaker** | 3.5mm audio out or USB speaker | Any small speaker works |
-| **Wake word** | Porcupine (Picovoice) or custom keyword | "Hey Claude", "Hey Pi", etc. |
-| **STT** | Whisper (OpenAI, runs locally) | Faster-Whisper for Pi performance |
-| **LLM** | Claude API (Anthropic) | Requires internet + API key; not fully local |
-| **TTS** | Piper (local, fast) or ElevenLabs | Piper is free and runs on Pi; ElevenLabs sounds better but costs |
-| **Internet access** | Pass web search results as context | Use a search API (SerpAPI, Tavily, or DuckDuckGo) to give Claude live info |
-| **Orchestration** | Python script | Ties all layers together |
+Simple intents (turn off lights, set timer, play music) → Home Assistant handles directly.
+Open-ended queries → forwarded to Claude, response piped through Piper.
 
 ---
 
-## Key Decisions
+## ⚠️ Claude "Locally Hosted" — Important Note
 
-- **Fully local vs. API-dependent:** Videos 1 and 3 go fully local (Ollama + local TTS/STT). Video 2 uses cloud API. Your version = hybrid — local STT/TTS, cloud Claude API for the brain.
-- **"Local" here means:** The Pi handles audio input/output and orchestration. Claude inference happens via API (not on-device). Trade-off: needs internet, has API cost, but Claude >>> any model that runs on Pi hardware.
-- **Internet access for Claude:** Feed Claude real-time info by running a web search step before each API call when needed. Tools like Tavily or SerpAPI return clean search results you can pass as context.
+Anthropic's Claude **cannot run locally** — it's a closed, proprietary model served via API only. "Locally hosted" options:
+
+| Option | What it actually is | Trade-off |
+|---|---|---|
+| **Claude API** | Actual Claude, called over internet | Needs internet + API key. Has usage cost. Best quality. |
+| **Ollama (local LLM)** | Open-source model (Llama 3, Mistral, Qwen) running on Pi | Fully offline, free, no internet needed. Not Claude — noticeably less capable, especially on Pi hardware. |
+| **Local API proxy** | Routes Claude API calls through a local endpoint | Still needs internet for uncached queries. Adds complexity for minimal benefit. |
+
+**Decision needed:** True offline (Ollama) vs. internet-dependent but actually Claude (API). Recommend Claude API — the quality difference is real, and a Pi can handle the orchestration even if it can't run the model.
 
 ---
 
 ## Build Path
 
-- [ ] Flash Raspberry Pi OS (64-bit) onto SD card
-- [ ] Install Python 3.10+, set up virtual env
-- [ ] Wire up USB mic + test audio in/out
-- [ ] Install and test Faster-Whisper (STT)
-- [ ] Install and test Piper (TTS)
-- [ ] Set up Anthropic Python SDK, test basic Claude API call
-- [ ] Implement wake word detection (Porcupine free tier or keyword spotting)
-- [ ] Build orchestration loop: wake → record → transcribe → call Claude → speak response
-- [ ] Add internet/search layer: detect when query needs live info, run search, inject into prompt
-- [ ] Polish: conversation history, system prompt, error handling
-- [ ] Optional: Home automation hooks (lights, music, etc.)
+- [ ] Decide: same Pi for Rhasspy + HA, or dedicated Pi for HA?
+- [ ] Flash Raspberry Pi OS (64-bit), install Home Assistant (HAOS or supervised)
+- [ ] Install Rhasspy — configure wake word, STT backend, intent system
+- [ ] Install and configure Piper TTS in Rhasspy
+- [ ] Wire up mic + speaker, test full Rhasspy pipeline end-to-end
+- [ ] Set up Anthropic Python SDK (or Ollama if going local)
+- [ ] Write custom intent handler: catch open queries → send to Claude → return TTS response
+- [ ] Connect Rhasspy intents → Home Assistant (MQTT or REST)
+- [ ] Test home automation commands through Le'bama
+- [ ] Add internet search layer for live info queries (Tavily or DuckDuckGo API)
+- [ ] System prompt + personality — define who Le'bama is
+- [ ] Polish: conversation history, error handling, fallback responses
 
 ---
 
 ## Open Questions
 
-- [ ] Pi 4 or Pi 5? (Pi 5 has noticeably better performance for Whisper)
-- [ ] Piper TTS voice selection (many voices available — pick one)
-- [ ] Always-on listening vs. push-to-talk? (Push-to-talk is simpler and more private)
-- [ ] System prompt — what personality/context does this assistant have?
-- [ ] API cost management — log usage, set monthly cap
+- [ ] Claude API or Ollama (local)? — see note above
+- [ ] Rhasspy 2 (stable) vs. Rhasspy 3 (newer, more modular)?
+- [ ] Same Pi for everything, or separate Pi for Home Assistant?
+- [ ] Piper voice — pick one from the voice list
+- [ ] Wake word — "Le'bama", "Hey bama", custom?
+- [ ] Always-on listening vs. push-to-talk?
 
 ---
 
 ## Status
 
-Planning — following reference videos
+Planning — stack selected, following reference videos
 
 ---
 
