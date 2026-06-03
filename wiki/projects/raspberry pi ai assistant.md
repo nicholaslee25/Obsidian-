@@ -54,17 +54,47 @@ Open-ended queries → forwarded to Claude, response piped through Piper.
 
 ---
 
-## ⚠️ Claude "Locally Hosted" — Important Note
+## LLM Options
 
-Anthropic's Claude **cannot run locally** — it's a closed, proprietary model served via API only. "Locally hosted" options:
+Two viable paths — both work with the Rhasspy + HA + Piper stack:
 
-| Option | What it actually is | Trade-off |
+| Option | What it is | Pros | Cons |
+|---|---|---|---|
+| **Ollama (local)** | Open-source model running on the Pi itself (Phi-3, Gemma, Llama 3) | Fully offline, free, private, no API key | Slower responses on Pi hardware; smaller models = less capable than Claude |
+| **Claude API** | Actual Claude, called over internet | Best quality by far | Needs internet + API key; small usage cost |
+
+**Ollama on Pi — realistic expectations:**
+
+| Model | Size | Pi 4 8GB | Pi 5 8GB |
+|---|---|---|---|
+| Phi-3 Mini (3.8B) | ~2.3GB | Slow (~30–60s) | Usable (~10–20s) |
+| Gemma 2 (2B) | ~1.6GB | Marginal | Better |
+| Llama 3.2 (3B) | ~2GB | Slow | Usable |
+| Llama 3 (8B) | ~4.7GB | Very slow | Slow but possible |
+
+For Ollama to feel tolerable, Pi 5 8GB is the minimum. Pi 4 will frustrate you for LLM inference.
+
+---
+
+## Pi 4 vs Pi 5 — For Le'bama Specifically
+
+| | Raspberry Pi 4 (8GB) | Raspberry Pi 5 (8GB) |
 |---|---|---|
-| **Claude API** | Actual Claude, called over internet | Needs internet + API key. Has usage cost. Best quality. |
-| **Ollama (local LLM)** | Open-source model (Llama 3, Mistral, Qwen) running on Pi | Fully offline, free, no internet needed. Not Claude — noticeably less capable, especially on Pi hardware. |
-| **Local API proxy** | Routes Claude API calls through a local endpoint | Still needs internet for uncached queries. Adds complexity for minimal benefit. |
+| **CPU** | Cortex-A72 @ 1.8GHz | Cortex-A76 @ 2.4GHz (~2–3× faster) |
+| **RAM** | Up to 8GB | Up to 8GB |
+| **Price (8GB)** | ~$75 MSRP (often $90–120 market) | ~$80 MSRP |
+| **PCIe slot** | No | Yes — add NVMe SSD (huge for HA + Ollama model storage) |
+| **Rhasspy + Piper** | Fine | Fine, faster |
+| **Home Assistant** | Fine on 4GB+ | Fine, snappier |
+| **Whisper STT** | Slow on base model (~20–30s) | Noticeably faster (~5–10s) |
+| **Ollama (local LLM)** | Painful — don't bother | Usable with small models (3B–4B) |
+| **Claude API** | Totally fine — Pi just routes the call | Totally fine |
+| **Verdict** | Good if using Claude API only | **Get this one** — especially if using Ollama |
 
-**Decision needed:** True offline (Ollama) vs. internet-dependent but actually Claude (API). Recommend Claude API — the quality difference is real, and a Pi can handle the orchestration even if it can't run the model.
+**Bottom line:**
+- Using **Claude API** → Pi 4 8GB works fine, saves money
+- Using **Ollama** → Pi 5 8GB, no question. Also buy the active cooler and consider an NVMe hat for faster model loading.
+- Running **HA + Rhasspy + Ollama all on one Pi** → Pi 5 8GB is the minimum viable config
 
 ---
 
