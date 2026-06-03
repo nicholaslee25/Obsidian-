@@ -12,13 +12,41 @@
 
 ### Songs / Solos to Learn
 
-| Song | What to learn | Status |
-|---|---|---|
-| Sultans of Swing — Dire Straits | Both solos | Not started |
-| Here in the Power of Christ | Full song | Not started |
-| Lost in Paradise — Ali (ft. AKLO) | Full guitar (2nd JJK opening) | Not started |
-| Song of Storms — Zelda | Fingerstyle arrangement (via YouTube Shorts) | Not started |
-| Overwhelmed | Guitar cover | Not started |
+| Song | Artist / Source | What to learn | Status |
+|---|---|---|---|
+| Riptide | Vance Joy | Chords + strumming pattern | Not started |
+| I'm Yours | Jason Mraz | Chords + strumming | Not started |
+| Hey Soul Sister | Train | Capo + chords | Not started |
+| Country Roads | John Denver | Chords + strumming | Not started |
+| Sweet Home Alabama | Lynyrd Skynyrd | Iconic intro riff + chords | Not started |
+| Blur | Yorushika | Full song | Not started |
+| Emerald Green Window | Yorushika | Full song | Not started |
+| Sunny Day for You (ただ君に晴れ) | Yorushika | Full song | Not started |
+| Spring Thief (春泥棒) | Yorushika | Full song | Not started |
+| Mia and Sebastian's Theme | La La Land | Fingerstyle | Not started |
+| Howl's Moving Castle Theme | Joe Hisaishi | Fingerstyle | Not started |
+| River Flows in You | Yiruma | Fingerstyle guitar arrangement | Not started |
+| This Game (NGNL OP) | Konomi Suzuki | Full song | Not started |
+| Cannon in D | Pachelbel | Fingerstyle arrangement | Not started |
+| Carry On Wayward Son | Kansas | Rock riffs + chords | Not started |
+| Come Sail Away | Styx | Chords + structure | Not started |
+| Again (FMA Brotherhood OP 1) | YUI | Full song | Not started |
+| Adventure of a Lifetime | Coldplay | Chords | Not started |
+| Tongue Tied | Grouplove | Strumming | Not started |
+| Until I Found You | Stephen Sanchez | Distortion version | Not started |
+| Start Me Up | Rolling Stones | Rock riff + chords | Not started |
+| Mr. Brightside | The Killers | Chords | Not started |
+| 7 Nation Army | The White Stripes | Iconic riff | Not started |
+| Iron Man | Black Sabbath | Iconic riff | Not started |
+| Veil | Fire Force OST | Full song | Not started |
+| Frozen (Wistoria Ending) | Wistoria anime | Full song | Not started |
+| Glorious Day | Casting Crowns / Passion | Full song | Not started |
+| Silent Night | Traditional | Fingerstyle or chords | Not started |
+| Sultans of Swing | Dire Straits | Both solos | Not started |
+| Here in the Power of Christ | — | Full song | Not started |
+| Lost in Paradise | Ali ft. AKLO (JJK OP 2) | Full guitar | Not started |
+| Song of Storms | Zelda | Fingerstyle (YouTube Shorts) | Not started |
+| Overwhelmed | — | Guitar cover | Not started |
 
 ### Techniques to Learn
 
