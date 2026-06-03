@@ -62,6 +62,7 @@ Master catalog of all wiki pages. Updated after every operation.
 
 - [[rotary encoder knob]] — custom magnetic rotary encoder knob; use case TBD
 - [[ollama local llm]] — local LLM runner setup; use case TBD
+- [[raspberry pi ai assistant]] — Pi-hosted voice assistant; local STT/TTS + Claude API brain + internet search
 - [[discord wiki bot]] — Discord bot that queries the wiki via Claude API
 - [[game farming bot]] — MCOC farming bot; screen capture + AI page recognition; active
 - [[copper plating oxidized gift]] — electroplate + patina an object as a gift
