@@ -1,4 +1,4 @@
-# YouTube Watch Later
+﻿# YouTube Watch Later
 
 **Type:** Topic
 **Tags:** #resources #youtube #motivation #learning
@@ -8,7 +8,23 @@
 
 Chipping away at this. Tick off as watched. Add new ones at the bottom of the right section.
 
-**Categories:** Motivational/Discipline · Personal Development · Academic/Educational · Finance · Documentary · Science · Tech/DIY · Music · Entertainment
+**Categories:** Channels · Motivational/Discipline · Personal Development · Academic/Educational · Finance · Documentary · Science · Tech/DIY · Music · Entertainment
+
+---
+
+## Channels
+
+### Motivational / Discipline
+- [@withyunakim](https://www.youtube.com/@withyunakim) — korean med student, inspiration
+
+### Personal Development
+- [@zelihaakpinar](https://www.youtube.com/@zelihaakpinar) — doctor, been watching since early med school
+
+### Academic / Educational
+- [@justaFLAM](https://www.youtube.com/@justaFLAM) — asian culture explained
+
+### Tech / DIY
+- [@xnzxnz](https://www.youtube.com/@xnzxnz) — chinese engineer girl
 
 ---
 
@@ -106,3 +122,4 @@ Chipping away at this. Tick off as watched. Add new ones at the bottom of the ri
 
 - [[useful websites]]
 - [[reading]]
+
