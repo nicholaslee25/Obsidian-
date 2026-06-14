@@ -77,6 +77,13 @@ locateCenterOnScreen('btn.png', confidence=0.8) — 0.8 = 80% match threshold. L
 
 ---
 
+## Docs
+
+- [PyAutoGUI Official Docs](https://pyautogui.readthedocs.io/en/latest/)
+
+---
+
 ## Related
 
 - [[nfc microcontroller connection]]
+

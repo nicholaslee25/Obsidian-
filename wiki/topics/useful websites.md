@@ -1,4 +1,4 @@
-# Useful Websites
+﻿# Useful Websites
 
 **Type:** Topic
 **Tags:** #resources #tools #learning
@@ -94,6 +94,7 @@
 |---|---|
 | [blink.new](https://blink.new) | AI-powered web app builder — describe what you want, get a working app fast |
 | [rocket.new](https://rocket.new) | Another AI app builder — similar to blink.new |
+| [PyAutoGUI Docs](https://pyautogui.readthedocs.io/en/latest/) | Full pyautogui reference — mouse, keyboard, screenshot, image matching |
 | [Excel Guru (FormulaBot)](https://analytics.formulabot.com/dashboard) | AI-powered Excel/Sheets formula assistant — describe what you want, get the formula |
 
 ---
@@ -163,3 +164,4 @@
 
 - [[reading]]
 - [[index]]
+
