@@ -10,7 +10,7 @@
 
 Kinetic sand art table. A steel ball sits ON TOP of the sand and is dragged around by a magnet underneath the tray -- leaves trails as it goes. Software-to-motion mapping is 1:1 so pattern generation is essentially free.
 
-Reference product: Lemofuta 20" Automatic Drift Sandscape ($370 -- absurd).
+Reference product: [Lemofuta 20" Automatic Drift Sandscape](https://www.amazon.com/Lemofuta-Automatic-Drift-Sandscape-Relaxation/dp/B0FT72D7JP/) ($370 -- absurd).
 
 ---
 
@@ -56,3 +56,4 @@ Idea / research
 
 - [[floating gear]]
 - [[tensegrity table]]
+
