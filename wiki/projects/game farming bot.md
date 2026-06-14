@@ -1,47 +1,79 @@
-# Game Farming Bot
+﻿# Game Farming Bot
 
 **Type:** Project
 **Tags:** #project #software #automation #gaming
-**Status:** Planning
-**Last updated:** 2026-05-27
+**Status:** Active
+**Last updated:** 2026-06-14
 
 ---
 
 ## Overview
 
-Automate farming in a game using screen capture + mouse/keyboard control. Claude reads the game state from screenshots and executes actions — grinding resources, repeating loops, whatever the farm requires.
+Automate farming in MCOC (Marvel Contest of Champions) using screen capture + mouse control. Script detects game state from screenshots and clicks the right buttons — navigating menus, starting autofight, looping through content.
 
-**Game:** Marvel Contest of Champions (MCOC)
+**Game:** Marvel Contest of Champions (MCOC) — desktop/emulator
+**Goal:** Auto-navigate screens to get autoplay running, then let the game handle itself
 
-## Approach
+## Stack
 
-Depends on game type:
-- **Browser game** → Claude in Chrome MCP (simplest, no extra setup)
-- **Desktop game** → PyAutoGUI (Python: screenshot + mouse/keyboard input)
-- **Needs fast timing** → AutoHotKey (Windows-native, low latency)
+`python
+import pyautogui as pag
+import os
+import numpy as np
+import time
+`
 
-## Components
+- **pyautogui** — mouse movement, clicking, screenshots
+- **os** — build file paths to reference PNGs
+- **numpy** — image array handling (used internally by pyautogui/opencv)
+- **time** — delays between actions
+- opencv-python installed separately — powers image matching under the hood
 
-1. **Screen capture** — screenshot the game window or region
-2. **State detection** — read what's on screen (pixel color, image match, or OCR)
-3. **Action logic** — decide what to click/press based on state
-4. **Loop** — repeat until farm is done or interrupted
+## How It Works
 
-## Progress
+1. Screenshot the button/screen element you want to detect → save as .png in project folder
+2. pag.locateCenterOnScreen('button.png', confidence=0.8) — finds it on screen, returns (x, y)
+3. pag.click(x, y) — clicks it
+4. Loop with 	ime.sleep() between checks to wait for next screen
 
-Active — game confirmed: **MCOC (Marvel Contest of Champions)**. Currently coding. Learning screen capture + AI-assisted page recognition as a transferable skill.
+## Key Patterns
 
-> "Learning code and page recognition with AI is a very useful skill in a world where AI is very underoptimized."
+`python
+# Setup
+pag.FAILSAFE = False  # disable corner-kill (re-enable during dev)
+current_path = os.path.dirname(__file__)
+login_png = os.path.join(current_path, 'login_button.png')
 
-## Open Questions
+# Find and click
+x, y = pag.locateCenterOnScreen(login_png, confidence=0.8)
+pag.click(x, y)
 
-- Desktop app or emulator + browser approach?
-- What exactly is being farmed (resources, XP, items)?
-- Any anti-bot detection to work around?
+# Screen size / mouse pos
+pag.size()      # (width, height)
+pag.position()  # current mouse (x, y)
+`
 
-## Notes
+## confidence param
+locateCenterOnScreen('btn.png', confidence=0.8) — 0.8 = 80% match threshold. Lower = more lenient but more false positives. Start at 0.9, lower if not finding it.
 
-*(add game details, farming logic, script progress here)*
+## Gotchas
+
+- Reference PNGs must match exact resolution/scale of the game window
+- Animations or glowing buttons will break matching — screenshot a static state
+- locateCenterOnScreen returns None if not found — add a check or it'll crash on unpack
+- pyscreeze, cv2 don't need to be imported — pyautogui uses them internally
+
+## TODO
+
+- [ ] Map out all screens that need navigation (lobby → quest → fight → repeat)
+- [ ] Screenshot each button needed as a .png reference
+- [ ] Add None-check before clicking (handle screen not found)
+- [ ] Add timing logic — some screens load slower than others
+- [ ] Loop structure: detect state → act → sleep → repeat
+
+## People
+
+- **Parker** — working on this project, good learning opportunity for programming fundamentals (screen capture, logic flow, timing)
 
 ---
 
