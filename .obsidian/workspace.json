@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 1060.5
   },
   "right": {
     "id": "06401610964213df",
@@ -179,7 +179,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "86279511af9849f5",
+  "active": "1f37ca8d513382b4",
   "lastOpenFiles": [
     "wiki/projects/raspberry pi ai assistant.md",
     "wiki/skills/cooking.md.tmp.9092.de08b3e905e1",
