@@ -1,4 +1,4 @@
-﻿# Game Farming Bot
+# Game Farming Bot
 
 **Type:** Project
 **Tags:** #project #software #automation #gaming
