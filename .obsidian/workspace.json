@@ -11,10 +11,14 @@
             "id": "86279511af9849f5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/projects/music NFC instrument build.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "music NFC instrument build"
             }
           }
         ]
@@ -182,6 +186,8 @@
   },
   "active": "86279511af9849f5",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "2026-07-09.md",
     "wiki/projects/game farming bot.md",
     "wiki/projects/raspberry pi ai assistant.md",
     "wiki/skills/cooking.md.tmp.9092.de08b3e905e1",
@@ -211,8 +217,6 @@
     "wiki/projects/wood cutting board.md",
     "wiki/projects/zen sand table.md",
     "wiki/you/wishlist.md",
-    "wiki/skills/baking.md",
-    "wiki/index.md",
     "wiki/projects/potential/wood etched baby yoda.md.tmp.4340.c7ff30fbe1a5",
     "wiki/projects/potential",
     "wiki/index.md.tmp.4340.d47cbc922fff",
