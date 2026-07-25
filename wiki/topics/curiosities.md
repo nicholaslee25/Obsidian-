@@ -846,6 +846,24 @@ The broader principle: within a fictional world, you can define any rules, physi
 
 ---
 
+## What is the Bechdel test?
+
+A dead-simple measure of women's representation in fiction. To pass, a work must have:
+
+1. **At least two named women**
+2. **Who talk to each other**
+3. **About something other than a man**
+
+That's it. Invented by Alison Bechdel in her 1985 comic strip *Dykes to Watch Out For* — she's credited the idea to her friend Liz Wallace, so it's also called the **Bechdel-Wallace test**.
+
+**Why it matters:** The bar is absurdly low, and a surprising number of films, games, and shows still fail it. It's not a quality metric — a movie can pass and be garbage, or fail and be excellent. It's a quick litmus for whether women exist in a story as full characters or just as props for men's stories.
+
+**Failures you'd recognize:** The original *Star Wars* trilogy. Most heist films. Plenty of war movies. Even some films with female leads fail because the two women only ever discuss the male protagonist.
+
+**Limitations:** Passing doesn't mean feminist. Failing doesn't mean misogynist. It's one blunt data point, not a verdict.
+
+---
+
 ## NSF/ANSI 456 — Vaccine storage standard
 
 **NSF/ANSI 456** is the American standard for pharmaceutical-grade refrigerators and freezers used to store vaccines. Defines:
