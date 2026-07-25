@@ -76,6 +76,12 @@ Open questions seeded across multiple pages — needs Nykel to fill in details o
 
 - `topics/useful websites.md` — new page, first entry: coddy.tech (Duolingo-style coding practice)
 
+## [2026-06-02] update | Added Bechdel test to curiosities
+
+- `topics/curiosities.md` — Bechdel-Wallace test entry added (3 criteria, origin, why it matters, known failures, limitations)
+
+---
+
 ## [2026-06-02] update | Le'bama — Pi 4 vs 5 comparison + Ollama confirmed viable
 
 - `projects/raspberry pi ai assistant.md` — LLM options table updated (Ollama now a confirmed path alongside Claude API); Pi 4 vs Pi 5 comparison table added specific to Le'bama's stack; Ollama model performance benchmarks on Pi hardware included
