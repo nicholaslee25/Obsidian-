@@ -4,6 +4,31 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 
 ---
 
+## [2026-07-25] ingest | Eleventh dump — todo list created, chord progressions, epoxy lesson, new projects
+
+Pages created:
+- `you/todo.md` — new page type: running action-item list (urgent/calls/health/admin/projects/questions). Distinct from `priorities.md` (project-tier framework) and `goals.md` (long-term direction) — this is the concrete "did you do the thing" list
+- `projects/custom pomodoro timer.md` — brainstorming stage, no defined hook yet
+- `projects/potential/engine cad.md` — CAD an engine in Inventor; low conviction, flagged
+
+Pages updated:
+- `skills/music.md` — added Music Theory section: chord progressions by key (G, D, A, C, E)
+- `projects/clear epoxy.md` — added hard-won lesson: this batch hardened in ~2hrs, faster than expected — embedded objects sank to the bottom before layering happened
+- `topics/finance.md` — added trailing stop orders + how to read an earnings report
+- `topics/things to learn.md` — added Fusion 360 CAM/router software under Tech & Electronics
+- `topics/curiosities.md` — added entry on parenting/respect culture vs. the "poor parenting" stereotype (economic hardship ≠ parenting quality)
+- `topics/places to visit.md` — added Hong Kong trip-planning note (text Bailey for local to-do list)
+- `you/goals.md` — Professional section: added Ryo/balloon catheter research outreach + med school funding as open questions
+- `wiki/index.md` — added `[[todo]]`, `[[custom pomodoro timer]]`, `[[engine cad]]`
+
+Flagged for Nykel to confirm:
+- "Separate and document ICs" + "make Excel sheet of requirements" — reads like the same unnamed electronics build as the purchase-list/PCB item, but no project name given. Filed together in `todo.md` under one bucket — confirm which project so it can move there.
+- "Love on the waterfront" paper — "foo" is unclear (placeholder or an actual name?). Filed as-is in `todo.md`.
+- Google Sheet ("what I've been up to since summer 2026 start") — categories captured in `todo.md`; actual sheet creation is external, on Nykel.
+- `skills/instruments.md` is an orphan — not linked from `index.md`, both it and `skills/music.md` are titled "# Music" with overlapping (stale) song lists. Merge into `music.md` and delete, or is it kept for a different purpose?
+
+---
+
 ## [2026-05-14] session-start | Wiki initialized
 
 Vault created. Architecture established: `raw/` for sources, `wiki/` for maintained pages, `CLAUDE.md` as schema. Starting from a blank slate — no sources ingested yet.
