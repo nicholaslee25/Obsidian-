@@ -49,5 +49,5 @@ Useful for:
 ## Related
 
 - [[photography]]
-- [[music]]
+- [[instruments]]
 - [[things to learn]]
