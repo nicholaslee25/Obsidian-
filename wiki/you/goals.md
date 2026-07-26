@@ -74,5 +74,5 @@
 - [[things to learn]]
 - [[balisong]]
 - [[chinese]]
-- [[music]]
+- [[instruments]]
 - [[youtube channel]]
