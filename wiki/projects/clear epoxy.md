@@ -38,7 +38,7 @@ Pour in layers. First layer cures to a "gel" stage (tacky but not liquid) → pl
 
 ## Notes
 
-*(add product links, pour notes, mistakes here)*
+- **Lesson learned (2026-07-25):** this batch hardened in ~2 hours — much faster than expected. Left it sitting for the full 2 hours before checking, and everything embedded sank straight through to the bottom of the brick. The gel-stage window (see above) closes fast — layer *well before* the 2-hour mark, not after it.
 
 ---
 
