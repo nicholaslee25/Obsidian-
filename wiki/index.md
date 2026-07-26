@@ -23,7 +23,9 @@ Master catalog of all wiki pages. Updated after every operation.
 ## Skills
 - [[balisong]] — day 3ish
 - [[chinese]] — active, going "poorly"
-- [[music]] — guitar (active), drums + guzheng (future)
+- [[instruments]] — hub: guitar (active), drums + guzheng (future), kalimba, lofi production
+  - [[guitar songs]] — song list + techniques
+  - [[music theory]] — chord progressions by key
 - [[lockpicking]] — want to learn, need cheap locks and a practice spot
 - [[knot tying]] — bowline, butterfly loop, sheet bend, trucker's hitch, taut-line hitch
 - [[english]] — vocab and phrases table
