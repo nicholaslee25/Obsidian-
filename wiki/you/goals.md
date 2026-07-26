@@ -30,6 +30,10 @@
 - Juggle 4 balls — currently at 3, the gap is a real coordination shift
 - Rock climbing
 - Snowboarding
+- Muscle up
+- Get the splits
+- Forearm twist bar workout
+- "20 minute strong yogi workout" (YouTube)
 
 ## Language & Vocab
 - English — sharper vocab, better expression
