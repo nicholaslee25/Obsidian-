@@ -40,6 +40,9 @@
 - Engineering career — climb via being genuinely likable *and* capable
 - EIT exam (FE exam) — take during or right after senior year; start light studying at work
 - Medical field — still a consideration (open question)
+- Reach out to Ryo about research this year — balloon catheter project? Engineering + medicine crossover
+- Open question: what engineering-related work actually exists at the medicine intersection? (biomedical devices, instrumentation, etc.)
+- Med school — if that path stays live, look into how to actually fund it
 
 → See [[potential employers]] for the full list.
 
