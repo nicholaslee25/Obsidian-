@@ -49,6 +49,8 @@ Conceptual areas worth studying — not skills (those live in `skills/`) and not
 
 *(add: embedded systems, circuit theory, signal processing, networking — as needed)*
 
+- **Fusion 360 CAM / router software** — need to learn the CAM workspace specifically (toolpaths, feeds/speeds), not just modeling. Ties to the Genmitsu Cubiko / Carvera Air CNC router on [[wishlist]]. Already used Fusion 360 for parametric modeling (cycloidal drive, see [[curiosities]]) — this is the next layer.
+
 ---
 
 ## Finance
