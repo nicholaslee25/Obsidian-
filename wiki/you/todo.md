@@ -36,13 +36,13 @@ Running list of actual to-dos — calls, errands, loose threads. Different from 
 - [ ] Look into how to get money for med school → [[goals]]
 - [ ] Redownload Waveform on PC → [[instruments]] (Lofi Production)
 
-## 🔧 Electronics Build (project TBD — confirm which one)
+## 🔧 Electronics Build
 
 - [ ] Purchase list — build circuit with what you already have, test it, then make a PCB
 - [ ] Separate and document your ICs
 - [ ] Make an Excel sheet of requirements
 
-*(these three read like the same build — flag which project this belongs to and it'll get folded into that project page instead of sitting here orphaned)*
+*(general todo, not tied to a specific project page)*
 
 ## 💡 Other Projects
 
