@@ -56,6 +56,20 @@
 
 ---
 
+## Music Theory
+
+### Chord Progressions by Key
+
+| Key | Progression | Notes |
+|---|---|---|
+| G | G, C, Em | |
+| D | D, G, A, Bm | |
+| A | A, D, E, F#m | |
+| C | C, G, Am, F | |
+| E | E, A (no bottom finger), B, C#m | Pretty fun tbh |
+
+---
+
 ## Drums
 
 **Status:** Future interest. Drum repair project active — see [[drum repair]].
