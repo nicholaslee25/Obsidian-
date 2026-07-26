@@ -50,6 +50,11 @@
 - Usuzumi no Hate *(manga)*
 - The Secrets of the Immortal Nicholas Flamel *(series — Michael Scott)*
 - Magisterium *(series — Cassandra Clare & Holly Black)*
+- House of Leaves *(at minimum, read a summary)*
+- The King in Yellow *(unsure if worth reading in full — a summary would do)*
+- 1984
+- Freakonomics
+- Piranesi
 - *(check photos 4/4/24 for more)*
 
 ---
