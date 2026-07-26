@@ -9,6 +9,7 @@ Master catalog of all wiki pages. Updated after every operation.
 
 ## You
 - [[todo]] — running action-item list (calls, errands, loose threads)
+- [[six degrees]] — chains of who-knows-who, for fun
 - [[wishlist]] -- stuff Nykel wants
 - [[person — nykel]] — master profile
 - [[goals]] — all goals in one place (career, social, fitness, language, habits, craft, professional, employers)
