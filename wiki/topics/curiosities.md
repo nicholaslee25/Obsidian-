@@ -1084,6 +1084,80 @@ The "poor parenting" narrative is largely a media artifact — poverty gets cove
 
 ---
 
+## What's the chemistry behind baking soda?
+
+Baking soda is **sodium bicarbonate (NaHCO₃)**, a base. When it meets an acid (buttermilk, brown sugar, yogurt, vinegar, lemon juice) it reacts to release **CO₂ gas** — those bubbles get trapped in the batter and expand with heat, making it rise. Unlike baking powder (which already contains its own acid + base and just needs moisture to react), baking soda needs an acidic ingredient already in the recipe to work. Too much baking soda without enough acid to neutralize it leaves a bitter, soapy, metallic aftertaste — that's unreacted base you're tasting.
+
+---
+
+## What is a function graph?
+
+A **function graph** (functional graph) is a directed graph where every node has exactly one outgoing edge — because it represents a mathematical function: each input maps to exactly one output. Visually, following any node's arrows eventually leads into a cycle (a repeating loop) with "tails" feeding into it, like a tadpole or a rho (ρ) shape. Used in computer science for analyzing iterated functions, cycle detection (Floyd's/Brent's algorithms), and hash function collision behavior.
+
+---
+
+## Human eye resolution
+
+The eye isn't a fixed-megapixel sensor, but estimates for total resolving power land around **576 megapixels** for the full field of view (Roger Clark's often-cited estimate) — though only the tiny central **fovea** (about 2° of vision) is actually sharp at any instant; everything else is filled in by rapid eye movement (saccades) and the brain stitching together a seamless image. Effective resolution also depends on lighting, contrast, and the specific part of the visual field — peripheral vision is genuinely low-resolution and mostly good for motion detection, not detail.
+
+---
+
+## What is a torus coil? Is it 3D printable?
+
+A **torus coil (toroidal inductor)** is a coil wound around a donut-shaped (toroidal) core instead of a straight rod. The closed-loop shape keeps the magnetic field almost entirely contained within the core — far less electromagnetic interference leaking out compared to a rod/solenoid inductor, and higher efficiency per turn of wire.
+
+**3D printing it:** the core shape (the donut) is easily 3D printable in a non-magnetic material (PLA/PETG) as a winding form — but that core does nothing electrically. For it to actually function as an inductor, the wire needs to wrap a **magnetic core material** (ferrite or powdered iron), which you'd have to source separately and either print around or insert into a printed shell. Printing a decorative/structural torus is trivial; printing a functional magnetic core is not — that part still needs real ferrite.
+
+---
+
+## Are 3D printer fumes harmful? Which materials?
+
+Yes, to varying degrees — depends on the filament:
+
+| Material | Fume concern |
+|---|---|
+| PLA | Lowest emissions, generally considered the safest common filament. Still ventilate. |
+| PETG | Low-moderate. Similar safety profile to PLA. |
+| ABS | Emits **styrene** and ultrafine particles (UFPs) — needs ventilation or an enclosure with filtration. Linked to respiratory irritation with poor ventilation. |
+| Nylon | Can release caprolactam fumes — ventilate well. |
+| Resin (SLA/MSLA) | Uncured resin is toxic on skin contact; fumes during printing/curing should be vented. Different hazard profile than FDM. |
+
+General rule: print in a ventilated space or use an enclosure with an exhaust/filter, especially for ABS and resin. UFPs are the more insidious risk — invisible and not always obvious from smell alone.
+
+---
+
+## What is a drivetrain (car)?
+
+The **drivetrain** is everything that gets engine power to the wheels, excluding the engine itself: transmission, driveshaft(s), differential(s), axles, and (in 4WD/AWD) the transfer case. "Powertrain" is the broader term that includes the engine too.
+
+- **FWD** — transmission + differential combined (transaxle), power to front wheels only
+- **RWD** — transmission → driveshaft → rear differential → rear wheels
+- **AWD/4WD** — transfer case splits power to both front and rear differentials
+
+The drivetrain layout affects weight distribution, traction, and how the car behaves at the limit — RWD is more prone to oversteer, FWD to understeer, AWD trades some efficiency for grip in all conditions.
+
+---
+
+## How to combine multiple AI models for the best results
+
+No single model wins at everything — different labs optimize for different strengths (reasoning vs. speed vs. cost vs. specific domains). Practical approaches:
+
+- **Ensemble/voting** — ask the same question to multiple models (e.g. Claude, DeepSeek, GPT), compare answers, take the consensus or best-reasoned one
+- **Pipeline by strength** — use a cheap/fast model for first-pass drafting or classification, then a stronger model to refine or verify
+- **Cross-checking** — use one model to critique or fact-check another's output before trusting it
+- **Cost tiering** — route easy queries to a cheap model, escalate to an expensive one only when needed
+
+The main cost is complexity — running multiple models means more latency, more API calls, and more orchestration logic. Worth it mainly when correctness matters more than speed/cost (research, high-stakes decisions), not for everyday queries.
+
+---
+
+## Funny / Random Ideas (not sure where these belong)
+
+- **Resealing fortune cookies** — after cracking one open and reading the fortune, seal it back up so it looks untouched. Purely for messing with someone.
+- **"Bitten" object via 3D printing** — take an STL of a set of dentures, boolean-subtract the bite shape from another object's STL, print it so it looks like something took a bite out of it.
+
+---
+
 ## Tech — Tinkering (Components to Consider Buying)
 
 Hardware worth knowing about and potentially getting for projects:
