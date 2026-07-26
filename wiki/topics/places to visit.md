@@ -14,6 +14,12 @@
 
 ---
 
+## Trip Planning
+
+**Hong Kong** — status: planning. Text Bailey for the local to-do list (places to visit + things to do) before locking in the itinerary. See [[todo]].
+
+---
+
 ## Related
 
 - [[goals]]
