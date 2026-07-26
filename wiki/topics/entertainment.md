@@ -38,5 +38,5 @@
 ## Related
 
 - [[youtube watch later]]
-- [[music]]
+- [[instruments]]
 - [[reading]]
