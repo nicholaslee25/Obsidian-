@@ -48,7 +48,7 @@
 - Open question: what engineering-related work actually exists at the medicine intersection? (biomedical devices, instrumentation, etc.)
 - Med school — if that path stays live, look into how to actually fund it
 
-→ See [[potential employers]] for the full list.
+→ See [[potential employers]] for the full list. → See also [[career concepts]] for the Driver career-path model.
 
 ## Habits
 - Quit YouTube — educational only; "educational without learning is glorified entertainment"
