@@ -51,6 +51,14 @@ Full collection: [Goodreads — David Gemmell Quotes](https://www.goodreads.com/
 
 ---
 
+## Relationship Advice
+
+> *"A healthy relationship should consist of two people trying to do more for the other than the other does for them."*
+
+See [[love and relationships]].
+
+---
+
 ## Personal Mantras
 
 > *"The people I admire are those that work hard. How can I expect an equivalent to respect me if I don't work my 🍑 off?"*
