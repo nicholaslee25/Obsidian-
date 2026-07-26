@@ -1,53 +1,25 @@
-# Music
+# Instruments
 
 **Type:** Skill
-**Tags:** #skill #music
-**Last updated:** 2026-05-14
+**Tags:** #skill #music #instruments
+**Last updated:** 2026-07-25
+
+---
+
+Hub page for every instrument in progress or on the list. Songs and theory live on their own pages, linked from here.
 
 ---
 
 ## Guitar
-- Actively learning
-- Details TBD — acoustic or electric? how long? what's the sticking point?
 
-### Songs to Learn
+**Status:** Active.
 
-| | |
-|---|---|
-| Riptide | C-G-Am-F, basic strumming pattern |
-| I'm Yours | Easy open chords, laid-back rhythm |
-| Hey Soul Sister | Simple chords, consistent strumming |
-| Country Roads | Beginner chord progression, sing-along |
-| Sweet Home Alabama | Iconic intro riff, rhythm guitar |
-| Blur | Chord strumming |
-| Tada Kimi ni Hare — Yorushika | Fingerpicking, iconic Yorushika track |
-| Emerald Green Window — Yorushika | Fingerpicking, Japanese indie feel |
-| Sunny Day for You — Yorushika | Fingerpicking, chord melody |
-| Mia and Sebastian's Theme | Arpeggios, fingerstyle, La La Land |
-| Howl's Moving Castle | Fingerpicking, Joe Hisaishi style |
-| River Flows in You | Fingerpicking, classical-adjacent |
-| No Game No Life OP | Anime picking pattern, speed |
-| Sultan of Swing | Advanced fingerstyle, Dire Straits — long term |
-| Spring Thief | Yorushika, fingerpicking + dynamics |
-| Canon in D | Fingerpicking, classical, pattern drilling |
-| Wayward Son | Power chords, rock rhythm |
-| Come Sail Away | Chord progression, Styx rock feel |
-| Again — YUI | FMA ED, chord strumming, transitions |
-| Adventure of a Lifetime — Coldplay | Rhythmic strumming, funk-lite |
-| Tongue Tied | Strumming pattern focus |
-| Until I Found You — Stephen Sanchez | Distortion, lead lines, power chords |
-| Start Me Up | Rolling Stones riff, rhythm guitar |
-| Mr. Brightside | Iconic riff + driving strumming |
-| 7 Nation Army | Beginner riff, power chords |
-| Iron Man | Heavy riff, palm muting |
-| Veil — Fire Force | Anime OST, picking |
-| Wistoria Ending — Frozen | Anime ending, picking + atmosphere |
-| Glorious Day | Worship strumming, chord transitions |
-| Silent Night | Fingerpicking, holiday classic |
+→ [[guitar songs]] — full song list + techniques to learn
+→ [[music theory]] — chord progressions by key
 
 ## Lofi Production
 
-**Goal:** learn how to make lofi music
+**Goal:** learn how to make lofi music.
 
 **Core elements of lofi:**
 - Chord progressions — jazzy, simple (ii-V-I, minor 7ths)
@@ -56,33 +28,50 @@
 - Effects — tape saturation, low-pass filter, slight pitch wobble
 
 **To figure out:**
-- DAW — FL Studio, Ableton, GarageBand?
+- DAW — Waveform (Tracktion) is the current pick, see [[todo]] for the redownload
 - Start with samples or fully produced from scratch?
 - Any hardware (midi keyboard, drum pad)?
 
 *(add progress, resources, tracks made here)*
 
----
-
-## Kalimba
-- Want to learn — also a candidate for a handmade music box build
-- See [[kalimba music box]] in projects if that goes anywhere
-
 ## Drums
-- Want to learn — not started yet
+
+**Status:** Future interest. Drum repair project active — see [[drum repair]].
 
 ## Guzheng
-- Want to learn — Chinese zither, 21 strings, sounds incredible
-- Pairs interestingly with learning Chinese — cultural double-up
 
----
+**Status:** Future interest. Low priority. Chinese zither, 21 strings. Pairs interestingly with learning Chinese — cultural double-up.
 
-## Notes
+### How to Read Guzheng Sheet Music
 
-*(add progress, what you're working on, what's clicking)*
+Guzheng uses **Jianpu (简谱)** — numbered musical notation. Common in Chinese traditional music.
+
+| Symbol | Meaning |
+|---|---|
+| 1 2 3 4 5 6 7 | Do Re Mi Fa Sol La Ti (C D E F G A B in C major) |
+| Dot above number | One octave higher |
+| Dot below number | One octave lower |
+| Two dots above | Two octaves higher |
+| Underline (1 line) | Eighth note |
+| Underline (2 lines) | Sixteenth note |
+| Dash after number | Extends note by one beat |
+| 0 | Rest |
+| **1 =** at start | Key signature — "1 =" followed by root note (e.g., "1 = D" means D major) |
+
+The key signature shifts what pitch each number refers to. "1" is always the tonic of whatever key you're in.
+
+## Kalimba
+
+**Status:** Want to learn — also a candidate for a handmade music box build. See [[kalimba music box]] in projects if that goes anywhere.
 
 ---
 
 ## Related
-- [[chinese]]
+
+- [[guitar songs]]
+- [[music theory]]
+- [[drum repair]]
+- [[diy metronome]]
+- [[entertainment]]
 - [[goals]]
+- [[chinese]]
