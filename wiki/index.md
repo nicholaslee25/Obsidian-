@@ -86,8 +86,10 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[pole dropper reflex machine]] — reaction-time tester: random drop + timer
 - [[custom usb stick chassis]] — custom housing for a USB drive; wood, resin, or metal options
 - [[custom chessboard]] — handmade maple/walnut chessboard; storage base optional
+- [[custom pomodoro timer]] — custom pomodoro app; specific hook TBD, brainstorming stage
 
 ### Potential
+- [[engine cad]] — CAD a full engine in Inventor; low conviction, mostly curiosity-driven
 - [[custom rubiks cube]] — low plausibility, flagged
 - [[wood etched baby yoda]] — pyrography or laser etch
 - [[wireless charging nightstand]] — MagSafe embedded in wood furniture
