@@ -4,6 +4,28 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 
 ---
 
+## [2026-07-25] update | Music hub restructure + todo clarifications
+
+Per Nykel's clarification on the twelfth dump's open flags:
+- Electronics build todo (ICs / Excel requirements sheet) confirmed as a standalone todo, not tied to any project — unflagged in `you/todo.md`
+- "Foo" in the waterfront-paper item confirmed as the professor on that paper — `you/todo.md` updated to say "the professor" instead of leaving it as an unresolved placeholder
+- `skills/instruments.md` restructured into the canonical hub for all instruments (was an orphan, overlapping with `music.md`) — `skills/music.md` deleted, content redistributed
+
+Pages created:
+- `skills/guitar songs.md` — full song list + Travis picking, split out of the old `music.md`
+- `skills/music theory.md` — chord progressions by key, split out of the old `music.md`
+
+Pages rewritten:
+- `skills/instruments.md` — now the hub page: Guitar (→ guitar songs, → music theory), Lofi Production, Drums, Guzheng (Jianpu notation), Kalimba
+
+Pages deleted:
+- `skills/music.md` — merged into `instruments.md` / `guitar songs.md` / `music theory.md`
+
+Pages updated (all `[[music]]` wikilinks repointed to `[[instruments]]`):
+- `wiki/index.md`, `you/goals.md`, `you/todo.md`, `you/person — nykel.md`, `skills/drawing.md`, `projects/dad's guitars database.md`, `projects/diy metronome.md`, `projects/drum repair.md`, `topics/entertainment.md`, `languages/chinese.md`, `languages/english.md`, `languages/spanish.md`
+
+---
+
 ## [2026-07-25] ingest | Twelfth dump — food, theology deep-dive, new skills/projects, camera curiosities
 
 Pages created:
