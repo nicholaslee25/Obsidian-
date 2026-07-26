@@ -60,4 +60,4 @@ Table columns: Characters | Pinyin | English | Direct Translation | Type
 
 ## Related
 - [[goals]]
-- [[music]]
+- [[instruments]]
