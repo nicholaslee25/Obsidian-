@@ -4,6 +4,37 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 
 ---
 
+## [2026-07-25] ingest | Twelfth dump — food, theology deep-dive, new skills/projects, camera curiosities
+
+Pages created:
+- `you/six degrees.md` — chains of who-knows-who (Mike→Lakers draft→LeBron; Jo Gong→Flonase PhD; Matt R's dad→Big Mouth illustrator)
+- `skills/knot tying.md` — bowline, butterfly loop, sheet bend, trucker's hitch, taut-line hitch
+- `projects/diy lava lamp.md`, `projects/7 segment clock.md`, `projects/wii remote controller.md`, `projects/google home mini arduino.md`, `projects/gas powered swing set.md`, `projects/diy camera gimbal.md`, `projects/shark fin rotating hatches.md` — seven new project stubs, all brainstorming stage
+- `topics/career concepts.md` — Michael Driver's career-path model (myzenpath.com, careerconcepts.de)
+- `topics/epistemology and theology.md` — big one. Rowe's *Can God Be Free?* argument (simplified per request), Alston/Almeida on grounded belief, Adam's framework for why people land where they do on faith, *How NOT to Read the Bible* summary, and Nykel's own reflections (free will + childhood suffering, fairness of last-minute repentance, Islam vs. Christianity, religion-as-defense-mechanism). Structured with sources/arguments separated from personal reflection per Nykel's explicit request.
+
+Pages updated:
+- `skills/cooking.md` — Din Tai Fung cucumber salad added to Cooked (two attempts, notes on cucumber weight + salting); birria tacos, bun bo hue, omurice, jamaican cabbage added to Wanna Cook (pho + hainanese chicken already existed)
+- `skills/baking.md` — 5 new Cooked entries (banana nut muffins, oatmeal raisin cookies, rainbow cookies, frozen berry cobbler — too tart, tri-muffin batch); 7 new Wanna Bake entries
+- `skills/english.md` — added apoplectic, deepity, idiosyncrasy
+- `skills/music.md` — added Kilby Girl, Waymaker, Build My Life to songs table
+- `topics/reading.md` — added House of Leaves, The King in Yellow, 1984, Freakonomics, Piranesi
+- `topics/quotes.md` — new Relationship Advice section
+- `topics/photography.md` — added Gear Curiosities section: Hasselblad, holy trinity of lenses, RAW files, IBIS, ISO/ADC timing
+- `topics/curiosities.md` — added: baking soda chemistry, function graphs, human eye resolution, torus coils (3D printability), 3D printer fume safety by material, car drivetrain, combining multiple AI models, funny/random ideas (resealing fortune cookies, "bitten object" STL trick)
+- `topics/places to visit.md` — flagged likely duplicates: Cherry Springs vs. "Cherry Valley Dark Sky Park," Downtown Philly trail identified as Schuylkill River Trail
+- `you/wishlist.md` — added Converse sizes, bone Swiss bearings, camera gimbal, photo hard drive; added Ninja Creami old-vs-new open question; new Gift Reference Notes section (black-eyed Susans = grandma's favorite flower)
+- `you/goals.md` — Fitness section: added muscle up, splits, forearm twist bar workout, yoga workout link; Professional section: linked `career concepts.md`
+- `projects/diy battery charger.md` — added note distinguishing battery *pack* (cells + BMS + enclosure) from battery *charger* (this project)
+- `wiki/index.md` — added all 11 new pages across You/Skills/Projects/Topics
+
+Flagged for Nykel to confirm:
+- Cherry Springs State Park vs. "Cherry Valley National Dark Park" — almost certainly the same place, confirm before merging the row for good
+- *How NOT to Read the Bible* author — logged without a confirmed author name, fill in when handy
+- Several new projects (Wii remote controller, Google Home x Arduino, shark fin hatches) are solutions without a target application yet — flagged in their own pages, not blocking
+
+---
+
 ## [2026-07-25] ingest | Eleventh dump — todo list created, chord progressions, epoxy lesson, new projects
 
 Pages created:
