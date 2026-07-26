@@ -47,6 +47,9 @@
 | Lost in Paradise | Ali ft. AKLO (JJK OP 2) | Full guitar | Not started |
 | Song of Storms | Zelda | Fingerstyle (YouTube Shorts) | Not started |
 | Overwhelmed | — | Guitar cover | Not started |
+| Kilby Girl | The Backseat Lovers | Full song | Not started |
+| Waymaker | Sinach | Chords + worship strumming | Not started |
+| Build My Life | Pat Barrett / Housefires | Chords + worship strumming | Not started |
 
 ### Techniques to Learn
 
