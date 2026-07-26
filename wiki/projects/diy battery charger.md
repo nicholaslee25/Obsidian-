@@ -26,6 +26,8 @@ Build a battery charger from scratch. Currently doesn't know how batteries charg
 - Single cell or multi-cell?
 - Output: USB? Barrel jack? Raw terminals?
 
+**Note:** distinct from a DIY battery *pack* (assembling cells + BMS + enclosure to power something) — related but different scope. Could combine: build the pack first, then this charger tops it off. See [[curiosities]] for BMS basics.
+
 ## Notes
 
 *(add circuit design, parts, progress here)*
