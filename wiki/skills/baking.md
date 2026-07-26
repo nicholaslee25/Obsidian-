@@ -10,6 +10,11 @@
 
 | Dish | Date | Notes |
 |---|---|---|
+| Banana nut muffins | — | Turned out good |
+| Oatmeal raisin cookies | — | Turned out good |
+| Rainbow cookies | — | Turned out good |
+| Frozen berry cobbler | — | Way too tart |
+| Apple cinnamon muffins, s'more muffins, cranberry nut muffins | — | All 3 from one batch of general muffin batter; forgot an egg or two, still turned out good |
 
 ---
 
@@ -24,6 +29,13 @@
 - Raspberry lemon drop cheesecake bars
 - Spiced date bread pudding
 - Matcha tiramisu
+- Che thai
+- S'more cookies
+- Cheesecake marble brownies
+- Cheesecake balls
+- Icebox cake
+- Brigadeiro
+- Toasted almond cake
 
 ---
 
