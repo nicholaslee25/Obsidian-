@@ -54,4 +54,4 @@ Considering: programmable LED fan, rotary encoder visual, or some spinning displ
 ## Related
 
 - [[woodwork clock]]
-- [[music]]
+- [[instruments]]
