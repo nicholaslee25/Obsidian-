@@ -23,6 +23,9 @@
 | Unscrupulous | Lacking morals |
 | Flippant | Inappropriately casual or disrespectful about something serious |
 | Percolate | (1) Filter gradually through a porous surface; (2) slowly spread, develop, or spread through a group |
+| Apoplectic | Overcome with extreme anger, rage, or fury |
+| Deepity | A statement that sounds profound but is actually pseudo-profound nonsense |
+| Idiosyncrasy | An innate, characteristic quirk of a person |
 
 ---
 
