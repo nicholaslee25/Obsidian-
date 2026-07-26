@@ -1074,6 +1074,16 @@ A voltage regulator takes a noisy or variable input voltage and outputs a stable
 
 ---
 
+## Why do kids raised in economically-stressed families sometimes show the strongest respect for their parents?
+
+Two separate things get flattened into one stereotype: parenting quality and household income. They aren't the same axis.
+
+Where strong respect-for-parents culture shows up, it's usually explicit rather than assumed: discipline reinforced by extended family/community ("it takes a village"), church involvement, and elders treated as an enforced authority rather than a vague ideal. It's taught directly, not left to osmosis.
+
+The "poor parenting" narrative is largely a media artifact — poverty gets covered constantly, effective parenting doesn't make headlines. Financial stress and parenting skill aren't causally linked the way the stereotype implies. If anything, tighter margins can mean less slack for backtalk, since the real-world stakes of a bad decision are higher.
+
+---
+
 ## Tech — Tinkering (Components to Consider Buying)
 
 Hardware worth knowing about and potentially getting for projects:
