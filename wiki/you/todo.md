@@ -34,7 +34,7 @@ Running list of actual to-dos — calls, errands, loose threads. Different from 
 - [ ] Try storing stuff from phone on the drive mom bought
 - [ ] Figure out calendar for the next year or so
 - [ ] Look into how to get money for med school → [[goals]]
-- [ ] Redownload Waveform on PC → [[music]] (Lofi Production)
+- [ ] Redownload Waveform on PC → [[instruments]] (Lofi Production)
 
 ## 🔧 Electronics Build (project TBD — confirm which one)
 
