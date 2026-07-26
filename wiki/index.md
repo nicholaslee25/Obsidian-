@@ -89,6 +89,13 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[custom usb stick chassis]] — custom housing for a USB drive; wood, resin, or metal options
 - [[custom chessboard]] — handmade maple/walnut chessboard; storage base optional
 - [[custom pomodoro timer]] — custom pomodoro app; specific hook TBD, brainstorming stage
+- [[diy lava lamp]] — heat + immiscible liquid + wax blob, recipe TBD
+- [[7 segment clock]] — 7-segment digits driven by linear actuators instead of LEDs
+- [[wii remote controller]] — Wiimote as input for a Pi/ESP32 project; needs a target application
+- [[google home mini arduino]] — voice command → hardware trigger; overlaps with Le'bama
+- [[gas powered swing set]] — chaotic-good, needs a real safety pass
+- [[diy camera gimbal]] — build vs. buy alternative to the gimbal on [[wishlist]]
+- [[shark fin rotating hatches]] — raw idea, needs a use case
 
 ### Potential
 - [[engine cad]] — CAD a full engine in Inventor; low conviction, mostly curiosity-driven
