@@ -40,5 +40,5 @@ Build a database cataloguing dad's guitar collection — make, model, year, cond
 
 ## Related
 
-- [[music]]
+- [[instruments]]
 - [[drum repair]]
