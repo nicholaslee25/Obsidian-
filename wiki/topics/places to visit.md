@@ -8,8 +8,8 @@
 
 | Place | Been There | Go Again | Notes |
 |---|---|---|---|
-| Cherry Springs National Park | ✅ | ✅ | Stars are beautiful — went on a cloudy day, need a clear one |
-| Downtown Philly | ✅ | ✅ | 80 mile trailway |
+| Cherry Springs State Park | ✅ | ✅ | Stars are beautiful — went on a cloudy day, need a clear one. *(aka "Cherry Valley Dark Sky Park" in some notes — same place, confirm)* |
+| Downtown Philly | ✅ | ✅ | Schuylkill River Trail — 80 mile trailway |
 | West Thompson Dam Trail | ✅ | ✅ | Flat "hike", beautiful especially in warm weather |
 
 ---
