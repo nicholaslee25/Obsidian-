@@ -22,4 +22,4 @@ Talk to dad.
 
 ## Related
 
-- [[music]]
+- [[instruments]]
