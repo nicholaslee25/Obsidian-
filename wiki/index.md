@@ -25,6 +25,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[chinese]] — active, going "poorly"
 - [[music]] — guitar (active), drums + guzheng (future)
 - [[lockpicking]] — want to learn, need cheap locks and a practice spot
+- [[knot tying]] — bowline, butterfly loop, sheet bend, trucker's hitch, taut-line hitch
 - [[english]] — vocab and phrases table
 - [[chinese]] — active, going "poorly"
 - [[drawing]] — want to learn; fundamentals first
