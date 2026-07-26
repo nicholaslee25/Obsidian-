@@ -8,6 +8,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[overview]] — high-level synthesis of everything
 
 ## You
+- [[todo]] — running action-item list (calls, errands, loose threads)
 - [[wishlist]] -- stuff Nykel wants
 - [[person — nykel]] — master profile
 - [[goals]] — all goals in one place (career, social, fitness, language, habits, craft, professional, employers)
