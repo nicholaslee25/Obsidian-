@@ -121,6 +121,8 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[curiosities]] — short answers; now includes device drivers, 3-phase power, impedance, Reynolds/Prandtl/Nusselt, vacuum physics, algorithms, Geneva mechanism, and more
 - [[youtube watch later]] — watch later list; multiple new videos added
 - [[places to visit]] — been there + go again tracker with notes
+- [[career concepts]] — Driver's career-path model; myzenpath.com, careerconcepts.de
+- [[epistemology and theology]] — Rowe's argument, religious epistemology, comparative religion reflections
 
 ## Sources
 *(none yet)*
