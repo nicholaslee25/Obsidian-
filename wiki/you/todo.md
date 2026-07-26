@@ -54,7 +54,7 @@ Running list of actual to-dos — calls, errands, loose threads. Different from 
 
 ## ✍️ Writing
 
-- [ ] Intro for the "Love on the Waterfront" paper, based on what foo sent *(who/what is "foo" here? confirm)*
+- [ ] Intro for the "Love on the Waterfront" paper, based on what the professor sent
 
 ## 📊 To Build
 
