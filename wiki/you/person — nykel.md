@@ -25,7 +25,7 @@ Pattern to watch: obsession → burnout → boredom → repeat. You want to brea
 ## Active Skills
 - [[balisong]] — day 3ish. The beginning of a long finger-hurting journey
 - [[chinese]] — in progress, self-described as "poorly"
-- [[music]] — guitar active; drums + guzheng are on the list
+- [[instruments]] — guitar active; drums + guzheng are on the list
 - 3D printing — operational, used as a project tool
 - Woodworking, welding, machining — in the toolkit, want more reps
 
