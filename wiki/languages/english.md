@@ -47,4 +47,4 @@ Upside: grammar is simpler than Spanish. No conjugation, no gendered nouns.
 
 ## Related
 - [[goals]]
-- [[music]]
+- [[instruments]]
