@@ -44,6 +44,23 @@ Lock your money for a fixed term (3 months to 5 years) at a guaranteed rate. Rat
 
 ---
 
+### What are trailing stop orders?
+
+A **trailing stop order** is a stop-loss that moves with the price instead of sitting at a fixed trigger. You set a trailing amount (dollar or %) below the current market price (for a long position). As the stock rises, the stop price rises with it, staying that fixed distance behind the peak. If the stock drops by the trail amount from its highest point reached, the stop triggers and sells. Locks in gains while still giving the trade room to run — no manual updating as price climbs.
+
+### How to read an earnings report
+
+Focus on:
+- **EPS (Earnings Per Share)** — actual vs. analyst estimate (beat or miss)
+- **Revenue** — actual vs. estimate, plus YoY growth
+- **Guidance** — the company's own forecast for next quarter/year; often moves the stock more than the quarter just reported
+- **Margins** — gross/operating margin trend (getting more or less efficient?)
+- **Management commentary (the call)** — context behind the numbers, headwinds/tailwinds
+
+Market reaction is driven less by "did they make money" and more by "did they beat expectations and raise guidance." A company can beat EPS and still tank on weak guidance.
+
+---
+
 ## Finance People Worth Learning From
 
 | Person | Known For |
