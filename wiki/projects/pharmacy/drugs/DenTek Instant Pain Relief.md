@@ -1,4 +1,4 @@
-# Kank-A
+# DenTek Instant Pain Relief
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,9 +7,7 @@
 ---
 
 ## Appears In
-Canker Sore Treatments - 14%
-Toothache Products - 6%
-Oral Pain Relievers, Adult - 7%
+Oral Pain Relievers, Adult - 3%
 
 ## Overview
 (TBD - pending research)

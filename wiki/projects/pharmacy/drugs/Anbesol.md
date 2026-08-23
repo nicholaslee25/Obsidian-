@@ -9,6 +9,7 @@
 ## Appears In
 Canker Sore Treatments - 22%
 Toothache Products - 16%
+Oral Pain Relievers, Adult - 24%
 
 ## Overview
 (TBD - pending research)

@@ -1,4 +1,4 @@
-# Kank-A
+# Tylenol 8 HR Arthritis Pain
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,9 +7,7 @@
 ---
 
 ## Appears In
-Canker Sore Treatments - 14%
-Toothache Products - 6%
-Oral Pain Relievers, Adult - 7%
+Oral Arthritis Pain Relievers - 38%
 
 ## Overview
 (TBD - pending research)

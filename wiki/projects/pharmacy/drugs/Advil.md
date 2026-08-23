@@ -1,4 +1,4 @@
-# Kank-A
+# Advil
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,9 +7,8 @@
 ---
 
 ## Appears In
-Canker Sore Treatments - 14%
-Toothache Products - 6%
-Oral Pain Relievers, Adult - 7%
+Headache Products - 21%
+Oral Anti-Inflammatory Products - 45%
 
 ## Overview
 (TBD - pending research)

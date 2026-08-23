@@ -1,4 +1,4 @@
-# Kank-A
+# BC Powder
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,9 +7,8 @@
 ---
 
 ## Appears In
-Canker Sore Treatments - 14%
-Toothache Products - 6%
-Oral Pain Relievers, Adult - 7%
+Headache Products - 4%
+Oral Arthritis Pain Relievers - 3%
 
 ## Overview
 (TBD - pending research)

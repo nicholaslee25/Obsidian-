@@ -1,4 +1,4 @@
-# Kank-A
+# Advil Easy Open Arthritis Cap
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,9 +7,7 @@
 ---
 
 ## Appears In
-Canker Sore Treatments - 14%
-Toothache Products - 6%
-Oral Pain Relievers, Adult - 7%
+Oral Arthritis Pain Relievers - 18%
 
 ## Overview
 (TBD - pending research)

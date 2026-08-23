@@ -1,4 +1,4 @@
-# Kank-A
+# Be Koool
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,9 +7,7 @@
 ---
 
 ## Appears In
-Canker Sore Treatments - 14%
-Toothache Products - 6%
-Oral Pain Relievers, Adult - 7%
+Headache Products - 4%
 
 ## Overview
 (TBD - pending research)

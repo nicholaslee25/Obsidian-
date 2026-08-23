@@ -1,4 +1,4 @@
-# Kank-A
+# OMRON TENS
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,9 +7,7 @@
 ---
 
 ## Appears In
-Canker Sore Treatments - 14%
-Toothache Products - 6%
-Oral Pain Relievers, Adult - 7%
+Transcutaneous Electrical Nerve Stimulation (TENS) Products - 78%
 
 ## Overview
 (TBD - pending research)

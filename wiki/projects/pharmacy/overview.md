@@ -1,7 +1,7 @@
 # Pharmacy Database — Overview
 
 **Type:** Project Hub
-**Status:** In progress — 7 of 14 categories built
+**Status:** In progress — 8 of 14 categories built
 **Source:** https://www.pharmacytimes.com/otcguide (Pharmacy Times OTC Guide, 2026-27 edition, ~145 product categories)
 **Last updated:** 2026-08-23
 
@@ -72,7 +72,14 @@ End goal: train a local AI on this data so family can query it at home. See [[ph
    - toothache-products
    - toothpaste-general-use
    - toothpaste-sensitive-gums-teeth
-8. Pain and Inflammation — not yet built
+8. **Pain and Inflammation** — built (`pain-and-inflammation/`, 7 subcategories)
+   - headache-products
+   - migraine-headache-products
+   - oral-anti-inflammatory-products
+   - oral-arthritis-pain-relievers
+   - oral-pain-relievers-adult
+   - sleep-aid-analgesic-combination-products
+   - transcutaneous-electrical-nerve-stimulation-tens-products
 9. Pediatrics — not yet built
 10. Gastrointestinal — not yet built
 11. Topicals — not yet built

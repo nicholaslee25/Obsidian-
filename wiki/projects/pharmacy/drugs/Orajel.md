@@ -10,6 +10,7 @@
 Canker Sore Treatments - 43%
 Cold Sore Treatments - 4%
 Toothache Products - 68%
+Oral Pain Relievers, Adult - 52%
 
 ## Overview
 (TBD - pending research)

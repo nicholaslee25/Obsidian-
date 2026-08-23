@@ -1,4 +1,4 @@
-# Kank-A
+# Aleve
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,9 +7,10 @@
 ---
 
 ## Appears In
-Canker Sore Treatments - 14%
-Toothache Products - 6%
-Oral Pain Relievers, Adult - 7%
+Headache Products - 9%
+Migraine Headache Products - 7%
+Oral Anti-Inflammatory Products - 24%
+Oral Arthritis Pain Relievers - 20%
 
 ## Overview
 (TBD - pending research)

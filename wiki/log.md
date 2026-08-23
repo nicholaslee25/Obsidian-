@@ -10,6 +10,21 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 - `CLAUDE.md` — added Sync section: every change is committed and pushed immediately, no batching
 - `projects/game farming bot.md` — status updated to backburner/likely dropped; pyautogui approach got flagged for cheating by MCOC's anti-cheat
 
+## [2026-08-23] ingest | Pharmacy database — Pain and Inflammation
+
+Eighth category of 14. 7 subcategories. Note: "Oral Pain Relievers, Adult" on this category turned out to be dental/gum topical analgesics (Orajel, Anbesol, Kank-A) per the site's own data — overlaps with Oral Care's canker/toothache subcategories but is a distinct site subcategory, kept as scraped.
+
+Pages created:
+- `projects/pharmacy/pain-and-inflammation/` — 7 subcategory files (headache-products, migraine-headache-products, oral-anti-inflammatory-products, oral-arthritis-pain-relievers, oral-pain-relievers-adult, sleep-aid-analgesic-combination-products, transcutaneous-electrical-nerve-stimulation-tens-products)
+- `projects/pharmacy/drugs/` — 28 new unique stub pages
+
+Pages updated (Appears In appended):
+- `Tylenol.md`, `Aleve.md` (now spans 4 subcategories), `Advil.md`, `Motrin.md`, `BC Powder.md`, `Orajel.md`, `Anbesol.md`, `Kank-A.md`
+- `projects/pharmacy/overview.md` — status now 8 of 14; Pain and Inflammation entry flipped to built
+- `wiki/index.md` — pharmacy overview sub-line updated to 8/14 categories
+
+Next: Pediatrics (category 9 of 14).
+
 ## [2026-08-23] ingest | Pharmacy database — Oral Care
 
 Seventh category of 14. 9 subcategories.
