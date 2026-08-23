@@ -10,6 +10,21 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 - `CLAUDE.md` — added Sync section: every change is committed and pushed immediately, no batching
 - `projects/game farming bot.md` — status updated to backburner/likely dropped; pyautogui approach got flagged for cheating by MCOC's anti-cheat
 
+## [2026-08-23] ingest | Pharmacy database — Women's Health
+
+Thirteenth category of 14. 6 subcategories. Same Windows case-insensitive-filesystem note as Vitamins: "Azo" (Yeast Infection Prevention and Relief) merged into the existing "AZO" page (Urinary Health) rather than creating a separate near-duplicate file.
+
+Pages created:
+- `projects/pharmacy/womens-health/` — 6 subcategory files (menstrual-pain-relief, urinary-health, vaginal-care-and-hygiene, vaginal-moisturizers-and-lubricants, womens-health-menopause-supplements, yeast-infection-prevention-and-relief)
+- `projects/pharmacy/drugs/` — 41 new unique stub pages
+
+Pages updated (Appears In appended):
+- `Advil.md`, `Motrin.md`, `Aleve.md`, `Thermacare.md`, `Tylenol.md`, `Vagisil.md`, `RepHresh.md`, `AZO.md`, `Florajen.md`
+- `projects/pharmacy/overview.md` — status now 13 of 14; Women's Health entry flipped to built
+- `wiki/index.md` — pharmacy overview sub-line updated to 13/14 categories
+
+Next and final: Other (category 14 of 14).
+
 ## [2026-08-23] ingest | Pharmacy database — Vitamins and Dietary Supplements
 
 Twelfth category of 14. 27 subcategories — the most of any category so far, dominated by "Nature Made" and "Nature's Bounty" recurring across most of them. Anomaly worth noting: on this Windows filesystem (case-insensitive paths), brand names that differ only in casing on the source site — "zicam" (Immune Support) vs. the existing "Zicam" page from Cough, Cold & Allergy; "qunol" (Magnesium Supplements) vs. "Qunol" (Joint Health) — collapsed into the same file rather than creating separate near-duplicate pages, since `Path.exists()` is case-insensitive on Windows. This deviates from a strict literal exact-string match but was judged the better outcome (avoids clutter from what's clearly the same brand with inconsistent site capitalization) — flagging so it's a known, intentional-in-effect exception rather than a silent bug.

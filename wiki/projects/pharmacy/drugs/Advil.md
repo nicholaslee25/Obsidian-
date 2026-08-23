@@ -9,6 +9,7 @@
 ## Appears In
 Headache Products - 21%
 Oral Anti-Inflammatory Products - 45%
+Menstrual Pain Relief - 24%
 
 ## Overview
 (TBD - pending research)

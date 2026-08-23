@@ -1,7 +1,7 @@
 # Pharmacy Database — Overview
 
 **Type:** Project Hub
-**Status:** In progress — 12 of 14 categories built
+**Status:** In progress — 13 of 14 categories built
 **Source:** https://www.pharmacytimes.com/otcguide (Pharmacy Times OTC Guide, 2026-27 edition, ~145 product categories)
 **Last updated:** 2026-08-23
 
@@ -157,7 +157,13 @@ End goal: train a local AI on this data so family can query it at home. See [[ph
     - omega-3-fish-oil-supplements
     - prenatal-vitamins
     - probiotic-dietary-supplements
-13. Women's Health — not yet built
+13. **Women's Health** — built (`womens-health/`, 6 subcategories)
+    - menstrual-pain-relief
+    - urinary-health
+    - vaginal-care-and-hygiene
+    - vaginal-moisturizers-and-lubricants
+    - womens-health-menopause-supplements
+    - yeast-infection-prevention-and-relief
 14. Other — not yet built
 
 ## Related

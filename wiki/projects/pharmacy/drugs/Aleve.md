@@ -11,6 +11,7 @@ Headache Products - 9%
 Migraine Headache Products - 7%
 Oral Anti-Inflammatory Products - 24%
 Oral Arthritis Pain Relievers - 20%
+Menstrual Pain Relief - 14%
 
 ## Overview
 (TBD - pending research)

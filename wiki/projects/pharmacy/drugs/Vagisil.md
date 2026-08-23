@@ -1,4 +1,4 @@
-# Florajen
+# Vagisil
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,9 @@
 ---
 
 ## Appears In
-Probiotic Dietary Supplements - 10%
-Yeast Infection Prevention and Relief - 9%
+Vaginal Care and Hygiene - 25%
+Vaginal Moisturizers and Lubricants - 14%
+Yeast Infection Prevention and Relief - 8%
 
 ## Overview
 (TBD - pending research)

@@ -1,4 +1,4 @@
-# Florajen
+# FDS Intimate + Body
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Probiotic Dietary Supplements - 10%
-Yeast Infection Prevention and Relief - 9%
+Vaginal Care and Hygiene - 4%
 
 ## Overview
 (TBD - pending research)

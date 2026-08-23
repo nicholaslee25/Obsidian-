@@ -1,4 +1,4 @@
-# Florajen
+# AZO
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,8 @@
 ---
 
 ## Appears In
-Probiotic Dietary Supplements - 10%
-Yeast Infection Prevention and Relief - 9%
+Urinary Health - 68%
+Yeast Infection Prevention and Relief - 16%
 
 ## Overview
 (TBD - pending research)

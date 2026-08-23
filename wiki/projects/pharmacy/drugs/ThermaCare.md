@@ -8,6 +8,7 @@
 
 ## Appears In
 Thermal Relief Products - 14%
+Menstrual Pain Relief - 3%
 
 ## Overview
 (TBD - pending research)

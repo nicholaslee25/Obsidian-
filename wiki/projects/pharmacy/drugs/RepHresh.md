@@ -1,4 +1,4 @@
-# Florajen
+# RepHresh
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,8 @@
 ---
 
 ## Appears In
-Probiotic Dietary Supplements - 10%
-Yeast Infection Prevention and Relief - 9%
+Vaginal Care and Hygiene - 8%
+Vaginal Moisturizers and Lubricants - 5%
 
 ## Overview
 (TBD - pending research)
