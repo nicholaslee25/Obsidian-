@@ -8,6 +8,7 @@
 
 ## Appears In
 Headache Products - 6%
+Aspirin, Recurrent Heart Attack/Stroke Prevention - 61%
 
 ## Overview
 (TBD - pending research)

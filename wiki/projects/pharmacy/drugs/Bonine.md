@@ -1,4 +1,4 @@
-# Theraworx Relief
+# Bonine
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,10 +7,7 @@
 ---
 
 ## Appears In
-Homeopathic Topical Analgesics - 26%
-Topical Analgesics - 3%
-Topical Analgesics, Arthritis/Joint Pain - 2%
-Leg Cramp Relief - 19%
+Motion Sickness Remedies - 24%
 
 ## Overview
 (TBD - pending research)

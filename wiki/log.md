@@ -10,6 +10,27 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 - `CLAUDE.md` — added Sync section: every change is committed and pushed immediately, no batching
 - `projects/game farming bot.md` — status updated to backburner/likely dropped; pyautogui approach got flagged for cheating by MCOC's anti-cheat
 
+## [2026-08-23] ingest | Pharmacy database — Other (final category, database complete)
+
+Fourteenth and final category. 4 subcategories. **The full OTC pharmacy database is now built: all 14 categories, 142 subcategory pages, 719 unique drug/product stub pages.**
+
+Pages created:
+- `projects/pharmacy/other/` — 4 subcategory files (aspirin-recurrent-heart-attack-stroke-prevention, leg-cramp-relief, motion-sickness-remedies, sleep-aids-non-melatonin)
+- `projects/pharmacy/drugs/` — 15 new unique stub pages
+
+Pages updated (Appears In appended):
+- `Bayer Aspirin.md`, `Theraworx Relief.md`, `Emetrol.md`, `Nauzene.md`
+- `projects/pharmacy/overview.md` — status now Complete, 14 of 14 categories built
+- `wiki/index.md` — pharmacy overview sub-line updated to complete (14/14)
+
+Summary of the full build across this session (categories 2-14; category 1, Cough/Cold/Allergy, was the pilot from an earlier session):
+- 13 categories built this session: Diabetic Healthcare (3), Diagnostics (4), Durable Goods (2), EENT (8), First Aid (8), Oral Care (9), Pain and Inflammation (7), Pediatrics (11), Gastrointestinal (13), Topicals (22), Vitamins and Dietary Supplements (27), Women's Health (6), Other (4) — 124 subcategory files, 636 new drug stub pages, plus dozens of append-only updates to existing drug pages as brands recurred across categories
+- Diagnostics and Durable Goods are devices (glucose meters, lancets, thermometers, braces, hosiery), not drugs — filed under the same `drugs/` folder per plan, using the same template, no format deviation needed since the source site's `.rankList`/`.productValue`/`.productRank` structure was identical for devices and drugs
+- Known anomaly: on this Windows filesystem, drug-brand names differing only in letter casing across subcategories (e.g. "zicam" vs "Zicam", "qunol" vs "Qunol", "Azo" vs "AZO") collapsed into a single file rather than creating separate near-duplicates, because filesystem path lookups are case-insensitive here. This is a deviation from strict exact-string matching but was judged the better outcome in each case (same real-world brand, inconsistent site capitalization) rather than a bug to fix.
+- Total database size: 14 category folders, 142 subcategory pages, 719 unique drug/product stub pages (all still marked "Needs research" / TBD — per-drug research is explicitly a later phase)
+
+Next: per-drug deep research phase (Overview/Pros/Cons/Use Cases/Allergies/Symptoms Treated), or begin the local-AI-training side of the project per `projects/pharmacy ai consultant.md`.
+
 ## [2026-08-23] ingest | Pharmacy database — Women's Health
 
 Thirteenth category of 14. 6 subcategories. Same Windows case-insensitive-filesystem note as Vitamins: "Azo" (Yeast Infection Prevention and Relief) merged into the existing "AZO" page (Urinary Health) rather than creating a separate near-duplicate file.

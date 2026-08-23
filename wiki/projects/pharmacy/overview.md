@@ -1,7 +1,7 @@
 # Pharmacy Database — Overview
 
 **Type:** Project Hub
-**Status:** In progress — 13 of 14 categories built
+**Status:** Complete — 14 of 14 categories built
 **Source:** https://www.pharmacytimes.com/otcguide (Pharmacy Times OTC Guide, 2026-27 edition, ~145 product categories)
 **Last updated:** 2026-08-23
 
@@ -164,7 +164,11 @@ End goal: train a local AI on this data so family can query it at home. See [[ph
     - vaginal-moisturizers-and-lubricants
     - womens-health-menopause-supplements
     - yeast-infection-prevention-and-relief
-14. Other — not yet built
+14. **Other** — built (`other/`, 4 subcategories)
+    - aspirin-recurrent-heart-attack-stroke-prevention
+    - leg-cramp-relief
+    - motion-sickness-remedies
+    - sleep-aids-non-melatonin
 
 ## Related
 - [[pharmacy ai consultant]]

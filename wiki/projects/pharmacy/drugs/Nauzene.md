@@ -9,6 +9,7 @@
 ## Appears In
 Nausea Remedies - 5%
 Upset Stomach Remedies - 5%
+Motion Sickness Remedies - 1%
 
 ## Overview
 (TBD - pending research)
