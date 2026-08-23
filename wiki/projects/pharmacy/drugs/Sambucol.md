@@ -9,6 +9,7 @@
 ## Appears In
 Homeopathic Cold Products - 17%
 Homeopathic Cough Products - 41%
+Immune Support - 4%
 
 ## Overview
 (TBD - pending research)

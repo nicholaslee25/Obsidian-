@@ -8,6 +8,7 @@
 
 ## Appears In
 Artificial Tears/Ophthalmic Lubricants - 3%
+Ocular Nutritional Supplements - 8%
 
 ## Overview
 (TBD - pending research)

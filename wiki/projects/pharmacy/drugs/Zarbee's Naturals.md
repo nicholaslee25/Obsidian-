@@ -9,6 +9,7 @@
 ## Appears In
 Children's Cough - 10%
 Children's Cough/Cold Combinations - 10%
+Melatonin Sleep Aids - 3%
 
 ## Overview
 (TBD - pending research)

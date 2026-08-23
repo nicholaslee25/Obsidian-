@@ -8,6 +8,8 @@
 
 ## Appears In
 Laxatives, Bulk/Fiber - 56%
+Cholesterol Management - 12%
+Fiber Supplements - 46%
 
 ## Overview
 (TBD - pending research)

@@ -8,6 +8,7 @@
 
 ## Appears In
 Diabetic Neuropathy Products - 3%
+Nerve Health - 15%
 
 ## Overview
 (TBD - pending research)

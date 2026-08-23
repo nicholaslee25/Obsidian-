@@ -8,6 +8,8 @@
 
 ## Appears In
 Cold Remedies - 23%
+High-Potency Vitamin C Supplements - 52%
+Immune Support - 43%
 
 ## Overview
 (TBD - pending research)

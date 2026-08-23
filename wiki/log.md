@@ -10,6 +10,21 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 - `CLAUDE.md` — added Sync section: every change is committed and pushed immediately, no batching
 - `projects/game farming bot.md` — status updated to backburner/likely dropped; pyautogui approach got flagged for cheating by MCOC's anti-cheat
 
+## [2026-08-23] ingest | Pharmacy database — Vitamins and Dietary Supplements
+
+Twelfth category of 14. 27 subcategories — the most of any category so far, dominated by "Nature Made" and "Nature's Bounty" recurring across most of them. Anomaly worth noting: on this Windows filesystem (case-insensitive paths), brand names that differ only in casing on the source site — "zicam" (Immune Support) vs. the existing "Zicam" page from Cough, Cold & Allergy; "qunol" (Magnesium Supplements) vs. "Qunol" (Joint Health) — collapsed into the same file rather than creating separate near-duplicate pages, since `Path.exists()` is case-insensitive on Windows. This deviates from a strict literal exact-string match but was judged the better outcome (avoids clutter from what's clearly the same brand with inconsistent site capitalization) — flagging so it's a known, intentional-in-effect exception rather than a silent bug.
+
+Pages created:
+- `projects/pharmacy/vitamins-and-dietary-supplements/` — 27 subcategory files (letter-vitamin-brand, brain-health, calcium-supplements, cholesterol-management, coenzyme-q10-supplements, cranberry-supplements, diet-aids, fiber-supplements, flax-seed-oil-supplements, garlic-supplements, herbal-supplement-brand, high-potency-vitamin-c-supplements, hydration-support, immune-support, iron-supplements, joint-health, magnesium-supplements, melatonin-sleep-aids, memory-support, mood-health-supplements, multivitamins, nerve-health, nutritional-supplements, ocular-nutritional-supplements, omega-3-fish-oil-supplements, prenatal-vitamins, probiotic-dietary-supplements)
+- `projects/pharmacy/drugs/` — 133 new unique stub pages
+
+Pages updated:
+- 16 existing drug pages appended, notably `Nature Made.md` now spans 13 subcategories within this category alone; `Zicam.md` and `Qunol.md` picked up cross-case appends per the note above
+- `projects/pharmacy/overview.md` — status now 12 of 14; Vitamins and Dietary Supplements entry flipped to built
+- `wiki/index.md` — pharmacy overview sub-line updated to 12/14 categories
+
+Next: Women's Health (category 13 of 14).
+
 ## [2026-08-23] ingest | Pharmacy database — Topicals
 
 Eleventh category of 14, and the largest by subcategory count — 22 subcategories, 202 brand-ranking rows. Heavy overlap with earlier categories (CeraVe, Aquaphor, Eucerin, Cetaphil, Neutrogena, Aveeno, etc. all recur across many Topicals subcategories, and several also tie back to Diabetic Healthcare / Pain and Inflammation / First Aid drug pages from earlier categories) — 27 existing drug pages got Appears In lines appended rather than recreated.

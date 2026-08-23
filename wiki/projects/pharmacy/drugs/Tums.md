@@ -8,6 +8,7 @@
 
 ## Appears In
 Antacids - 52%
+Calcium Supplements - 7%
 
 ## Overview
 (TBD - pending research)

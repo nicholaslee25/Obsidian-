@@ -8,6 +8,7 @@
 
 ## Appears In
 Laxatives, Bulk/Fiber - 2%
+Fiber Supplements - 2%
 
 ## Overview
 (TBD - pending research)

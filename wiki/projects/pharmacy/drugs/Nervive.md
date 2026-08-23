@@ -8,6 +8,7 @@
 
 ## Appears In
 Topical Analgesics - 1%
+Nerve Health - 68%
 
 ## Overview
 (TBD - pending research)

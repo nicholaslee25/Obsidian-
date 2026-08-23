@@ -8,6 +8,7 @@
 
 ## Appears In
 Cold Remedies - 14%
+Immune Support - 16%
 
 ## Overview
 (TBD - pending research)

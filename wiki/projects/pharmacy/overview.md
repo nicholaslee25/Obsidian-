@@ -1,7 +1,7 @@
 # Pharmacy Database — Overview
 
 **Type:** Project Hub
-**Status:** In progress — 11 of 14 categories built
+**Status:** In progress — 12 of 14 categories built
 **Source:** https://www.pharmacytimes.com/otcguide (Pharmacy Times OTC Guide, 2026-27 edition, ~145 product categories)
 **Last updated:** 2026-08-23
 
@@ -129,7 +129,34 @@ End goal: train a local AI on this data so family can query it at home. See [[ph
     - topical-analgesics-arthritis-joint-pain
     - topical-poison-ivy-oak-remedies
     - wart-removers
-12. Vitamins and Dietary Supplements — not yet built
+12. **Vitamins and Dietary Supplements** — built (`vitamins-and-dietary-supplements/`, 27 subcategories)
+    - letter-vitamin-brand
+    - brain-health
+    - calcium-supplements
+    - cholesterol-management
+    - coenzyme-q10-supplements
+    - cranberry-supplements
+    - diet-aids
+    - fiber-supplements
+    - flax-seed-oil-supplements
+    - garlic-supplements
+    - herbal-supplement-brand
+    - high-potency-vitamin-c-supplements
+    - hydration-support
+    - immune-support
+    - iron-supplements
+    - joint-health
+    - magnesium-supplements
+    - melatonin-sleep-aids
+    - memory-support
+    - mood-health-supplements
+    - multivitamins
+    - nerve-health
+    - nutritional-supplements
+    - ocular-nutritional-supplements
+    - omega-3-fish-oil-supplements
+    - prenatal-vitamins
+    - probiotic-dietary-supplements
 13. Women's Health — not yet built
 14. Other — not yet built
 
