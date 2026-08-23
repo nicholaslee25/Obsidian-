@@ -10,6 +10,21 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 - `CLAUDE.md` — added Sync section: every change is committed and pushed immediately, no batching
 - `projects/game farming bot.md` — status updated to backburner/likely dropped; pyautogui approach got flagged for cheating by MCOC's anti-cheat
 
+## [2026-08-23] ingest | Pharmacy database — Durable Goods
+
+Fourth category of 14. Smallest so far — 2 subcategories (Joint Support/Braces, Support Hosiery). Devices, same page structure as everything else, filed under `drugs/`.
+
+Pages created:
+- `projects/pharmacy/durable-goods/` — 2 subcategory files (joint-support-braces, support-hosiery)
+- `projects/pharmacy/drugs/` — 8 new unique stub pages
+
+Pages updated:
+- `projects/pharmacy/drugs/Futuro.md`, `ACE.md` — appended Support Hosiery lines (already existed from Joint Support/Braces)
+- `projects/pharmacy/overview.md` — status now 4 of 14; Durable Goods entry flipped to built
+- `wiki/index.md` — pharmacy overview sub-line updated to 4/14 categories
+
+Next: EENT (category 5 of 14).
+
 ## [2026-08-23] ingest | Pharmacy database — Diagnostics
 
 Third category of 14. Devices, not drugs (glucose monitors, lancets, thermometers, at-home COVID tests) — same `.rankList` page structure as drug categories, so no scraping/format deviation needed. Filed under the same `drugs/` folder per the established convention.
