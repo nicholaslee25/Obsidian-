@@ -1,4 +1,4 @@
-# Robitussin
+# O'Keeffe's for Healthy Feet
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,10 +7,7 @@
 ---
 
 ## Appears In
-Cough Suppressants - 15%
-Cough/Cold/Flu Combinations, Daytime - 6%
-Expectorants - 26%
-Diabetic Cough Products - 28%
+Diabetic Foot Cream - 14%
 
 ## Overview
 (TBD - pending research)

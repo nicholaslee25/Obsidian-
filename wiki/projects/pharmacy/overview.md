@@ -1,7 +1,7 @@
 # Pharmacy Database — Overview
 
 **Type:** Project Hub
-**Status:** In progress — 1 of 14 categories built
+**Status:** In progress — 2 of 14 categories built
 **Source:** https://www.pharmacytimes.com/otcguide (Pharmacy Times OTC Guide, 2026-27 edition, ~145 product categories)
 **Last updated:** 2026-08-23
 
@@ -32,7 +32,10 @@ End goal: train a local AI on this data so family can query it at home. See [[ph
    - topical-vapor-therapy
    - zinc-cold-remedies
    - zinc-lozenges
-2. Diabetic Healthcare — not yet built
+2. **Diabetic Healthcare** — built (`diabetic-health-care/`, 3 subcategories)
+   - diabetic-cough-products
+   - diabetic-foot-cream
+   - diabetic-neuropathy-products
 3. Diagnostics — not yet built
 4. Durable Goods — not yet built
 5. EENT (Ear, Eye, Nose & Throat) — not yet built

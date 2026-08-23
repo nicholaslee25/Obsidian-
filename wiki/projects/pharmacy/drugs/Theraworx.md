@@ -1,4 +1,4 @@
-# Robitussin
+# Theraworx
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,10 +7,7 @@
 ---
 
 ## Appears In
-Cough Suppressants - 15%
-Cough/Cold/Flu Combinations, Daytime - 6%
-Expectorants - 26%
-Diabetic Cough Products - 28%
+Diabetic Neuropathy Products - 6%
 
 ## Overview
 (TBD - pending research)

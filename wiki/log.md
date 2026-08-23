@@ -10,6 +10,21 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 - `CLAUDE.md` — added Sync section: every change is committed and pushed immediately, no batching
 - `projects/game farming bot.md` — status updated to backburner/likely dropped; pyautogui approach got flagged for cheating by MCOC's anti-cheat
 
+## [2026-08-23] ingest | Pharmacy database — Diabetic Healthcare
+
+Second category of 14. Small category — only 3 subcategories on the site.
+
+Pages created:
+- `projects/pharmacy/diabetic-health-care/` — 3 subcategory files (diabetic-cough-products, diabetic-foot-cream, diabetic-neuropathy-products), each listing pharmacist-recommended brands with % share and monthly recommendation volume
+- `projects/pharmacy/drugs/` — 20 new unique drug stub pages
+
+Pages updated:
+- `projects/pharmacy/drugs/Robitussin.md` — appended "Diabetic Cough Products - 28%" to Appears In (already existed from Cough, Cold & Allergy)
+- `projects/pharmacy/overview.md` — status now 2 of 14 categories built; Diabetic Healthcare entry flipped to built with subcategory list
+- `wiki/index.md` — pharmacy overview sub-line updated to 2/14 categories
+
+Next: Diagnostics (category 3 of 14).
+
 ## [2026-08-23] ingest | Pharmacy database — Cough, Cold & Allergy (pilot category)
 
 Kicked off the OTC drug reference database, sourced from the Pharmacy Times OTC Guide (pharmacytimes.com/otcguide). Structure mirrors the site: 14 top-level categories, ~145 subcategories total. Built the first category as a validated pilot before scaling to the rest.
