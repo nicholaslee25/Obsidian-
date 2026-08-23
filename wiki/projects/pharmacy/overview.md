@@ -1,7 +1,7 @@
 # Pharmacy Database — Overview
 
 **Type:** Project Hub
-**Status:** In progress — 2 of 14 categories built
+**Status:** In progress — 3 of 14 categories built
 **Source:** https://www.pharmacytimes.com/otcguide (Pharmacy Times OTC Guide, 2026-27 edition, ~145 product categories)
 **Last updated:** 2026-08-23
 
@@ -36,7 +36,11 @@ End goal: train a local AI on this data so family can query it at home. See [[ph
    - diabetic-cough-products
    - diabetic-foot-cream
    - diabetic-neuropathy-products
-3. Diagnostics — not yet built
+3. **Diagnostics** — built (`diagnostics/`, 4 subcategories; devices not drugs, filed under `drugs/` for consistency)
+   - at-home-covid-test
+   - blood-glucose-monitors
+   - blood-sampling-devices-lancets
+   - digital-thermometers
 4. Durable Goods — not yet built
 5. EENT (Ear, Eye, Nose & Throat) — not yet built
 6. First Aid — not yet built

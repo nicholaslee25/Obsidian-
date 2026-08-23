@@ -10,6 +10,21 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 - `CLAUDE.md` — added Sync section: every change is committed and pushed immediately, no batching
 - `projects/game farming bot.md` — status updated to backburner/likely dropped; pyautogui approach got flagged for cheating by MCOC's anti-cheat
 
+## [2026-08-23] ingest | Pharmacy database — Diagnostics
+
+Third category of 14. Devices, not drugs (glucose monitors, lancets, thermometers, at-home COVID tests) — same `.rankList` page structure as drug categories, so no scraping/format deviation needed. Filed under the same `drugs/` folder per the established convention.
+
+Pages created:
+- `projects/pharmacy/diagnostics/` — 4 subcategory files (at-home-covid-test, blood-glucose-monitors, blood-sampling-devices-lancets, digital-thermometers)
+- `projects/pharmacy/drugs/` — 15 new unique stub pages
+
+Pages updated:
+- `projects/pharmacy/drugs/Accu-Chek.md`, `OneTouch.md`, `FreeStyle.md`, `Contour Next.md` — appended Blood Sampling Devices/Lancets line (already existed from Blood Glucose Monitors, same category)
+- `projects/pharmacy/overview.md` — status now 3 of 14; Diagnostics entry flipped to built
+- `wiki/index.md` — pharmacy overview sub-line updated to 3/14 categories
+
+Next: Durable Goods (category 4 of 14).
+
 ## [2026-08-23] ingest | Pharmacy database — Diabetic Healthcare
 
 Second category of 14. Small category — only 3 subcategories on the site.
