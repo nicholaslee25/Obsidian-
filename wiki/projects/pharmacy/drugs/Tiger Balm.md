@@ -8,6 +8,8 @@
 
 ## Appears In
 Thermal Relief Products - 4%
+Topical Analgesics - 3%
+Topical Analgesics, Arthritis/Joint Pain - 7%
 
 ## Overview
 (TBD - pending research)

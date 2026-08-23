@@ -8,6 +8,7 @@
 
 ## Appears In
 Topical Antibiotics/Antiseptics - 8%
+Antibacterial Soaps - 43%
 
 ## Overview
 (TBD - pending research)

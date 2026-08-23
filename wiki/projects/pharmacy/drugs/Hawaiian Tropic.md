@@ -8,6 +8,7 @@
 
 ## Appears In
 Sun Burn Relief - 5%
+Sunscreen - 6%
 
 ## Overview
 (TBD - pending research)

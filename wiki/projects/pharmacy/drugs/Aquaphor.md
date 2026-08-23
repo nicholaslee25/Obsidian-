@@ -8,6 +8,10 @@
 
 ## Appears In
 Diabetic Foot Cream - 16%
+Eczema Care/Relief Products - 12%
+Foot Care Products - 15%
+Incontinence-Related Skin Protectants - 19%
+Therapeutic Skin Care, Moisturizers - 15%
 
 ## Overview
 (TBD - pending research)

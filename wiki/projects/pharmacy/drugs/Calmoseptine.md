@@ -8,6 +8,7 @@
 
 ## Appears In
 Diaper Rash Products - 4%
+Incontinence-Related Skin Protectants - 21%
 
 ## Overview
 (TBD - pending research)

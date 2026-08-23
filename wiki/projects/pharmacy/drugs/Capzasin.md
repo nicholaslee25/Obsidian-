@@ -8,6 +8,8 @@
 
 ## Appears In
 Diabetic Neuropathy Products - 25%
+Topical Analgesics - 3%
+Topical Analgesics, Arthritis/Joint Pain - 4%
 
 ## Overview
 (TBD - pending research)

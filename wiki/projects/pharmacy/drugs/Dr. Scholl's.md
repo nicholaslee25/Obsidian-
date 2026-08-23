@@ -8,6 +8,7 @@
 
 ## Appears In
 Support Hosiery - 31%
+Foot Care Products - 20%
 
 ## Overview
 (TBD - pending research)

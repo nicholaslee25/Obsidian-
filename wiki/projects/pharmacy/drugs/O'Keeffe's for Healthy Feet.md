@@ -8,6 +8,7 @@
 
 ## Appears In
 Diabetic Foot Cream - 14%
+Foot Care Products - 12%
 
 ## Overview
 (TBD - pending research)

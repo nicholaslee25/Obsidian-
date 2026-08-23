@@ -8,6 +8,11 @@
 
 ## Appears In
 Diabetic Foot Cream - 20%
+Acne Products - 15%
+Eczema Care/Relief Products - 28%
+Sunscreen - 11%
+Therapeutic Skin Care, Cleansers - 32%
+Therapeutic Skin Care, Moisturizers - 32%
 
 ## Overview
 (TBD - pending research)

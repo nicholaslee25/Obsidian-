@@ -1,7 +1,7 @@
 # Pharmacy Database — Overview
 
 **Type:** Project Hub
-**Status:** In progress — 10 of 14 categories built
+**Status:** In progress — 11 of 14 categories built
 **Source:** https://www.pharmacytimes.com/otcguide (Pharmacy Times OTC Guide, 2026-27 edition, ~145 product categories)
 **Last updated:** 2026-08-23
 
@@ -106,7 +106,29 @@ End goal: train a local AI on this data so family can query it at home. See [[ph
     - proton-pump-inhibitors
     - stool-softeners
     - upset-stomach-remedies
-11. Topicals — not yet built
+11. **Topicals** — built (`topicals/`, 22 subcategories)
+    - acne-products
+    - antibacterial-soaps
+    - dandruff-shampoo
+    - eczema-care-relief-products
+    - foot-care-products
+    - hemorrhoidal-preparations
+    - homeopathic-topical-analgesics
+    - incontinence-related-skin-protectants
+    - insect-repellants
+    - jock-itch-antifungal-products
+    - lice-treatments
+    - lip-balms
+    - scar-treatments
+    - stretch-mark-treatments
+    - sunscreen
+    - therapeutic-skin-care-cleansers
+    - therapeutic-skin-care-moisturizers
+    - toe-foot-antifungal-products
+    - topical-analgesics
+    - topical-analgesics-arthritis-joint-pain
+    - topical-poison-ivy-oak-remedies
+    - wart-removers
 12. Vitamins and Dietary Supplements — not yet built
 13. Women's Health — not yet built
 14. Other — not yet built

@@ -8,6 +8,7 @@
 
 ## Appears In
 Topical Anesthetics - 3%
+Topical Analgesics - 1%
 
 ## Overview
 (TBD - pending research)

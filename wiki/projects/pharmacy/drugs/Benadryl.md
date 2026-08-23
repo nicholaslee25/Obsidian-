@@ -8,6 +8,7 @@
 
 ## Appears In
 Antihistamines, Oral - 8%
+Topical Poison Ivy/Oak Remedies - 13%
 
 ## Overview
 (TBD - pending research)

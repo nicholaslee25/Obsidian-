@@ -8,6 +8,7 @@
 
 ## Appears In
 Cold Sore Treatments - 1%
+Scar Treatments - 56%
 
 ## Overview
 (TBD - pending research)

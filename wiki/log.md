@@ -10,6 +10,21 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 - `CLAUDE.md` — added Sync section: every change is committed and pushed immediately, no batching
 - `projects/game farming bot.md` — status updated to backburner/likely dropped; pyautogui approach got flagged for cheating by MCOC's anti-cheat
 
+## [2026-08-23] ingest | Pharmacy database — Topicals
+
+Eleventh category of 14, and the largest by subcategory count — 22 subcategories, 202 brand-ranking rows. Heavy overlap with earlier categories (CeraVe, Aquaphor, Eucerin, Cetaphil, Neutrogena, Aveeno, etc. all recur across many Topicals subcategories, and several also tie back to Diabetic Healthcare / Pain and Inflammation / First Aid drug pages from earlier categories) — 27 existing drug pages got Appears In lines appended rather than recreated.
+
+Pages created:
+- `projects/pharmacy/topicals/` — 22 subcategory files (acne-products, antibacterial-soaps, dandruff-shampoo, eczema-care-relief-products, foot-care-products, hemorrhoidal-preparations, homeopathic-topical-analgesics, incontinence-related-skin-protectants, insect-repellants, jock-itch-antifungal-products, lice-treatments, lip-balms, scar-treatments, stretch-mark-treatments, sunscreen, therapeutic-skin-care-cleansers, therapeutic-skin-care-moisturizers, toe-foot-antifungal-products, topical-analgesics, topical-analgesics-arthritis-joint-pain, topical-poison-ivy-oak-remedies, wart-removers)
+- `projects/pharmacy/drugs/` — 116 new unique stub pages
+
+Pages updated:
+- 27 existing drug pages appended (Appears In), notably `CeraVe.md` now spans 6 subcategories across 3 categories (Diabetic Healthcare, Eczema Care/Relief, Sunscreen, Therapeutic Skin Care x2, Acne)
+- `projects/pharmacy/overview.md` — status now 11 of 14; Topicals entry flipped to built
+- `wiki/index.md` — pharmacy overview sub-line updated to 11/14 categories
+
+Next: Vitamins and Dietary Supplements (category 12 of 14).
+
 ## [2026-08-23] ingest | Pharmacy database — Gastrointestinal
 
 Tenth category of 14. 13 subcategories. Note: "Nexium 24hr"/"Nexium 24HR" and "Prevacid 24hr"/"Prevacid 24HR" appear with different casing in different subcategories on the source site — filed as distinct exact-string drug pages per the established rule (not normalized/merged).

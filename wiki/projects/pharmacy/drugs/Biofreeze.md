@@ -9,6 +9,8 @@
 ## Appears In
 Diabetic Neuropathy Products - 24%
 Thermal Relief Products - 23%
+Topical Analgesics - 13%
+Topical Analgesics, Arthritis/Joint Pain - 14%
 
 ## Overview
 (TBD - pending research)

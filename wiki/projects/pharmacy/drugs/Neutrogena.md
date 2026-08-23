@@ -8,6 +8,11 @@
 
 ## Appears In
 Sun Burn Relief - 16%
+Acne Products - 7%
+Lip Balms - 4%
+Sunscreen - 27%
+Therapeutic Skin Care, Cleansers - 8%
+Therapeutic Skin Care, Moisturizers - 4%
 
 ## Overview
 (TBD - pending research)

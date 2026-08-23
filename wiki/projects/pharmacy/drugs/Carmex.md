@@ -8,6 +8,7 @@
 
 ## Appears In
 Cold Sore Treatments - 5%
+Lip Balms - 15%
 
 ## Overview
 (TBD - pending research)

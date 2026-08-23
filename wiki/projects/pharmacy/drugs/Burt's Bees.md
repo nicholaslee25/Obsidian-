@@ -9,6 +9,9 @@
 ## Appears In
 Topical Cough Suppressants, Lozenges - 3%
 Toothpaste, General Use - 2%
+Acne Products - 3%
+Lip Balms - 15%
+Therapeutic Skin Care, Cleansers - 2%
 
 ## Overview
 (TBD - pending research)
