@@ -69,7 +69,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[ollama local llm]] — local LLM runner setup; use case TBD
 - [[raspberry pi ai assistant]] — **Le'bama**; Rhasspy + Home Assistant + Claude + Piper TTS; smart home + open queries
 - [[discord wiki bot]] — Discord bot that queries the wiki via Claude API
-- [[game farming bot]] — MCOC farming bot; screen capture + AI page recognition; active
+- [[game farming bot]] — MCOC farming bot; screen capture + AI page recognition; backburner, likely dropped (pyautogui approach got flagged for cheating)
 - [[copper plating oxidized gift]] — electroplate + patina an object as a gift
 - [[symmetrical gear arm gripper]] — rack & pinion parallel gripper, spring-loaded rod, symmetrical arms
 - [[3d printed pascal triangle]] — 3D printed Pascal's triangle as a display piece; representation TBD
@@ -78,7 +78,8 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[gyroscope visualization]] — build something that visualizes/uses gyroscope orientation data; form TBD
 - [[clear epoxy]] — resin casting; casting vs. epoxy resin explained; research phase
 - [[windshield washer cannon]] — high-pressure washer pump mod for tailgaters; harmless
-- [[pharmacy for noobs]] — plain-language med/pharmacy guide; needs parent input
+- [[pharmacy ai consultant]] — formerly "pharmacy for noobs"; now building toward a local AI trained on a full OTC drug database
+  - [[pharmacy overview]] — structured drug database mirroring Pharmacy Times OTC Guide; 1/14 categories built (Cough, Cold & Allergy)
 - [[drum repair]] — repair a drum; needs dad input
 - [[youtube channel]] — document the journey: builds, skills, cars, learning
 - [[custom speakers]] — full speaker build + dead earbud conversion
@@ -134,4 +135,4 @@ Master catalog of all wiki pages. Updated after every operation.
 
 ---
 
-*Last updated: 2026-07-25 (twelfth dump)*
+*Last updated: 2026-08-23*

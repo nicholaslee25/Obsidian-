@@ -2,8 +2,8 @@
 
 **Type:** Project
 **Tags:** #project #software #automation #gaming
-**Status:** Active
-**Last updated:** 2026-06-14
+**Status:** Backburner — likely dropped
+**Last updated:** 2026-08-23
 
 ---
 
@@ -13,6 +13,10 @@ Automate farming in MCOC (Marvel Contest of Champions) using screen capture + mo
 
 **Game:** Marvel Contest of Champions (MCOC) — desktop/emulator
 **Goal:** Auto-navigate screens to get autoplay running, then let the game handle itself
+
+## Status Update (2026-08-23)
+
+The pyautogui approach got flagged for cheating by the game's anti-cheat detection. Project is being shelved as a result — likely dropped, though left open in case a lower-detection approach (different input method, timing randomization, etc.) is worth revisiting later.
 
 ## Stack
 

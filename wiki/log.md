@@ -4,6 +4,29 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 
 ---
 
+## [2026-08-23] update | GitHub connected + auto-sync workflow established
+
+- Cloned the vault from `github.com/nicholaslee25/Obsidian-` to a local working directory; confirmed push access (Git Credential Manager authenticated)
+- `CLAUDE.md` — added Sync section: every change is committed and pushed immediately, no batching
+- `projects/game farming bot.md` — status updated to backburner/likely dropped; pyautogui approach got flagged for cheating by MCOC's anti-cheat
+
+## [2026-08-23] ingest | Pharmacy database — Cough, Cold & Allergy (pilot category)
+
+Kicked off the OTC drug reference database, sourced from the Pharmacy Times OTC Guide (pharmacytimes.com/otcguide). Structure mirrors the site: 14 top-level categories, ~145 subcategories total. Built the first category as a validated pilot before scaling to the rest.
+
+Pages created:
+- `projects/pharmacy/overview.md` — hub page, lists all 14 categories in site order, tracks build status
+- `projects/pharmacy/cough-cold-allergy/` — 18 subcategory files (antihistamines-oral, cold-remedies, cough-suppressants, cough-cold-flu-combinations-daytime/nighttime, decongestants-nasal-spray/oral, expectorants, flu-products, homeopathic-cold/cough/flu-products, intranasal-allergy-products, intranasal-corticosteroids, topical-cough-suppressants-lozenges, topical-vapor-therapy, zinc-cold-remedies, zinc-lozenges), each listing pharmacist-recommended brands with % share and monthly recommendation volume, no cross-links (plain data, by request)
+- `projects/pharmacy/drugs/` — 84 unique drug stub pages (one per brand), each with Overview/Pros/Cons/Use Cases/Allergies/Symptoms Treated sections marked TBD — deep research is a later phase
+- `projects/pharmacy for noobs.md` renamed → `projects/pharmacy ai consultant.md` and reframed: original family-education framing kept, expanded with the end goal of training a local AI on the completed database for home use
+
+Pages updated:
+- `wiki/index.md` — pharmacy project entry updated to new name + database sub-entry; game farming bot status updated
+
+Next: build out the remaining 13 categories the same way, then move to per-drug research.
+
+---
+
 ## [2026-07-25] update | Music hub restructure + todo clarifications
 
 Per Nykel's clarification on the twelfth dump's open flags:

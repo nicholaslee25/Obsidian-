@@ -1,0 +1,29 @@
+# Claritin
+
+**Type:** Drug
+**Status:** Needs research
+**Last updated:** 2026-08-23
+
+---
+
+## Appears In
+Antihistamines, Oral - 30%
+Cough/Cold/Flu Combinations, Daytime - 3%
+
+## Overview
+(TBD - pending research)
+
+## Pros
+(TBD)
+
+## Cons
+(TBD)
+
+## Use Cases
+(TBD)
+
+## Allergies / Warnings
+(TBD)
+
+## Symptoms Treated
+(TBD)
