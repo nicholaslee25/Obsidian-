@@ -10,7 +10,7 @@
 Fiber Supplements - 2%
 
 ## Overview
-(TBD - pending research)
+See ingredients/fiber.md for the general fiber ingredient evidence — Phillips' Fiber Good Gummies is not individually named with source-specific data in either raw source document; category placement per the Fiber Supplements listing above. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

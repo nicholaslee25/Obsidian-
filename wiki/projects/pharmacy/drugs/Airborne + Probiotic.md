@@ -10,7 +10,7 @@
 Probiotic Dietary Supplements - 5%
 
 ## Overview
-(TBD - pending research)
+See ingredients/probiotics.md for the general probiotic ingredient evidence — Airborne + Probiotic is not individually named with source-specific data in either raw source document; category placement per the Probiotic Dietary Supplements listing above. Formulation not verified against actual label.
 
 ## Pros
 (TBD)
