@@ -10,7 +10,7 @@
 Migraine Headache Products - 3%
 
 ## Overview
-(TBD - pending research)
+See ingredients/ibuprofen.md for evidence — presumed to be built on an ibuprofen base per the Motrin brand family, consistent with the ibuprofen class per common real-world market identity; not individually named in either source document.
 
 ## Pros
 (TBD)

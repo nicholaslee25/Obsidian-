@@ -10,7 +10,7 @@
 Sleep Aid/Analgesic Combination Products - 23%
 
 ## Overview
-(TBD - pending research)
+See ingredients/ibuprofen.md for evidence — presumed to be an ibuprofen + sleep-aid (commonly diphenhydramine) combination per the Advil brand family and the dossier's "Advil → ibuprofen" mapping; not individually named in either source document, and the sleep-aid component is not verified against label.
 
 ## Pros
 (TBD)

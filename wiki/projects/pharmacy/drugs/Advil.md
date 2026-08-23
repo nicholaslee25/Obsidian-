@@ -12,7 +12,7 @@ Oral Anti-Inflammatory Products - 45%
 Menstrual Pain Relief - 24%
 
 ## Overview
-(TBD - pending research)
+See ingredients/ibuprofen.md for evidence — the dossier's "Correction 2" explicitly states "Advil → ibuprofen."
 
 ## Pros
 (TBD)

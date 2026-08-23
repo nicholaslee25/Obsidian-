@@ -10,7 +10,7 @@
 Migraine Headache Products - 65%
 
 ## Overview
-(TBD - pending research)
+See ingredients/aspirin.md and ingredients/acetaminophen.md for evidence — explicitly discussed in the continuation source as the acetaminophen + aspirin + caffeine combination with a 65% recommendation share.
 
 ## Pros
 (TBD)

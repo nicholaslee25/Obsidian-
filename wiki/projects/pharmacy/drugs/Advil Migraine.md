@@ -10,7 +10,7 @@
 Migraine Headache Products - 13%
 
 ## Overview
-(TBD - pending research)
+See ingredients/ibuprofen.md for evidence — presumed to be built on an ibuprofen base per the Advil brand family and the dossier's "Advil → ibuprofen" mapping; not individually named in either source document, and exact dose/other ingredients not verified against label.
 
 ## Pros
 (TBD)

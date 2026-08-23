@@ -13,7 +13,7 @@ Oral Arthritis Pain Relievers - 21%
 Menstrual Pain Relief - 17%
 
 ## Overview
-(TBD - pending research)
+See ingredients/ibuprofen.md for evidence — consistent with the ibuprofen class per common real-world market identity, not individually name-confirmed as ibuprofen in the two source documents the way Advil is.
 
 ## Pros
 (TBD)

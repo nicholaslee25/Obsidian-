@@ -10,7 +10,7 @@
 Oral Arthritis Pain Relievers - 38%
 
 ## Overview
-(TBD - pending research)
+See ingredients/acetaminophen.md for evidence — a Tylenol-brand combination product built around the Tylenol acetaminophen base per the source's own "Tylenol → acetaminophen" framing; exact acetaminophen dose not verified against label. Note the continuation source's duplicate-ingredient warning about overlapping acetaminophen exposure across the Tylenol family.
 
 ## Pros
 (TBD)
