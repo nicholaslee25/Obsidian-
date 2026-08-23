@@ -1,7 +1,7 @@
 # Pharmacy Database — Overview
 
 **Type:** Project Hub
-**Status:** Complete — 14 of 14 categories built
+**Status:** Complete — 14 of 14 categories built; ingredients/ research layer built (73 pages) and cross-referenced into drugs/
 **Source:** https://www.pharmacytimes.com/otcguide (Pharmacy Times OTC Guide, 2026-27 edition, ~145 product categories)
 **Last updated:** 2026-08-23
 
@@ -10,6 +10,16 @@
 Mirrors the category structure of the Pharmacy Times OTC Guide. Each category folder contains one file per product subcategory, listing every pharmacist-recommended brand and its % share plus the monthly recommendation volume. Every unique drug/brand also gets its own page under `drugs/` for future deep research (pros, cons, use cases, allergies, symptoms) — that research is a later phase, not this pass.
 
 End goal: train a local AI on this data so family can query it at home. See [[pharmacy ai consultant]] for that side of the project.
+
+## The ingredients/ Research Layer
+
+`projects/pharmacy/ingredients/` holds 73 active-ingredient evidence pages — organized by ingredient (guaifenesin, ibuprofen, calcium, proton-pump-inhibitors, etc.), not by brand. They were transcribed from two ChatGPT-compiled evidence dossiers ([[source — otc guide master dossier volume 2]] and [[source — otc evidence corpus chatgpt continuation]]) rather than from the Pharmacy Times category pages, and each one carries actual clinical evidence: study design, N, PMID/DOI, effect sizes, and an evidence grade (High/Moderate/Low/Very Low/No product-specific evidence), plus Pros, Cons/Safety Limitations, Contraindications, and Special Population Flags where the source discusses them.
+
+**Two-layer rule (never merge these):**
+- **`drugs/*.md` "Appears In" data** = a pharmacist-recommendation percentage from the Pharmacy Times survey (e.g. "Imodium — 81%"). This is a preference/market-share statistic — it says nothing about whether the drug works.
+- **`ingredients/*.md` evidence** = actual clinical trial data for the active ingredient (design, population, result, PMID). This is the efficacy/safety layer.
+
+A brand's `drugs/*.md` page now points to the relevant `ingredients/*.md` page(s) in its Overview section wherever the two source dossiers plausibly support the connection, hedged with "formulation not verified against actual label" language whenever the specific SKU-to-ingredient link isn't independently confirmed in source. Brands with no clear, source-supportable ingredient link are deliberately left unlinked rather than guessed at from name or category alone.
 
 ## Categories (site order)
 
@@ -172,3 +182,5 @@ End goal: train a local AI on this data so family can query it at home. See [[ph
 
 ## Related
 - [[pharmacy ai consultant]]
+- [[source — otc guide master dossier volume 2]]
+- [[source — otc evidence corpus chatgpt continuation]]

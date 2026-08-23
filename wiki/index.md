@@ -79,7 +79,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[clear epoxy]] — resin casting; casting vs. epoxy resin explained; research phase
 - [[windshield washer cannon]] — high-pressure washer pump mod for tailgaters; harmless
 - [[pharmacy ai consultant]] — formerly "pharmacy for noobs"; now building toward a local AI trained on a full OTC drug database
-  - [[pharmacy overview]] — structured drug database mirroring Pharmacy Times OTC Guide; complete, 14/14 categories built
+  - [[pharmacy overview]] — structured drug database mirroring Pharmacy Times OTC Guide; complete, 14/14 categories built; ingredients/ research layer now built (73 active-ingredient evidence pages) and cross-referenced into drug pages
 - [[drum repair]] — repair a drum; needs dad input
 - [[youtube channel]] — document the journey: builds, skills, cars, learning
 - [[custom speakers]] — full speaker build + dead earbud conversion
@@ -128,7 +128,8 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[epistemology and theology]] — Rowe's argument, religious epistemology, comparative religion reflections
 
 ## Sources
-*(none yet)*
+- [[source — otc guide master dossier volume 2]] — ChatGPT-compiled OTC evidence dossier feeding the pharmacy ingredients/ layer
+- [[source — otc evidence corpus chatgpt continuation]] — continuation dossier, same project
 
 ## Reflections
 *(none yet)*

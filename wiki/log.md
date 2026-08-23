@@ -4,6 +4,36 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 
 ---
 
+## [2026-08-23] ingest | Pharmacy database — ingredients/ research layer (77 pages) + brand cross-referencing
+
+Second research pass on top of the completed 719-page drugs/ database (see the "Pharmacy database — Other" entry below): a new evidence layer organized by active ingredient rather than by brand, plus cross-referencing drug pages to point at it. Ran across two sessions (an earlier one built the pages and started cross-referencing before hitting a usage limit; this one finished the cross-referencing and these meta-file updates).
+
+Ingested two new raw sources (ChatGPT-compiled OTC evidence dossiers, not the Pharmacy Times site):
+- `raw/pharmacy-research/otc-guide-master-dossier-volume-2.md`
+- `raw/pharmacy-research/otc-evidence-corpus-chatgpt-continuation.md`
+- Summarized as `sources/source — otc guide master dossier volume 2.md` and `sources/source — otc evidence corpus chatgpt continuation.md`
+
+Pages created — `projects/pharmacy/ingredients/`, 77 active-ingredient evidence pages, each with indication, mechanism, evidence summary, study-level detail (design/N/PMID/DOI/result where available), pros, cons/safety limitations, contraindications, special population flags, and a "Brands Using This Ingredient" note:
+- Cough/Cold/Allergy/Flu (12): dextromethorphan, guaifenesin, oral-phenylephrine, pseudoephedrine, oxymetazoline, second-generation-antihistamines, homeopathic-cold-products, oscillococcinum, pelargonium, elderberry, zinc, intranasal-corticosteroids
+- EENT (4): artificial-tears, cerumenolytics, sore-throat-lozenges-amc-dcba, sore-throat-lozenges-flurbiprofen
+- Pain (5): ibuprofen, naproxen, aspirin, acetaminophen, topical-diclofenac
+- First Aid (5): topical-antibiotics, petrolatum, topical-anesthetics, burn-treatment, insect-bites
+- Gastrointestinal (11): antacids, bisacodyl, bismuth-subsalicylate, docusate, famotidine, lactase, loperamide, peg-3350, proton-pump-inhibitors, senna, simethicone
+- Topicals (6): benzoyl-peroxide, clotrimazole, hydrocortisone, moisturizers-ceramides, salicylic-acid, terbinafine
+- Diabetic Healthcare (2): capsaicin, diabetic-foot-care
+- Oral Care (7): chlorhexidine, docosanol, fluoride-toothpaste, hydroxyapatite-toothpaste, potassium-nitrate, saliva-substitutes, stannous-fluoride
+- Pediatrics (3): dimenhydrinate, honey-pediatric-cough, zinc-oxide
+- Women's Health (3): boric-acid, phenazopyridine, vaginal-lubricants-moisturizers
+- Vitamins and Dietary Supplements (15): calcium, coq10, cranberry, fiber, garlic, glucosamine-chondroitin, iron, magnesium, melatonin, multivitamins, omega-3-fish-oil, prenatal-vitamins, probiotics, vitamin-c, vitamin-d
+- Diagnostics (4, device-accuracy framing not drug-efficacy): at-home-covid-tests, blood-glucose-monitors, blood-sampling-devices-lancets, digital-thermometers
+
+Pages updated — 196 `drugs/*.md` brand pages across both sessions had their "(TBD - pending research)" Overview line replaced with a plain-text pointer to the relevant `ingredients/*.md` page(s), hedged with "formulation not verified against actual label" wherever the source doesn't independently confirm the specific brand-to-ingredient link:
+- Earlier session (80 files): cough/cold/decongestant brands (Mucinex/Robitussin/Sudafed/antihistamine-D combos/etc.), antidiarrheal/laxative/zinc/homeopathic-flu/nasal brands (Imodium, Zicam, Afrin, Flonase/Nasacort/Nasonex, Oscillococcinum, Umcka, Sambucol), antihistamine/homeopathic-cough/Tylenol brands (Zyrtec/Claritin/Allegra/Xyzal/Alavert families, Boiron products, the five Tylenol variants), and GI antacid/PPI/H2/calcium-supplement brands (Tums/Gaviscon/Mylanta/Rolaids, Prilosec/Prevacid/Nexium/Zegerid, Pepcid/Zantac 360°, Citracal/Caltrate/Viactiv/Nature's Bounty/vitafusion)
+- This session (116 files): Pain brands (Advil/Motrin families → ibuprofen, Tylenol combo extensions → acetaminophen, Excedrin/Excedrin Migraine → aspirin + acetaminophen); Topicals/Diabetic/Oral Care/Pediatrics/Women's Health (Lotrimin/Monistat/Vagistat → clotrimazole, Lamisil → terbinafine, CeraVe → moisturizers-ceramides, Capzasin → capsaicin, Abreva → docosanol, Dramamine → dimenhydrinate, AZO/UriStat/Uricalm → phenazopyridine, AZO/pH-D boric-acid products → boric-acid); and the full Vitamins/Supplements sweep (Multivitamins, Children's Multivitamins, Prenatal, Iron, Cranberry, Garlic, Vitamin C, CoQ10, Joint Health, Magnesium, Melatonin, Omega-3, Probiotics, Fiber, plus multi-category house brands Nature Made and Nature's Truth)
+- Deliberately left unlinked (no source-supportable connection, per each ingredient page's own brand notes): Aleve/Aleve PM (naproxen.md declines to link any brand), Bayer Aspirin/Bayer/BC Powder/Goody's Powder/Ecotrin/St. Joseph/VAZALORE (aspirin.md links only Excedrin Migraine), Voltaren Gel (topical-diclofenac.md declines), Dramamine Nausea (uncertain formulation per dimenhydrinate.md), AZO Cranberry (cranberry.md declines all brands), and the bulk of First Aid/EENT/Diagnostics brands (those ingredient pages explicitly assert no brand-specific link in either source document)
+
+Pages updated (meta) — `projects/pharmacy/overview.md` (new "The ingredients/ Research Layer" section + status line, restates the two-layer rule: Pharmacy Times recommendation % vs. clinical evidence must never be merged), `projects/pharmacy ai consultant.md` (status flipped to "Research phase underway," Phase 2 description updated), `wiki/index.md` (pharmacy sub-line + previously-empty Sources section now lists both new source pages).
+
 ## [2026-08-23] update | GitHub connected + auto-sync workflow established
 
 - Cloned the vault from `github.com/nicholaslee25/Obsidian-` to a local working directory; confirmed push access (Git Credential Manager authenticated)
