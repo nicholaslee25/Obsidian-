@@ -10,7 +10,7 @@
 Laxatives, Stimulant - 15%
 
 ## Overview
-(TBD - pending research)
+See ingredients/docusate.md for evidence (verify second ingredient against label — per the existing docusate.md brand note).
 
 ## Pros
 (TBD)

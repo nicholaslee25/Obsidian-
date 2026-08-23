@@ -11,7 +11,7 @@ Intranasal Allergy Products - 4%
 Intranasal Corticosteroids - 5%
 
 ## Overview
-(TBD - pending research)
+Widely known in the real-world OTC market as mometasone (see ingredients/intranasal-corticosteroids.md), consistent with the dossier's class list, but this specific brand-to-molecule pairing is not independently confirmed in the two source documents.
 
 ## Pros
 (TBD)

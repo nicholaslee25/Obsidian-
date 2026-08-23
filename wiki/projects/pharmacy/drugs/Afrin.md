@@ -10,7 +10,7 @@
 Decongestants, Nasal Spray - 62%
 
 ## Overview
-(TBD - pending research)
+Best known in the real-world OTC market as an oxymetazoline nasal spray (see ingredients/oxymetazoline.md), but the source does not itself state Afrin's active ingredient — not independently confirmed in the two source documents.
 
 ## Pros
 (TBD)

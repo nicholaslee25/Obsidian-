@@ -15,7 +15,7 @@ Zinc Lozenges - 41%
 Immune Support - 10%
 
 ## Overview
-(TBD - pending research)
+See ingredients/zinc.md for the Zinc Cold Remedies/Zinc Lozenges evidence. Zicam markets multiple formulations across several of the categories listed above (Cold Remedies, Decongestants Nasal Spray, Homeopathic Cold Products, Immune Support) — the exact active ingredient of any specific Zicam SKU outside the zinc-lozenge line is not verified here.
 
 ## Pros
 (TBD)

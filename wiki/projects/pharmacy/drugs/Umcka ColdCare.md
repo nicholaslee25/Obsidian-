@@ -11,7 +11,7 @@ Cold Remedies - 2%
 Homeopathic Cough Products - 6%
 
 ## Overview
-(TBD - pending research)
+See ingredients/pelargonium.md for evidence.
 
 ## Pros
 (TBD)

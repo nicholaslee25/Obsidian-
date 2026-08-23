@@ -10,7 +10,7 @@
 Children's Allergy - 2%
 
 ## Overview
-(TBD - pending research)
+See ingredients/intranasal-corticosteroids.md for evidence (fluticasone propionate, per the parent Flonase brand's source-confirmed ingredient). Pediatric dose/formulation not separately verified.
 
 ## Pros
 (TBD)

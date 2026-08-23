@@ -13,7 +13,7 @@ Zinc Cold Remedies - 40%
 Zinc Lozenges - 37%
 
 ## Overview
-(TBD - pending research)
+See ingredients/zinc.md for evidence. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

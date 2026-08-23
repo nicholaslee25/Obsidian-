@@ -11,7 +11,7 @@ Flu Products - 7%
 Homeopathic Flu Products - 38%
 
 ## Overview
-(TBD - pending research)
+See ingredients/oscillococcinum.md for evidence.
 
 ## Pros
 (TBD)

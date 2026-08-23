@@ -10,7 +10,7 @@
 Children's Homeopathic Cough Products - 12%
 
 ## Overview
-(TBD - pending research)
+See ingredients/elderberry.md for evidence. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

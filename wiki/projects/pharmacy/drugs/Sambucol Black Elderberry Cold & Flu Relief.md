@@ -10,7 +10,7 @@
 Homeopathic Flu Products - 40%
 
 ## Overview
-(TBD - pending research)
+See ingredients/elderberry.md for evidence. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

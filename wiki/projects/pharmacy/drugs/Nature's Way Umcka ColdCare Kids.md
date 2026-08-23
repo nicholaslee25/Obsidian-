@@ -10,7 +10,7 @@
 Children's Homeopathic Cough Products - 8%
 
 ## Overview
-(TBD - pending research)
+See ingredients/pelargonium.md for evidence. Pediatric dose/formulation not separately verified.
 
 ## Pros
 (TBD)

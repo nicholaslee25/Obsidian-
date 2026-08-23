@@ -10,7 +10,7 @@
 Antidiarrheals - 81%
 
 ## Overview
-(TBD - pending research)
+See ingredients/loperamide.md for evidence. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

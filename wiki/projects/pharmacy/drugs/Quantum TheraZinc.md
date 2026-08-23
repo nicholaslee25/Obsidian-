@@ -10,7 +10,7 @@
 Zinc Lozenges - 8%
 
 ## Overview
-(TBD - pending research)
+See ingredients/zinc.md for evidence. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

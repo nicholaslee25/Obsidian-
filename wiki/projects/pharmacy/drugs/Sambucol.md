@@ -12,7 +12,7 @@ Homeopathic Cough Products - 41%
 Immune Support - 4%
 
 ## Overview
-(TBD - pending research)
+See ingredients/elderberry.md for evidence. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

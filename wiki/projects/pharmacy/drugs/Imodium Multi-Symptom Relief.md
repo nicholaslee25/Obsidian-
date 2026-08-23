@@ -10,7 +10,7 @@
 Antiflatulence Products - 4%
 
 ## Overview
-(TBD - pending research)
+Likely the loperamide + simethicone combination (see ingredients/loperamide.md and ingredients/simethicone.md) — verify against label.
 
 ## Pros
 (TBD)

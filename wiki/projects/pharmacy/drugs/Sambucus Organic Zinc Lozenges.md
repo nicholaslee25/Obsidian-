@@ -10,7 +10,7 @@
 Zinc Lozenges - 14%
 
 ## Overview
-(TBD - pending research)
+See ingredients/zinc.md and ingredients/elderberry.md for evidence (combines zinc with elderberry per the product name). Formulation not verified against actual label.
 
 ## Pros
 (TBD)

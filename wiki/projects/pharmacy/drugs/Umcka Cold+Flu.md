@@ -10,7 +10,7 @@
 Homeopathic Flu Products - 4%
 
 ## Overview
-(TBD - pending research)
+See ingredients/pelargonium.md for evidence.
 
 ## Pros
 (TBD)
