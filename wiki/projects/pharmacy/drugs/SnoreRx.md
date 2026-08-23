@@ -1,4 +1,4 @@
-# Cepacol
+# SnoreRx
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,9 +7,7 @@
 ---
 
 ## Appears In
-Cold Remedies - 15%
-Topical Cough Suppressants, Lozenges - 25%
-Sore Throat Products - 30%
+Snore Aids - 3%
 
 ## Overview
 (TBD - pending research)

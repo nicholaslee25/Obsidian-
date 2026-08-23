@@ -8,6 +8,7 @@
 
 ## Appears In
 Decongestants, Nasal Spray - 3%
+Saline Nasal Moisturizers - 2%
 
 ## Overview
 (TBD - pending research)

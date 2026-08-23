@@ -1,7 +1,7 @@
 # Pharmacy Database — Overview
 
 **Type:** Project Hub
-**Status:** In progress — 4 of 14 categories built
+**Status:** In progress — 5 of 14 categories built
 **Source:** https://www.pharmacytimes.com/otcguide (Pharmacy Times OTC Guide, 2026-27 edition, ~145 product categories)
 **Last updated:** 2026-08-23
 
@@ -44,7 +44,15 @@ End goal: train a local AI on this data so family can query it at home. See [[ph
 4. **Durable Goods** — built (`durable-goods/`, 2 subcategories; devices not drugs, filed under `drugs/` for consistency)
    - joint-support-braces
    - support-hosiery
-5. EENT (Ear, Eye, Nose & Throat) — not yet built
+5. **EENT (Ear, Eye, Nose & Throat)** — built (`eareyesnosethroat/`, 8 subcategories)
+   - artificial-tears-ophthalmic-lubricants
+   - contact-lens-solutions-saline
+   - ear-pain-relief
+   - ear-wax-removal
+   - ophthalmic-antihistamines-decongestants
+   - saline-nasal-moisturizers
+   - snore-aids
+   - sore-throat-products
 6. First Aid — not yet built
 7. Oral Care — not yet built
 8. Pain and Inflammation — not yet built

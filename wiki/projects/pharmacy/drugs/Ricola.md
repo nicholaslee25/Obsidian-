@@ -8,6 +8,7 @@
 
 ## Appears In
 Topical Cough Suppressants, Lozenges - 18%
+Sore Throat Products - 14%
 
 ## Overview
 (TBD - pending research)

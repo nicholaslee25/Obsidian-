@@ -10,6 +10,21 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 - `CLAUDE.md` — added Sync section: every change is committed and pushed immediately, no batching
 - `projects/game farming bot.md` — status updated to backburner/likely dropped; pyautogui approach got flagged for cheating by MCOC's anti-cheat
 
+## [2026-08-23] ingest | Pharmacy database — EENT (Ear, Eye, Nose & Throat)
+
+Fifth category of 14. 8 subcategories.
+
+Pages created:
+- `projects/pharmacy/eareyesnosethroat/` — 8 subcategory files (artificial-tears-ophthalmic-lubricants, contact-lens-solutions-saline, ear-pain-relief, ear-wax-removal, ophthalmic-antihistamines-decongestants, saline-nasal-moisturizers, snore-aids, sore-throat-products)
+- `projects/pharmacy/drugs/` — 48 new unique stub pages
+
+Pages updated (Appears In appended, brand already existed from an earlier category):
+- `Biotrue.md`, `Visine.md`, `Clear Eyes.md`, `Xlear.md`, `Cepacol.md`, `Chloraseptic.md`, `Ricola.md`, `HALLS.md`, `Fisherman's Friend.md`, `Luden's.md`, `Mucinex Instasoothe.md`, `Sucrets.md`
+- `projects/pharmacy/overview.md` — status now 5 of 14; EENT entry flipped to built
+- `wiki/index.md` — pharmacy overview sub-line updated to 5/14 categories
+
+Next: First Aid (category 6 of 14).
+
 ## [2026-08-23] ingest | Pharmacy database — Durable Goods
 
 Fourth category of 14. Smallest so far — 2 subcategories (Joint Support/Braces, Support Hosiery). Devices, same page structure as everything else, filed under `drugs/`.

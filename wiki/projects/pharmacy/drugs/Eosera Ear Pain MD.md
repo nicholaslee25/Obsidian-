@@ -1,4 +1,4 @@
-# Cepacol
+# Eosera Ear Pain MD
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,9 +7,7 @@
 ---
 
 ## Appears In
-Cold Remedies - 15%
-Topical Cough Suppressants, Lozenges - 25%
-Sore Throat Products - 30%
+Ear Pain Relief - 7%
 
 ## Overview
 (TBD - pending research)

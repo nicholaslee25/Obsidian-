@@ -1,4 +1,4 @@
-# Cepacol
+# OPTI-FREE Puremoist
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,9 +7,7 @@
 ---
 
 ## Appears In
-Cold Remedies - 15%
-Topical Cough Suppressants, Lozenges - 25%
-Sore Throat Products - 30%
+Contact Lens Solutions, Saline - 45%
 
 ## Overview
 (TBD - pending research)

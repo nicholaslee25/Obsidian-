@@ -9,6 +9,7 @@
 ## Appears In
 Cold Remedies - 4%
 Topical Cough Suppressants, Lozenges - 3%
+Sore Throat Products - 3%
 
 ## Overview
 (TBD - pending research)

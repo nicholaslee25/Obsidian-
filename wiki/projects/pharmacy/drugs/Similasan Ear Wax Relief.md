@@ -1,4 +1,4 @@
-# Cepacol
+# Similasan Ear Wax Relief
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,9 +7,7 @@
 ---
 
 ## Appears In
-Cold Remedies - 15%
-Topical Cough Suppressants, Lozenges - 25%
-Sore Throat Products - 30%
+Ear Wax Removal - 2%
 
 ## Overview
 (TBD - pending research)

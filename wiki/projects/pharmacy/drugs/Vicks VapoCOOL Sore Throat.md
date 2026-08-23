@@ -1,4 +1,4 @@
-# Cepacol
+# Vicks VapoCOOL Sore Throat
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,9 +7,7 @@
 ---
 
 ## Appears In
-Cold Remedies - 15%
-Topical Cough Suppressants, Lozenges - 25%
-Sore Throat Products - 30%
+Sore Throat Products - 3%
 
 ## Overview
 (TBD - pending research)

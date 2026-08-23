@@ -1,4 +1,4 @@
-# Cepacol
+# Clear Eyes
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,9 +7,8 @@
 ---
 
 ## Appears In
-Cold Remedies - 15%
-Topical Cough Suppressants, Lozenges - 25%
-Sore Throat Products - 30%
+Artificial Tears/Ophthalmic Lubricants - 4%
+Ophthalmic Antihistamines/Decongestants - 7%
 
 ## Overview
 (TBD - pending research)
