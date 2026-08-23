@@ -13,7 +13,7 @@ Expectorants - 26%
 Diabetic Cough Products - 28%
 
 ## Overview
-(TBD - pending research)
+See ingredients/guaifenesin.md for evidence (Expectorants category). Robitussin also appears in the Cough Suppressants category, where the active ingredient may be dextromethorphan (see ingredients/dextromethorphan.md) instead — exact formulation per SKU not verified against label.
 
 ## Pros
 (TBD)

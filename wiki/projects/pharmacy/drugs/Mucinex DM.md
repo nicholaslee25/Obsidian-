@@ -10,7 +10,7 @@
 Cough Suppressants - 23%
 
 ## Overview
-(TBD - pending research)
+See ingredients/guaifenesin.md and ingredients/dextromethorphan.md for evidence (combination product). Formulation not verified against actual label.
 
 ## Pros
 (TBD)

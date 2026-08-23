@@ -11,7 +11,7 @@ Children's Cough - 12%
 Children's Cough/Cold Combinations - 10%
 
 ## Overview
-(TBD - pending research)
+See ingredients/guaifenesin.md for evidence. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

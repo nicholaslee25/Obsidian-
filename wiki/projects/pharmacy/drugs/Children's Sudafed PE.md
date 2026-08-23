@@ -10,7 +10,7 @@
 Children's Cough/Cold Combinations - 4%
 
 ## Overview
-(TBD - pending research)
+Presumed same active ingredient as Sudafed PE (phenylephrine) given shared naming — see ingredients/oral-phenylephrine.md. Not independently confirmed against the two source documents; formulation not verified against actual label.
 
 ## Pros
 (TBD)

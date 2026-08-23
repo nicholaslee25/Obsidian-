@@ -10,7 +10,7 @@
 Cough/Cold/Flu Combinations, Nighttime - 6%
 
 ## Overview
-(TBD - pending research)
+See ingredients/guaifenesin.md for evidence. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

@@ -10,7 +10,7 @@
 Cough Suppressants - 4%
 
 ## Overview
-(TBD - pending research)
+See ingredients/dextromethorphan.md for evidence (the "DM" naming convention conventionally denotes dextromethorphan). Formulation not independently confirmed in the two source documents.
 
 ## Pros
 (TBD)

@@ -10,7 +10,7 @@
 Decongestants, Oral - 45%
 
 ## Overview
-(TBD - pending research)
+See ingredients/pseudoephedrine.md for evidence — name-confirmed active ingredient.
 
 ## Pros
 (TBD)

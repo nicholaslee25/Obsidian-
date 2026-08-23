@@ -10,7 +10,7 @@
 Decongestants, Oral - 4%
 
 ## Overview
-(TBD - pending research)
+See ingredients/oral-phenylephrine.md for evidence — name-confirmed active ingredient. This is the FDA-flagged negative-evidence example (see ingredient page); do not confuse with Sudafed (pseudoephedrine), a separate product.
 
 ## Pros
 (TBD)

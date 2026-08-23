@@ -10,7 +10,7 @@
 Decongestants, Oral - 9%
 
 ## Overview
-(TBD - pending research)
+See ingredients/guaifenesin.md and ingredients/pseudoephedrine.md for evidence (combination product; pseudoephedrine content not independently confirmed in the two source documents). Formulation not verified against actual label.
 
 ## Pros
 (TBD)

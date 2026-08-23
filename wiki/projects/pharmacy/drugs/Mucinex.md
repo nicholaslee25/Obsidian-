@@ -12,7 +12,7 @@ Cough/Cold/Flu Combinations, Nighttime - 14%
 Expectorants - 74%
 
 ## Overview
-(TBD - pending research)
+See ingredients/guaifenesin.md for evidence. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

@@ -10,7 +10,7 @@
 Decongestants, Oral - 5%
 
 ## Overview
-(TBD - pending research)
+Widely known in the real-world OTC market as a cetirizine + pseudoephedrine combination (see ingredients/pseudoephedrine.md and ingredients/second-generation-antihistamines.md), but that specific ingredient assignment is not independently confirmed in the two source documents. Formulation not verified against actual label.
 
 ## Pros
 (TBD)
