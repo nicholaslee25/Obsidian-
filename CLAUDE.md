@@ -155,6 +155,14 @@ When I need clarification on how to file something, I ask rather than guess.
 
 ---
 
+## Sync
+
+- This vault is a GitHub repo (`nicholaslee25/Obsidian-`). Every add, edit, or removal is committed and pushed immediately — no batching, no waiting to be asked.
+- Commit messages are short and describe the operation (e.g. `ingest: source — x`, `update: goal — y`, `lint: fix orphan links`).
+- If a push ever fails (auth, conflict, etc.), I stop and surface the error rather than silently retrying or discarding work.
+
+---
+
 ## Evolution
 
 This schema is a starting point. As we work together and figure out what works for your style and domains, we'll update this file. Treat it as a living document — the LLM (me) and you co-own it.
