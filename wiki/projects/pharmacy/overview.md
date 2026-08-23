@@ -1,7 +1,7 @@
 # Pharmacy Database — Overview
 
 **Type:** Project Hub
-**Status:** Complete — 14 of 14 categories built; ingredients/ research layer built (73 pages) and cross-referenced into drugs/
+**Status:** Complete — 14 of 14 categories built; ingredients/ research layer built (77 pages) and cross-referenced into drugs/
 **Source:** https://www.pharmacytimes.com/otcguide (Pharmacy Times OTC Guide, 2026-27 edition, ~145 product categories)
 **Last updated:** 2026-08-23
 
@@ -13,7 +13,7 @@ End goal: train a local AI on this data so family can query it at home. See [[ph
 
 ## The ingredients/ Research Layer
 
-`projects/pharmacy/ingredients/` holds 73 active-ingredient evidence pages — organized by ingredient (guaifenesin, ibuprofen, calcium, proton-pump-inhibitors, etc.), not by brand. They were transcribed from two ChatGPT-compiled evidence dossiers ([[source — otc guide master dossier volume 2]] and [[source — otc evidence corpus chatgpt continuation]]) rather than from the Pharmacy Times category pages, and each one carries actual clinical evidence: study design, N, PMID/DOI, effect sizes, and an evidence grade (High/Moderate/Low/Very Low/No product-specific evidence), plus Pros, Cons/Safety Limitations, Contraindications, and Special Population Flags where the source discusses them.
+`projects/pharmacy/ingredients/` holds 77 active-ingredient evidence pages — organized by ingredient (guaifenesin, ibuprofen, calcium, proton-pump-inhibitors, etc.), not by brand. They were transcribed from two ChatGPT-compiled evidence dossiers ([[source — otc guide master dossier volume 2]] and [[source — otc evidence corpus chatgpt continuation]]) rather than from the Pharmacy Times category pages, and each one carries actual clinical evidence: study design, N, PMID/DOI, effect sizes, and an evidence grade (High/Moderate/Low/Very Low/No product-specific evidence), plus Pros, Cons/Safety Limitations, Contraindications, and Special Population Flags where the source discusses them.
 
 **Two-layer rule (never merge these):**
 - **`drugs/*.md` "Appears In" data** = a pharmacist-recommendation percentage from the Pharmacy Times survey (e.g. "Imodium — 81%"). This is a preference/market-share statistic — it says nothing about whether the drug works.
