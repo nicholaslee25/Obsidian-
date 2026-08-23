@@ -10,7 +10,7 @@
 Children's Motion Sickness Products - 71%
 
 ## Overview
-(TBD - pending research)
+See ingredients/dimenhydrinate.md for evidence — dimenhydrinate, per real-world market identity; not individually confirmed in the two source documents beyond the general dimenhydrinate discussion there.
 
 ## Pros
 (TBD)

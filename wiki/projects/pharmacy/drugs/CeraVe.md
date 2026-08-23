@@ -15,7 +15,7 @@ Therapeutic Skin Care, Cleansers - 32%
 Therapeutic Skin Care, Moisturizers - 32%
 
 ## Overview
-(TBD - pending research)
+Appears across many product categories under this single house-brand filename (see Appears In above). Only the Therapeutic Skin Care, Moisturizers line is covered by ingredient-specific source data — see ingredients/moisturizers-ceramides.md (CeraVe — 32% recommendation share). Its Eczema Care/Relief Products line is plausibly related to that same evidence but not individually confirmed. The Diabetic Foot Cream, Acne Products, Sunscreen, and Therapeutic Skin Care, Cleansers lines are not covered by any ingredient page in this database. Formulation not verified per SKU.
 
 ## Pros
 (TBD)

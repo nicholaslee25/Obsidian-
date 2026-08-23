@@ -12,7 +12,7 @@ Topical Analgesics - 3%
 Topical Analgesics, Arthritis/Joint Pain - 4%
 
 ## Overview
-(TBD - pending research)
+See ingredients/capsaicin.md for evidence — capsaicin, per real-world market identity; not individually discussed with source data. Also appears in the two Topical Analgesics categories, consistent with capsaicin's topical-analgesic mechanism, though not individually confirmed there either.
 
 ## Pros
 (TBD)

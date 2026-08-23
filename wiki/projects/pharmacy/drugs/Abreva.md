@@ -10,7 +10,7 @@
 Cold Sore Treatments - 69%
 
 ## Overview
-(TBD - pending research)
+See ingredients/docosanol.md for evidence — docosanol, per real-world market identity; not individually confirmed in the two source documents beyond the general docosanol discussion there.
 
 ## Pros
 (TBD)

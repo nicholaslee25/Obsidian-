@@ -10,7 +10,7 @@
 Urinary Health - 2%
 
 ## Overview
-(TBD - pending research)
+See ingredients/phenazopyridine.md for evidence — phenazopyridine, per real-world market identity; not individually confirmed in the two source documents beyond the general phenazopyridine discussion there.
 
 ## Pros
 (TBD)

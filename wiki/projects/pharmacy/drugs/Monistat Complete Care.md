@@ -10,7 +10,7 @@
 Vaginal Care and Hygiene - 23%
 
 ## Overview
-(TBD - pending research)
+See ingredients/clotrimazole.md for the general azole-antifungal class evidence — a miconazole-type vaginal antifungal per real-world market identity, covered there alongside clotrimazole under the same class discussion; not individually confirmed in either source document.
 
 ## Pros
 (TBD)

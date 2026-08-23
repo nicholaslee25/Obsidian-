@@ -10,7 +10,7 @@
 Jock Itch/Antifungal Products - 28%
 
 ## Overview
-(TBD - pending research)
+See ingredients/terbinafine.md for evidence — terbinafine, per real-world market identity; not individually confirmed in the two source documents beyond the general terbinafine class discussion there.
 
 ## Pros
 (TBD)

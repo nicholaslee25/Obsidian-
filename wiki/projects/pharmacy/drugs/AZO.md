@@ -11,7 +11,7 @@ Urinary Health - 68%
 Yeast Infection Prevention and Relief - 16%
 
 ## Overview
-(TBD - pending research)
+See ingredients/phenazopyridine.md for evidence — phenazopyridine, per real-world market identity, for the Urinary Health line. AZO also markets cranberry-based and boric-acid-based products under the same brand family (see AZO Cranberry, AZO Boric Acid Vaginal Suppositories) — those are different active ingredients and are not covered by this phenazopyridine link; its Yeast Infection Prevention and Relief line is not confirmed as phenazopyridine-based.
 
 ## Pros
 (TBD)

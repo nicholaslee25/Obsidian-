@@ -10,7 +10,7 @@
 Vaginal Moisturizers and Lubricants - 2%
 
 ## Overview
-(TBD - pending research)
+See ingredients/boric-acid.md for evidence — name-confirmed as a boric-acid product by its own product name.
 
 ## Pros
 (TBD)
