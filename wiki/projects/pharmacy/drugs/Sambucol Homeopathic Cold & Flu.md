@@ -1,4 +1,4 @@
-# Vicks VapoRub
+# Sambucol Homeopathic Cold & Flu
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Topical Vapor Therapy - 79%
-Children's Topical Cough Suppressants, Ointments - 64%
+Children's Homeopathic Cough Products - 12%
 
 ## Overview
 (TBD - pending research)

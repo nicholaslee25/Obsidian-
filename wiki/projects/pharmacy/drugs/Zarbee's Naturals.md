@@ -1,4 +1,4 @@
-# Vicks VapoRub
+# Zarbee's Naturals
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,8 @@
 ---
 
 ## Appears In
-Topical Vapor Therapy - 79%
-Children's Topical Cough Suppressants, Ointments - 64%
+Children's Cough - 10%
+Children's Cough/Cold Combinations - 10%
 
 ## Overview
 (TBD - pending research)

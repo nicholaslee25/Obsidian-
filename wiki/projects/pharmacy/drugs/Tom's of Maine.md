@@ -10,6 +10,7 @@
 Cosmetic Mouthwashes/Oral Rinses - 6%
 Toothpaste, General Use - 3%
 Toothpaste, Sensitive Gums/Teeth - 3%
+Children's Mouthwashes - 11%
 
 ## Overview
 (TBD - pending research)

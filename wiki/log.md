@@ -10,6 +10,21 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 - `CLAUDE.md` — added Sync section: every change is committed and pushed immediately, no batching
 - `projects/game farming bot.md` — status updated to backburner/likely dropped; pyautogui approach got flagged for cheating by MCOC's anti-cheat
 
+## [2026-08-23] ingest | Pharmacy database — Pediatrics
+
+Ninth category of 14. Largest so far — 11 subcategories, 79 new drug stubs. Note: "Hyland 4 Kids Cough Syrup" (no apostrophe) and "Hyland's 4 Kids Cough Syrup" (with apostrophe) are two distinct exact strings on the source site, filed as separate drug pages per the exact-string-match rule.
+
+Pages created:
+- `projects/pharmacy/pediatrics/` — 11 subcategory files (childrens-allergy, childrens-analgesics, childrens-cough, childrens-cough-cold-combinations, childrens-homeopathic-cough-products, childrens-motion-sickness-products, childrens-mouthwashes, childrens-multivitamins, childrens-topical-cough-suppressants-ointments, diaper-rash-products, infant-gas-products)
+- `projects/pharmacy/drugs/` — 79 new unique stub pages
+
+Pages updated (Appears In appended):
+- `Children's Dimetapp.md`, `Children's Mucinex.md`, `Children's Delsym.md`, `Children's Robitussin.md`, `Zarbee's Naturals.md`, `PediaCare.md`, `Tom's of Maine.md`, `Vicks VapoRub.md` (already existed from Cough, Cold & Allergy's Topical Vapor Therapy)
+- `projects/pharmacy/overview.md` — status now 9 of 14; Pediatrics entry flipped to built
+- `wiki/index.md` — pharmacy overview sub-line updated to 9/14 categories
+
+Next: Gastrointestinal (category 10 of 14).
+
 ## [2026-08-23] ingest | Pharmacy database — Pain and Inflammation
 
 Eighth category of 14. 7 subcategories. Note: "Oral Pain Relievers, Adult" on this category turned out to be dental/gum topical analgesics (Orajel, Anbesol, Kank-A) per the site's own data — overlaps with Oral Care's canker/toothache subcategories but is a distinct site subcategory, kept as scraped.

@@ -79,7 +79,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[clear epoxy]] — resin casting; casting vs. epoxy resin explained; research phase
 - [[windshield washer cannon]] — high-pressure washer pump mod for tailgaters; harmless
 - [[pharmacy ai consultant]] — formerly "pharmacy for noobs"; now building toward a local AI trained on a full OTC drug database
-  - [[pharmacy overview]] — structured drug database mirroring Pharmacy Times OTC Guide; 8/14 categories built (Cough, Cold & Allergy; Diabetic Healthcare; Diagnostics; Durable Goods; EENT; First Aid; Oral Care; Pain and Inflammation)
+  - [[pharmacy overview]] — structured drug database mirroring Pharmacy Times OTC Guide; 9/14 categories built (Cough, Cold & Allergy; Diabetic Healthcare; Diagnostics; Durable Goods; EENT; First Aid; Oral Care; Pain and Inflammation; Pediatrics)
 - [[drum repair]] — repair a drum; needs dad input
 - [[youtube channel]] — document the journey: builds, skills, cars, learning
 - [[custom speakers]] — full speaker build + dead earbud conversion

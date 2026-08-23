@@ -1,4 +1,4 @@
-# Vicks VapoRub
+# Eucerin Baby
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Topical Vapor Therapy - 79%
-Children's Topical Cough Suppressants, Ointments - 64%
+Diaper Rash Products - 1%
 
 ## Overview
 (TBD - pending research)

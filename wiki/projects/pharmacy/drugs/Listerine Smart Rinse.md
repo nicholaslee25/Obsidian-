@@ -1,4 +1,4 @@
-# Vicks VapoRub
+# Listerine Smart Rinse
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Topical Vapor Therapy - 79%
-Children's Topical Cough Suppressants, Ointments - 64%
+Children's Mouthwashes - 15%
 
 ## Overview
 (TBD - pending research)

@@ -1,4 +1,4 @@
-# Vicks VapoRub
+# Hyland's 4 Kids Cough Syrup
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Topical Vapor Therapy - 79%
-Children's Topical Cough Suppressants, Ointments - 64%
+Children's Cough - 3%
 
 ## Overview
 (TBD - pending research)
