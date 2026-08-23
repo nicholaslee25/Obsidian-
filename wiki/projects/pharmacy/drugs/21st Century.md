@@ -10,7 +10,7 @@
 Iron Supplements - 3%
 
 ## Overview
-(TBD - pending research)
+See ingredients/iron.md for the general iron ingredient evidence — 21st Century is not individually named with source-specific data in either raw source document; category placement per the Iron Supplements listing above. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

@@ -10,7 +10,7 @@
 Coenzyme Q10 Supplements - 21%
 
 ## Overview
-(TBD - pending research)
+See ingredients/coq10.md for the general CoQ10 ingredient evidence — Qunol Ultra is not individually named with source-specific data in either raw source document; category placement per the Coenzyme Q10 Supplements listing above. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

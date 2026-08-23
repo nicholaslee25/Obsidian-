@@ -10,7 +10,7 @@
 Cranberry Supplements - 7%
 
 ## Overview
-(TBD - pending research)
+See ingredients/cranberry.md for the general cranberry ingredient evidence — CranRx is not individually named with source-specific data in either raw source document; category placement per the Cranberry Supplements listing above. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

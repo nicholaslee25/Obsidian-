@@ -10,7 +10,7 @@
 High-Potency Vitamin C Supplements - 3%
 
 ## Overview
-(TBD - pending research)
+See ingredients/vitamin-c.md for the general vitamin-C ingredient evidence — solaray is not individually named with source-specific data in either raw source document; category placement per the High-Potency Vitamin C Supplements listing above. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

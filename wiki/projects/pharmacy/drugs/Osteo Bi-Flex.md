@@ -10,7 +10,7 @@
 Joint Health - 66%
 
 ## Overview
-(TBD - pending research)
+See ingredients/glucosamine-chondroitin.md for the general joint-health (glucosamine/chondroitin) ingredient evidence — Osteo Bi-Flex is not individually named with source-specific data in either raw source document; category placement per the Joint Health listing above. Formulation not verified against actual label.
 
 ## Pros
 (TBD)
