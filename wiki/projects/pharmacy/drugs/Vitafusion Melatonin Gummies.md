@@ -10,7 +10,7 @@
 Melatonin Sleep Aids - 1%
 
 ## Overview
-(TBD - pending research)
+See ingredients/melatonin.md for the general melatonin ingredient evidence — Vitafusion Melatonin Gummies is not individually named with source-specific data in either raw source document; category placement per the Melatonin Sleep Aids listing above. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

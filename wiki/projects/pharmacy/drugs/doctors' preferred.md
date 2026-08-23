@@ -10,7 +10,7 @@
 Magnesium Supplements - 3%
 
 ## Overview
-(TBD - pending research)
+See ingredients/magnesium.md for the general magnesium ingredient evidence — doctors' preferred is not individually named with source-specific data in either raw source document; category placement per the Magnesium Supplements listing above. Formulation not verified against actual label.
 
 ## Pros
 (TBD)
