@@ -10,6 +10,21 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 - `CLAUDE.md` — added Sync section: every change is committed and pushed immediately, no batching
 - `projects/game farming bot.md` — status updated to backburner/likely dropped; pyautogui approach got flagged for cheating by MCOC's anti-cheat
 
+## [2026-08-23] ingest | Pharmacy database — Gastrointestinal
+
+Tenth category of 14. 13 subcategories. Note: "Nexium 24hr"/"Nexium 24HR" and "Prevacid 24hr"/"Prevacid 24HR" appear with different casing in different subcategories on the source site — filed as distinct exact-string drug pages per the established rule (not normalized/merged).
+
+Pages created:
+- `projects/pharmacy/gastrointestinal/` — 13 subcategory files (acid-reducers, antacids, antidiarrheals, antiflatulence-products, h2-receptor-antagonists, lactose-intolerance-products, laxatives-bulk-fiber, laxatives-nonfiber, laxatives-stimulant, nausea-remedies, proton-pump-inhibitors, stool-softeners, upset-stomach-remedies)
+- `projects/pharmacy/drugs/` — 46 new unique stub pages
+
+Pages updated (Appears In appended):
+- `Gelusil.md`, `Mylanta.md`, `Pepcid.md`, `Tagamet HB 200.md`, `Beano.md`, `Dulcolax.md` (now spans 3 subcategories), `Fleet.md`, `Pepto-Bismol.md`, `Alka-Seltzer.md`, `Sea-Band.md`, `Prilosec OTC.md`, `Nexium 24HR.md`, `Prevacid 24HR.md`, `Zegerid OTC.md`, `MiraLAX.md`, `Emetrol.md`, `Kaopectate.md`, `Nauzene.md`
+- `projects/pharmacy/overview.md` — status now 10 of 14; Gastrointestinal entry flipped to built
+- `wiki/index.md` — pharmacy overview sub-line updated to 10/14 categories
+
+Next: Topicals (category 11 of 14).
+
 ## [2026-08-23] ingest | Pharmacy database — Pediatrics
 
 Ninth category of 14. Largest so far — 11 subcategories, 79 new drug stubs. Note: "Hyland 4 Kids Cough Syrup" (no apostrophe) and "Hyland's 4 Kids Cough Syrup" (with apostrophe) are two distinct exact strings on the source site, filed as separate drug pages per the exact-string-match rule.

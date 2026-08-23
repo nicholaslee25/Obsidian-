@@ -1,4 +1,4 @@
-# Sea-Band
+# Zantac 360°
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Children's Motion Sickness Products - 18%
-Nausea Remedies - 4%
+H2 Receptor Antagonists - 8%
 
 ## Overview
 (TBD - pending research)

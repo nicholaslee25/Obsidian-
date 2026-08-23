@@ -1,4 +1,4 @@
-# Sea-Band
+# Tums
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Children's Motion Sickness Products - 18%
-Nausea Remedies - 4%
+Antacids - 52%
 
 ## Overview
 (TBD - pending research)

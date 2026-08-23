@@ -1,4 +1,4 @@
-# Sea-Band
+# Alka-Seltzer
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,9 @@
 ---
 
 ## Appears In
-Children's Motion Sickness Products - 18%
-Nausea Remedies - 4%
+Antacids - 7%
+Nausea Remedies - 7%
+Upset Stomach Remedies - 10%
 
 ## Overview
 (TBD - pending research)

@@ -1,4 +1,4 @@
-# Sea-Band
+# Colace 2-IN-1
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Children's Motion Sickness Products - 18%
-Nausea Remedies - 4%
+Laxatives, Stimulant - 15%
 
 ## Overview
 (TBD - pending research)

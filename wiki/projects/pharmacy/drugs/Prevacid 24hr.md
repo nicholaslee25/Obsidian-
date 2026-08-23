@@ -1,4 +1,4 @@
-# Sea-Band
+# Prevacid 24hr
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,8 @@
 ---
 
 ## Appears In
-Children's Motion Sickness Products - 18%
-Nausea Remedies - 4%
+Acid Reducers - 11%
+Proton Pump Inhibitors - 14%
 
 ## Overview
 (TBD - pending research)

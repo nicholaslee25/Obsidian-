@@ -1,4 +1,4 @@
-# Sea-Band
+# Senokot
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Children's Motion Sickness Products - 18%
-Nausea Remedies - 4%
+Laxatives, Stimulant - 33%
 
 ## Overview
 (TBD - pending research)

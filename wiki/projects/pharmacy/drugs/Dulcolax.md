@@ -1,4 +1,4 @@
-# Sea-Band
+# Dulcolax
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,9 @@
 ---
 
 ## Appears In
-Children's Motion Sickness Products - 18%
-Nausea Remedies - 4%
+Laxatives, Nonfiber - 27%
+Laxatives, Stimulant - 42%
+Stool Softeners - 17%
 
 ## Overview
 (TBD - pending research)

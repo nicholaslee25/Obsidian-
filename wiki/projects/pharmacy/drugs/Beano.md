@@ -1,4 +1,4 @@
-# Sea-Band
+# Beano
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,8 @@
 ---
 
 ## Appears In
-Children's Motion Sickness Products - 18%
-Nausea Remedies - 4%
+Antiflatulence Products - 7%
+Lactose Intolerance Products - 13%
 
 ## Overview
 (TBD - pending research)

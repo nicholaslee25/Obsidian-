@@ -1,4 +1,4 @@
-# Sea-Band
+# Pepcid
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,8 @@
 ---
 
 ## Appears In
-Children's Motion Sickness Products - 18%
-Nausea Remedies - 4%
+Acid Reducers - 35%
+H2 Receptor Antagonists - 83%
 
 ## Overview
 (TBD - pending research)

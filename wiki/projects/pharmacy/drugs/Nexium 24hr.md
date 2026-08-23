@@ -1,4 +1,4 @@
-# Sea-Band
+# Nexium 24hr
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,8 @@
 ---
 
 ## Appears In
-Children's Motion Sickness Products - 18%
-Nausea Remedies - 4%
+Acid Reducers - 14%
+Proton Pump Inhibitors - 29%
 
 ## Overview
 (TBD - pending research)

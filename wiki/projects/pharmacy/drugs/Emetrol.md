@@ -1,4 +1,4 @@
-# Sea-Band
+# Emetrol
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,8 @@
 ---
 
 ## Appears In
-Children's Motion Sickness Products - 18%
-Nausea Remedies - 4%
+Nausea Remedies - 32%
+Upset Stomach Remedies - 21%
 
 ## Overview
 (TBD - pending research)

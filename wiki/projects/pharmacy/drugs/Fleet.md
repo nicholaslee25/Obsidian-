@@ -1,4 +1,4 @@
-# Sea-Band
+# Fleet
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,8 @@
 ---
 
 ## Appears In
-Children's Motion Sickness Products - 18%
-Nausea Remedies - 4%
+Laxatives, Nonfiber - 5%
+Laxatives, Stimulant - 5%
 
 ## Overview
 (TBD - pending research)

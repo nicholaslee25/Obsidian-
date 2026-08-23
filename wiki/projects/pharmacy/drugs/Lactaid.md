@@ -1,4 +1,4 @@
-# Sea-Band
+# Lactaid
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Children's Motion Sickness Products - 18%
-Nausea Remedies - 4%
+Lactose Intolerance Products - 79%
 
 ## Overview
 (TBD - pending research)

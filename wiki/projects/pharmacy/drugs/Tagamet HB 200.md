@@ -1,4 +1,4 @@
-# Sea-Band
+# Tagamet HB 200
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,8 @@
 ---
 
 ## Appears In
-Children's Motion Sickness Products - 18%
-Nausea Remedies - 4%
+Acid Reducers - 1%
+H2 Receptor Antagonists - 9%
 
 ## Overview
 (TBD - pending research)

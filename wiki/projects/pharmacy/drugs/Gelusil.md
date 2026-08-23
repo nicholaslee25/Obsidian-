@@ -1,4 +1,4 @@
-# Sea-Band
+# Gelusil
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,8 @@
 ---
 
 ## Appears In
-Children's Motion Sickness Products - 18%
-Nausea Remedies - 4%
+Antacids - 3%
+Antiflatulence Products - 3%
 
 ## Overview
 (TBD - pending research)
