@@ -1,4 +1,4 @@
-# Aspercreme with Lidocaine
+# New-Skin
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Diabetic Neuropathy Products - 33%
-Topical Anesthetics - 37%
+Liquid Bandages - 60%
 
 ## Overview
 (TBD - pending research)

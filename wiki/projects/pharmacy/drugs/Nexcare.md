@@ -1,4 +1,4 @@
-# Aspercreme with Lidocaine
+# Nexcare
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,8 @@
 ---
 
 ## Appears In
-Diabetic Neuropathy Products - 33%
-Topical Anesthetics - 37%
+Bandages, Covers, and Gauze - 19%
+Liquid Bandages - 16%
 
 ## Overview
 (TBD - pending research)

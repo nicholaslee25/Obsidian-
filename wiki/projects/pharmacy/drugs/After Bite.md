@@ -1,4 +1,4 @@
-# Aspercreme with Lidocaine
+# After Bite
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Diabetic Neuropathy Products - 33%
-Topical Anesthetics - 37%
+Insect Bite and Sting Management - 23%
 
 ## Overview
 (TBD - pending research)

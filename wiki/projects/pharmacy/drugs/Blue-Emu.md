@@ -1,4 +1,4 @@
-# Aspercreme with Lidocaine
+# Blue-Emu
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Diabetic Neuropathy Products - 33%
-Topical Anesthetics - 37%
+Topical Anesthetics - 3%
 
 ## Overview
 (TBD - pending research)

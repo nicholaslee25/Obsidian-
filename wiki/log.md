@@ -10,6 +10,21 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 - `CLAUDE.md` — added Sync section: every change is committed and pushed immediately, no batching
 - `projects/game farming bot.md` — status updated to backburner/likely dropped; pyautogui approach got flagged for cheating by MCOC's anti-cheat
 
+## [2026-08-23] ingest | Pharmacy database — First Aid
+
+Sixth category of 14. 8 subcategories. Note: "Bactine", "Bactine Max", and "Bactine MAX" appear as three distinct exact strings across different subcategories on the source site — filed as three separate drug pages per the exact-string-match rule (not merged/normalized).
+
+Pages created:
+- `projects/pharmacy/first-aid/` — 8 subcategory files (bandages-covers-and-gauze, burn-treatments, insect-bite-and-sting-management, liquid-bandages, sun-burn-relief, thermal-relief-products, topical-anesthetics, topical-antibiotics-antiseptics)
+- `projects/pharmacy/drugs/` — 40 new unique stub pages
+
+Pages updated (Appears In appended):
+- `Dermoplast.md` (now spans 5 subcategories), `Nexcare.md`, `Bactine MAX.md`, `Alocane.md`, `Biofreeze.md`, `Aspercreme with Lidocaine.md`, `Bactine Max.md`, `Neosporin.md`, `Bacitraycin Plus.md`, `Polysporin.md`
+- `projects/pharmacy/overview.md` — status now 6 of 14; First Aid entry flipped to built
+- `wiki/index.md` — pharmacy overview sub-line updated to 6/14 categories
+
+Next: Oral Care (category 7 of 14).
+
 ## [2026-08-23] ingest | Pharmacy database — EENT (Ear, Eye, Nose & Throat)
 
 Fifth category of 14. 8 subcategories.

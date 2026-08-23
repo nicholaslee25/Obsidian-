@@ -1,4 +1,4 @@
-# Aspercreme with Lidocaine
+# Alocane
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,9 @@
 ---
 
 ## Appears In
-Diabetic Neuropathy Products - 33%
-Topical Anesthetics - 37%
+Burn Treatments - 9%
+Sun Burn Relief - 11%
+Topical Antibiotics/Antiseptics - 2%
 
 ## Overview
 (TBD - pending research)

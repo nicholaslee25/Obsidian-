@@ -1,4 +1,4 @@
-# Aspercreme with Lidocaine
+# Bactine MAX
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,9 @@
 ---
 
 ## Appears In
-Diabetic Neuropathy Products - 33%
-Topical Anesthetics - 37%
+Burn Treatments - 5%
+Liquid Bandages - 5%
+Topical Anesthetics - 3%
 
 ## Overview
 (TBD - pending research)

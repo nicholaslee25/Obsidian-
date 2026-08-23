@@ -1,7 +1,7 @@
 # Pharmacy Database — Overview
 
 **Type:** Project Hub
-**Status:** In progress — 5 of 14 categories built
+**Status:** In progress — 6 of 14 categories built
 **Source:** https://www.pharmacytimes.com/otcguide (Pharmacy Times OTC Guide, 2026-27 edition, ~145 product categories)
 **Last updated:** 2026-08-23
 
@@ -53,7 +53,15 @@ End goal: train a local AI on this data so family can query it at home. See [[ph
    - saline-nasal-moisturizers
    - snore-aids
    - sore-throat-products
-6. First Aid — not yet built
+6. **First Aid** — built (`first-aid/`, 8 subcategories)
+   - bandages-covers-and-gauze
+   - burn-treatments
+   - insect-bite-and-sting-management
+   - liquid-bandages
+   - sun-burn-relief
+   - thermal-relief-products
+   - topical-anesthetics
+   - topical-antibiotics-antiseptics
 7. Oral Care — not yet built
 8. Pain and Inflammation — not yet built
 9. Pediatrics — not yet built

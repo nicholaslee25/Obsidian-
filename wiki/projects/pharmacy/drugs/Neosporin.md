@@ -1,4 +1,4 @@
-# Aspercreme with Lidocaine
+# Neosporin
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,8 @@
 ---
 
 ## Appears In
-Diabetic Neuropathy Products - 33%
-Topical Anesthetics - 37%
+Burn Treatments - 32%
+Topical Antibiotics/Antiseptics - 57%
 
 ## Overview
 (TBD - pending research)

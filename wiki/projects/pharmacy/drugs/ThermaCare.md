@@ -1,4 +1,4 @@
-# Aspercreme with Lidocaine
+# ThermaCare
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Diabetic Neuropathy Products - 33%
-Topical Anesthetics - 37%
+Thermal Relief Products - 14%
 
 ## Overview
 (TBD - pending research)

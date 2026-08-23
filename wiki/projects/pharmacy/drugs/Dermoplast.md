@@ -1,4 +1,4 @@
-# Aspercreme with Lidocaine
+# Dermoplast
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,11 @@
 ---
 
 ## Appears In
-Diabetic Neuropathy Products - 33%
-Topical Anesthetics - 37%
+Burn Treatments - 22%
+Insect Bite and Sting Management - 3%
+Sun Burn Relief - 16%
+Topical Anesthetics - 14%
+Topical Antibiotics/Antiseptics - 4%
 
 ## Overview
 (TBD - pending research)

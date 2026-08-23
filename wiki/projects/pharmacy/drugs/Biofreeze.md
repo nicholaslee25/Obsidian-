@@ -8,6 +8,7 @@
 
 ## Appears In
 Diabetic Neuropathy Products - 24%
+Thermal Relief Products - 23%
 
 ## Overview
 (TBD - pending research)
