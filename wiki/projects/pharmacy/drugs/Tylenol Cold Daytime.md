@@ -10,7 +10,7 @@
 Cough/Cold/Flu Combinations, Daytime - 4%
 
 ## Overview
-(TBD - pending research)
+Built around an acetaminophen base (see ingredients/acetaminophen.md, per the source's "Tylenol → acetaminophen" mapping); other active ingredients and exact dose not verified against label — watch for duplicate acetaminophen exposure if combined with other Tylenol products.
 
 ## Pros
 (TBD)

@@ -10,7 +10,7 @@
 Children's Allergy - 32%
 
 ## Overview
-(TBD - pending research)
+See ingredients/second-generation-antihistamines.md (presumed cetirizine per the parent Zyrtec brand). Pediatric dose/formulation not separately verified.
 
 ## Pros
 (TBD)

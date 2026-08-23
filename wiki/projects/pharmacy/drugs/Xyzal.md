@@ -10,7 +10,7 @@
 Antihistamines, Oral - 6%
 
 ## Overview
-(TBD - pending research)
+Widely known as levocetirizine (see ingredients/second-generation-antihistamines.md), though not independently confirmed in the two source documents.
 
 ## Pros
 (TBD)

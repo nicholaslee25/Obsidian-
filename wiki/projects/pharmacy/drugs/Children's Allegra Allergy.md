@@ -10,7 +10,7 @@
 Children's Allergy - 10%
 
 ## Overview
-(TBD - pending research)
+See ingredients/second-generation-antihistamines.md (presumed fexofenadine per the parent Allegra brand). Pediatric dose/formulation not separately verified.
 
 ## Pros
 (TBD)

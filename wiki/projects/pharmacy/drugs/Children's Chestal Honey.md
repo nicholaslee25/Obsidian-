@@ -10,7 +10,7 @@
 Children's Cough - 2%
 
 ## Overview
-(TBD - pending research)
+Combines two evidence entries by name: honey (see ingredients/honey-pediatric-cough.md — age 1+ only, botulism risk under 12 months) and general homeopathic evidence (see ingredients/homeopathic-cold-products.md). Formulation not verified against actual label.
 
 ## Pros
 (TBD)

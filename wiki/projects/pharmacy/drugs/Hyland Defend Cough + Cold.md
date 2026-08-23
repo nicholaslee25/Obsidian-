@@ -11,7 +11,7 @@ Homeopathic Cold Products - 12%
 Homeopathic Cough Products - 42%
 
 ## Overview
-(TBD - pending research)
+See ingredients/homeopathic-cold-products.md for the general evidence framing (no product-specific data given in source).
 
 ## Pros
 (TBD)

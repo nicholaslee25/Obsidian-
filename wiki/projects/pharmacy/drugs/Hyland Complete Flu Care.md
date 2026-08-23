@@ -10,7 +10,7 @@
 Homeopathic Flu Products - 18%
 
 ## Overview
-(TBD - pending research)
+See ingredients/homeopathic-cold-products.md — no adequate product-specific RCT was located for this exact commercial combination per the dossier's dedicated discussion of this product.
 
 ## Pros
 (TBD)

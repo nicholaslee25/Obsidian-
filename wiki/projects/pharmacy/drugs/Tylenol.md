@@ -12,7 +12,7 @@ Migraine Headache Products - 8%
 Menstrual Pain Relief - 3%
 
 ## Overview
-(TBD - pending research)
+See ingredients/acetaminophen.md for evidence — the source's own "Tylenol → acetaminophen" worked example.
 
 ## Pros
 (TBD)

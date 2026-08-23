@@ -10,7 +10,7 @@
 Homeopathic Cold Products - 11%
 
 ## Overview
-(TBD - pending research)
+See ingredients/homeopathic-cold-products.md for the general evidence framing (no product-specific data given in source).
 
 ## Pros
 (TBD)

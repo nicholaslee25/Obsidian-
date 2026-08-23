@@ -10,7 +10,7 @@
 Children's Allergy - 4%
 
 ## Overview
-(TBD - pending research)
+See ingredients/second-generation-antihistamines.md (presumed levocetirizine per the parent Xyzal brand). Pediatric dose/formulation not separately verified.
 
 ## Pros
 (TBD)

@@ -10,7 +10,7 @@
 Antihistamines, Oral - 5%
 
 ## Overview
-(TBD - pending research)
+Widely known as loratadine (see ingredients/second-generation-antihistamines.md), though not independently confirmed in the two source documents.
 
 ## Pros
 (TBD)

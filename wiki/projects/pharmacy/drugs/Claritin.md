@@ -11,7 +11,7 @@ Antihistamines, Oral - 30%
 Cough/Cold/Flu Combinations, Daytime - 3%
 
 ## Overview
-(TBD - pending research)
+Widely known as loratadine (see ingredients/second-generation-antihistamines.md), though not independently confirmed in the two source documents. Also appears in a Cough/Cold/Flu Combinations Daytime listing, possibly a combination formulation not verified here.
 
 ## Pros
 (TBD)

@@ -10,7 +10,7 @@
 Antihistamines, Oral - 17%
 
 ## Overview
-(TBD - pending research)
+Widely known as fexofenadine (see ingredients/second-generation-antihistamines.md), though not independently confirmed in the two source documents.
 
 ## Pros
 (TBD)

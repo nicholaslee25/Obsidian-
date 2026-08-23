@@ -10,7 +10,7 @@
 Children's Allergy - 34%
 
 ## Overview
-(TBD - pending research)
+See ingredients/second-generation-antihistamines.md (presumed loratadine per the parent Claritin brand). Pediatric dose/formulation not separately verified.
 
 ## Pros
 (TBD)
