@@ -10,7 +10,7 @@
 Prenatal Vitamins - 20%
 
 ## Overview
-(TBD - pending research)
+See ingredients/prenatal-vitamins.md for the general prenatal-vitamin ingredient evidence — smarty pants is not individually named with source-specific data in either raw source document; category placement per the Prenatal Vitamins listing above. Formulation not verified against actual label.
 
 ## Pros
 (TBD)
