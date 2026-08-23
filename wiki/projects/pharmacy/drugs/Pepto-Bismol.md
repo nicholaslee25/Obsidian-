@@ -12,7 +12,7 @@ Nausea Remedies - 16%
 Upset Stomach Remedies - 55%
 
 ## Overview
-(TBD - pending research)
+See ingredients/bismuth-subsalicylate.md for evidence — explicitly named in the dossier's discussion of this ingredient.
 
 ## Pros
 (TBD)

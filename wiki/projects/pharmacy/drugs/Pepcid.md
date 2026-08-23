@@ -11,7 +11,7 @@ Acid Reducers - 35%
 H2 Receptor Antagonists - 83%
 
 ## Overview
-(TBD - pending research)
+See ingredients/famotidine.md for evidence — the source's own "Pepcid → famotidine" worked example.
 
 ## Pros
 (TBD)

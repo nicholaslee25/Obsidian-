@@ -12,7 +12,7 @@ Nausea Remedies - 7%
 Upset Stomach Remedies - 10%
 
 ## Overview
-(TBD - pending research)
+See ingredients/antacids.md for the Antacids-category evidence. Also appears in Nausea Remedies and Upset Stomach Remedies categories, not covered by dedicated ingredient-specific source data.
 
 ## Pros
 (TBD)

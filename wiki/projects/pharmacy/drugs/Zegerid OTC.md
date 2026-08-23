@@ -11,7 +11,7 @@ Acid Reducers - 2%
 Proton Pump Inhibitors - 3%
 
 ## Overview
-(TBD - pending research)
+See ingredients/proton-pump-inhibitors.md for evidence — omeprazole/sodium bicarbonate combination, per common real-world market identity (not individually spelled out brand-to-molecule in the two source documents).
 
 ## Pros
 (TBD)

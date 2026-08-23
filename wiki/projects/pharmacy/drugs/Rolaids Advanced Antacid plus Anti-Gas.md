@@ -10,7 +10,7 @@
 Antiflatulence Products - 2%
 
 ## Overview
-(TBD - pending research)
+See ingredients/antacids.md and ingredients/simethicone.md for evidence (combination antacid + anti-gas product per its name). Formulation not verified against actual label.
 
 ## Pros
 (TBD)

@@ -11,7 +11,7 @@ Antacids - 3%
 Antiflatulence Products - 3%
 
 ## Overview
-(TBD - pending research)
+See ingredients/antacids.md for evidence. Specific salt content not verified against label.
 
 ## Pros
 (TBD)

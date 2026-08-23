@@ -10,7 +10,7 @@
 Calcium Supplements - 2%
 
 ## Overview
-(TBD - pending research)
+See ingredients/calcium.md for evidence. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

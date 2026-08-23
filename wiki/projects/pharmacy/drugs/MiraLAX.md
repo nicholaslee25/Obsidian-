@@ -11,7 +11,7 @@ Laxatives, Nonfiber - 63%
 Stool Softeners - 18%
 
 ## Overview
-(TBD - pending research)
+See ingredients/peg-3350.md for evidence — polyethylene glycol 3350, per common real-world market identity (not individually spelled out brand-to-molecule in the two source documents).
 
 ## Pros
 (TBD)

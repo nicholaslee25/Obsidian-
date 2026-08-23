@@ -10,7 +10,7 @@
 H2 Receptor Antagonists - 8%
 
 ## Overview
-(TBD - pending research)
+See ingredients/famotidine.md for evidence — the source explicitly states current Zantac 360° products use famotidine (distinct from older ranitidine-based Zantac; the two are NOT interchangeable evidence).
 
 ## Pros
 (TBD)

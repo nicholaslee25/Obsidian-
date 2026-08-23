@@ -11,7 +11,7 @@ Antacids - 52%
 Calcium Supplements - 7%
 
 ## Overview
-(TBD - pending research)
+See ingredients/antacids.md (calcium carbonate) for the Antacids-category evidence, and ingredients/calcium.md for the Calcium Supplements-category context — per source, Tums appearing in the calcium category reflects its calcium carbonate content, not an osteoporosis-therapy claim.
 
 ## Pros
 (TBD)

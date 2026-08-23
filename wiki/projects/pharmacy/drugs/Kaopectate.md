@@ -11,7 +11,7 @@ Antidiarrheals - 3%
 Upset Stomach Remedies - 9%
 
 ## Overview
-(TBD - pending research)
+See ingredients/bismuth-subsalicylate.md for evidence — explicitly named in the dossier's discussion of this ingredient.
 
 ## Pros
 (TBD)
