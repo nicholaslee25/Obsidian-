@@ -10,7 +10,7 @@
 Multivitamins - 4%
 
 ## Overview
-(TBD - pending research)
+See ingredients/multivitamins.md for evidence — presumed to be the vitafusion multivitamin line named directly in the source's Multivitamins category table (vitafusion — 4% recommendation share), though the exact product-name match to this specific SKU is not verified against label.
 
 ## Pros
 (TBD)

@@ -10,7 +10,7 @@
 Multivitamins - 3%
 
 ## Overview
-(TBD - pending research)
+See ingredients/multivitamins.md for evidence — Nature's Way Alive! is named directly with a 3% recommendation share in the Pharmacy Times Multivitamins category table cited in the source. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

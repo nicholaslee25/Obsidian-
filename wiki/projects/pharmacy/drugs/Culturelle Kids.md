@@ -10,7 +10,7 @@
 Children's Multivitamins - 3%
 
 ## Overview
-(TBD - pending research)
+Filed under Children's Multivitamins, a separate Pharmacy Times category from the adult Multivitamins table that ingredients/multivitamins.md's brand list covers — see ingredients/multivitamins.md for the general multivitamin evidence; no pediatric-specific brand or dose data in either source document. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

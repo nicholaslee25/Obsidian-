@@ -10,7 +10,7 @@
 Multivitamins - 4%
 
 ## Overview
-(TBD - pending research)
+See ingredients/multivitamins.md for evidence — Geritol is named directly with a 4% recommendation share in the Pharmacy Times Multivitamins category table cited in the source. Formulation not verified against actual label.
 
 ## Pros
 (TBD)

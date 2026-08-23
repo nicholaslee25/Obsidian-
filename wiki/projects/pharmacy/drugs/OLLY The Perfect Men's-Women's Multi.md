@@ -10,7 +10,7 @@
 Multivitamins - 4%
 
 ## Overview
-(TBD - pending research)
+See ingredients/multivitamins.md for evidence — presumed to be the OLLY multivitamin line named directly in the source's Multivitamins category table, though the exact product-name match to this specific SKU is not verified against label.
 
 ## Pros
 (TBD)
