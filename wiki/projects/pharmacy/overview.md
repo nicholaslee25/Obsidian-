@@ -1,7 +1,7 @@
 # Pharmacy Database — Overview
 
 **Type:** Project Hub
-**Status:** In progress — 6 of 14 categories built
+**Status:** In progress — 7 of 14 categories built
 **Source:** https://www.pharmacytimes.com/otcguide (Pharmacy Times OTC Guide, 2026-27 edition, ~145 product categories)
 **Last updated:** 2026-08-23
 
@@ -62,7 +62,16 @@ End goal: train a local AI on this data so family can query it at home. See [[ph
    - thermal-relief-products
    - topical-anesthetics
    - topical-antibiotics-antiseptics
-7. Oral Care — not yet built
+7. **Oral Care** — built (`oral-care/`, 9 subcategories)
+   - canker-sore-treatments
+   - cold-sore-treatments
+   - cosmetic-mouthwashes-oral-rinses
+   - dry-mouth-therapy
+   - night-guards-nocturnal-bruxism-management
+   - therapeutic-mouthwashes-oral-rinses
+   - toothache-products
+   - toothpaste-general-use
+   - toothpaste-sensitive-gums-teeth
 8. Pain and Inflammation — not yet built
 9. Pediatrics — not yet built
 10. Gastrointestinal — not yet built

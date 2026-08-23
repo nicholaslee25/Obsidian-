@@ -1,4 +1,4 @@
-# Burt's Bees
+# hello
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,7 +7,6 @@
 ---
 
 ## Appears In
-Topical Cough Suppressants, Lozenges - 3%
 Toothpaste, General Use - 2%
 
 ## Overview

@@ -1,4 +1,4 @@
-# Burt's Bees
+# Orajel
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,9 @@
 ---
 
 ## Appears In
-Topical Cough Suppressants, Lozenges - 3%
-Toothpaste, General Use - 2%
+Canker Sore Treatments - 43%
+Cold Sore Treatments - 4%
+Toothache Products - 68%
 
 ## Overview
 (TBD - pending research)

@@ -1,4 +1,4 @@
-# Burt's Bees
+# Oral-B
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Topical Cough Suppressants, Lozenges - 3%
-Toothpaste, General Use - 2%
+Dry Mouth Therapy - 11%
 
 ## Overview
 (TBD - pending research)

@@ -1,4 +1,4 @@
-# Burt's Bees
+# Scope
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Topical Cough Suppressants, Lozenges - 3%
-Toothpaste, General Use - 2%
+Cosmetic Mouthwashes/Oral Rinses - 18%
 
 ## Overview
 (TBD - pending research)

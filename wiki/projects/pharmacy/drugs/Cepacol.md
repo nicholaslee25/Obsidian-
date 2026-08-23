@@ -10,6 +10,7 @@
 Cold Remedies - 15%
 Topical Cough Suppressants, Lozenges - 25%
 Sore Throat Products - 30%
+Cosmetic Mouthwashes/Oral Rinses - 12%
 
 ## Overview
 (TBD - pending research)

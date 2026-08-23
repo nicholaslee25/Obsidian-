@@ -1,4 +1,4 @@
-# Burt's Bees
+# Listerine
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,7 +7,7 @@
 ---
 
 ## Appears In
-Topical Cough Suppressants, Lozenges - 3%
+Therapeutic Mouthwashes/Oral Rinses - 20%
 Toothpaste, General Use - 2%
 
 ## Overview

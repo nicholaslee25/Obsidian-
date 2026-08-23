@@ -10,6 +10,21 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 - `CLAUDE.md` — added Sync section: every change is committed and pushed immediately, no batching
 - `projects/game farming bot.md` — status updated to backburner/likely dropped; pyautogui approach got flagged for cheating by MCOC's anti-cheat
 
+## [2026-08-23] ingest | Pharmacy database — Oral Care
+
+Seventh category of 14. 9 subcategories.
+
+Pages created:
+- `projects/pharmacy/oral-care/` — 9 subcategory files (canker-sore-treatments, cold-sore-treatments, cosmetic-mouthwashes-oral-rinses, dry-mouth-therapy, night-guards-nocturnal-bruxism-management, therapeutic-mouthwashes-oral-rinses, toothache-products, toothpaste-general-use, toothpaste-sensitive-gums-teeth)
+- `projects/pharmacy/drugs/` — 47 new unique stub pages
+
+Pages updated (Appears In appended):
+- `Orajel.md`, `Cepacol.md`, `Biotène.md` (now spans 4 subcategories), `TheraBreath.md`, `SmartMouth.md`, `Anbesol.md`, `Kank-A.md`, `parodontax.md`, `Tom's of Maine.md`, `Burt's Bees.md`, `Listerine.md`, `Sensodyne.md`
+- `projects/pharmacy/overview.md` — status now 7 of 14; Oral Care entry flipped to built
+- `wiki/index.md` — pharmacy overview sub-line updated to 7/14 categories
+
+Next: Pain and Inflammation (category 8 of 14).
+
 ## [2026-08-23] ingest | Pharmacy database — First Aid
 
 Sixth category of 14. 8 subcategories. Note: "Bactine", "Bactine Max", and "Bactine MAX" appear as three distinct exact strings across different subcategories on the source site — filed as three separate drug pages per the exact-string-match rule (not merged/normalized).

@@ -1,4 +1,4 @@
-# Burt's Bees
+# Anbesol Cold Sore Therapy
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Topical Cough Suppressants, Lozenges - 3%
-Toothpaste, General Use - 2%
+Cold Sore Treatments - 6%
 
 ## Overview
 (TBD - pending research)

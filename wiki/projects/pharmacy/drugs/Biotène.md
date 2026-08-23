@@ -1,4 +1,4 @@
-# Burt's Bees
+# Biotène
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,10 @@
 ---
 
 ## Appears In
-Topical Cough Suppressants, Lozenges - 3%
-Toothpaste, General Use - 2%
+Cosmetic Mouthwashes/Oral Rinses - 38%
+Dry Mouth Therapy - 66%
+Therapeutic Mouthwashes/Oral Rinses - 28%
+Toothpaste, General Use - 3%
 
 ## Overview
 (TBD - pending research)

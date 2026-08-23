@@ -1,4 +1,4 @@
-# Burt's Bees
+# The Doctor's NightGuard
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Topical Cough Suppressants, Lozenges - 3%
-Toothpaste, General Use - 2%
+Night Guards, Nocturnal Bruxism Management - 12%
 
 ## Overview
 (TBD - pending research)

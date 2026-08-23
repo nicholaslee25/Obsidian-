@@ -1,4 +1,4 @@
-# Burt's Bees
+# Cepacol Antibacterial
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,7 @@
 ---
 
 ## Appears In
-Topical Cough Suppressants, Lozenges - 3%
-Toothpaste, General Use - 2%
+Therapeutic Mouthwashes/Oral Rinses - 4%
 
 ## Overview
 (TBD - pending research)

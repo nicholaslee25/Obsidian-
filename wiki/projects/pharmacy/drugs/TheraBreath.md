@@ -1,4 +1,4 @@
-# Burt's Bees
+# TheraBreath
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,9 @@
 ---
 
 ## Appears In
-Topical Cough Suppressants, Lozenges - 3%
-Toothpaste, General Use - 2%
+Cosmetic Mouthwashes/Oral Rinses - 18%
+Dry Mouth Therapy - 5%
+Therapeutic Mouthwashes/Oral Rinses - 11%
 
 ## Overview
 (TBD - pending research)

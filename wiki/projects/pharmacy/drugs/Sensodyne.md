@@ -1,4 +1,4 @@
-# Burt's Bees
+# Sensodyne
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,8 @@
 ---
 
 ## Appears In
-Topical Cough Suppressants, Lozenges - 3%
-Toothpaste, General Use - 2%
+Toothpaste, General Use - 21%
+Toothpaste, Sensitive Gums/Teeth - 65%
 
 ## Overview
 (TBD - pending research)

@@ -1,4 +1,4 @@
-# Burt's Bees
+# Kank-A
 
 **Type:** Drug
 **Status:** Needs research
@@ -7,8 +7,8 @@
 ---
 
 ## Appears In
-Topical Cough Suppressants, Lozenges - 3%
-Toothpaste, General Use - 2%
+Canker Sore Treatments - 14%
+Toothache Products - 6%
 
 ## Overview
 (TBD - pending research)
