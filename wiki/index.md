@@ -78,8 +78,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[gyroscope visualization]] — build something that visualizes/uses gyroscope orientation data; form TBD
 - [[clear epoxy]] — resin casting; casting vs. epoxy resin explained; research phase
 - [[windshield washer cannon]] — high-pressure washer pump mod for tailgaters; harmless
-- [[pharmacy ai consultant]] — formerly "pharmacy for noobs"; now building toward a local AI trained on a full OTC drug database
-  - [[pharmacy overview]] — structured drug database mirroring Pharmacy Times OTC Guide; complete, 14/14 categories built; ingredients/ research layer now built (77 active-ingredient evidence pages) and cross-referenced into drug pages
+- **Pharmacy AI Consultant** — moved to its own vault/repo on 2026-08-24 to keep its ~900 pages out of this graph: github.com/nicholaslee25/Pharma_AI
 - [[drum repair]] — repair a drum; needs dad input
 - [[youtube channel]] — document the journey: builds, skills, cars, learning
 - [[custom speakers]] — full speaker build + dead earbud conversion
@@ -128,12 +127,11 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[epistemology and theology]] — Rowe's argument, religious epistemology, comparative religion reflections
 
 ## Sources
-- [[source — otc guide master dossier volume 2]] — ChatGPT-compiled OTC evidence dossier feeding the pharmacy ingredients/ layer
-- [[source — otc evidence corpus chatgpt continuation]] — continuation dossier, same project
+*(none — the two pharmacy-project sources moved with that project to github.com/nicholaslee25/Pharma_AI)*
 
 ## Reflections
 *(none yet)*
 
 ---
 
-*Last updated: 2026-08-23*
+*Last updated: 2026-08-24*

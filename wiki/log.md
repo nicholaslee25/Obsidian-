@@ -4,6 +4,23 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 
 ---
 
+## [2026-08-24] update | Pharmacy AI Consultant split into its own vault
+
+Moved the entire Pharmacy AI Consultant project out of this vault into a new standalone repo/vault: **github.com/nicholaslee25/Pharma_AI** (still a normal Obsidian vault — open its folder separately). Reason: the project had grown to ~945 pages and its own dense internal link web, which was cluttering this vault's graph without adding anything to the "you/skills/topics/projects" picture this vault is for.
+
+What moved (exact structure preserved, zero internal path changes needed — everything uses vault-root-relative paths already):
+- `wiki/projects/pharmacy/` — 14 category folders (142 subcategory files) + `drugs/` (719 brand pages) + `ingredients/` (77 active-ingredient evidence pages) + `overview.md`
+- `wiki/projects/pharmacy ai consultant.md`
+- `wiki/sources/source — otc guide master dossier volume 2.md` and `wiki/sources/source — otc evidence corpus chatgpt continuation.md`
+- `raw/pharmacy-research/` (both raw dossiers)
+- Added a new `CLAUDE.md` to the new vault (didn't exist before) explaining its structure and the two-layer rule (Pharmacy Times recommendation % ≠ clinical efficacy) for a cold-start AI or Nykel opening it later.
+
+Pages updated here (one-line pointers, per Nykel's request — not a full scrub):
+- `wiki/index.md` — Projects section now has a single line pointing to the new repo instead of the two pharmacy entries; Sources section emptied with a pointer note
+- `wiki/you/todo.md` — the old "Pharm for dummies → [[pharmacy for noobs]]" item (already a stale link from an earlier rename) marked done, with a note on where the project actually ended up
+
+944 files removed from this repo in the process (all recoverable via git history if ever needed — nothing was force-deleted from git, just moved forward as a new initial commit in the new repo).
+
 ## [2026-08-23] ingest | Pharmacy database — ingredients/ research layer (77 pages) + brand cross-referencing
 
 Second research pass on top of the completed 719-page drugs/ database (see the "Pharmacy database — Other" entry below): a new evidence layer organized by active ingredient rather than by brand, plus cross-referencing drug pages to point at it. Ran across two sessions (an earlier one built the pages and started cross-referencing before hitting a usage limit; this one finished the cross-referencing and these meta-file updates).

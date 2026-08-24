@@ -47,7 +47,7 @@ Running list of actual to-dos — calls, errands, loose threads. Different from 
 ## 💡 Other Projects
 
 - [ ] Document dad's guitar stuff → [[dad's guitars database]]
-- [ ] Pharm for dummies → [[pharmacy for noobs]]
+- [x] Pharm for dummies → grew into the Pharmacy AI Consultant project, now its own vault at github.com/nicholaslee25/Pharma_AI
 - [ ] Learn Fusion 360 router/CAM software → [[things to learn]]
 - [ ] CAD an engine in Inventor → [[engine cad]]
 - [ ] Custom Pomodoro timer app → [[custom pomodoro timer]]
