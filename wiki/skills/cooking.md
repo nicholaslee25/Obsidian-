@@ -2,7 +2,7 @@
 
 **Type:** Skill
 **Tags:** #skill #cooking #food
-**Last updated:** 2026-05-16
+**Last updated:** 2026-09-23
 
 ---
 
@@ -17,6 +17,10 @@
 
 ## Wanna Cook
 
+- Hongxiao rou 红烧肉
+- Taiwanese beef noodle *(redo — first attempt used rice instead of noodles)*
+- Mongolian beef
+- Egg drop soup
 - Chow mein foot long
 - Pho
 - Tandoori chicken

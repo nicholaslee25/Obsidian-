@@ -1,25 +1,27 @@
-﻿# Baking
+# Baking
 
 **Type:** Skill
 **Tags:** #skill #baking #food
-**Last updated:** 2026-05-16
+**Last updated:** 2026-09-23
 
 ---
 
 ## Cooked
 
-| Dish | Date | Notes |
-|---|---|---|
-| Banana nut muffins | — | Turned out good |
-| Oatmeal raisin cookies | — | Turned out good |
-| Rainbow cookies | — | Turned out good |
-| Frozen berry cobbler | — | Way too tart |
-| Apple cinnamon muffins, s'more muffins, cranberry nut muffins | — | All 3 from one batch of general muffin batter; forgot an egg or two, still turned out good |
+| Dish                                                          | Date | Notes                                                                                      |
+| ------------------------------------------------------------- | ---- | ------------------------------------------------------------------------------------------ |
+| Banana nut muffins                                            | —    | Turned out good                                                                            |
+| Oatmeal raisin cookies                                        | —    | Turned out good                                                                            |
+| Rainbow cookies                                               | —    | Turned out good                                                                            |
+| Frozen berry cobbler                                          | —    | Way too tart                                                                               |
+| Apple cinnamon muffins, s'more muffins, cranberry nut muffins | —    | All 3 from one batch of general muffin batter; forgot an egg or two, still turned out good |
+| Baked cheesecake with strawberry topping                      | 2026-09-23 | — |
 
 ---
 
 ## Wanna Bake
 
+- Deep dish cookie *(Josh's favorite dessert)*
 - Egg tarts *(redemption arc)*
 - Rice pudding
 - Matcha pudding
@@ -36,6 +38,8 @@
 - Icebox cake
 - Brigadeiro
 - Toasted almond cake
+- Mango Sago
+- Candy'd pecans
 
 ---
 

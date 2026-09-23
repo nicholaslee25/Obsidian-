@@ -4,6 +4,12 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 
 ---
 
+## [2026-09-23] update | Baking/cooking wishlist additions + Le'bama build kickoff
+
+- `skills/baking.md` — added "Baked cheesecake with strawberry topping" to Cooked (2026-09-23); added "Deep dish cookie (Josh's favorite dessert)" to Wanna Bake
+- `skills/cooking.md` — added to Wanna Cook: hongxiao rou, Taiwanese beef noodle (redo — first attempt used rice instead of noodles), Mongolian beef, egg drop soup
+- `projects/raspberry pi ai assistant.md` — Pi hardware/OS now set up; starting the Build Path checklist for real. See chat for the full step-by-step walkthrough given this session.
+
 ## [2026-08-24] update | Pharmacy AI Consultant split into its own vault
 
 Moved the entire Pharmacy AI Consultant project out of this vault into a new standalone repo/vault: **github.com/nicholaslee25/Pharma_AI** (still a normal Obsidian vault — open its folder separately). Reason: the project had grown to ~945 pages and its own dense internal link web, which was cluttering this vault's graph without adding anything to the "you/skills/topics/projects" picture this vault is for.
