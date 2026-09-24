@@ -4,6 +4,10 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 
 ---
 
+## [2026-09-23] update | Le'bama priority clarification — voice-first, Claude API confirmed
+
+- `projects/raspberry pi ai assistant.md` — Nykel clarified voice Q&A is THE primary goal, not one of several equal features; Spotify, Bluetooth, and home automation are all secondary. Also confirmed explicitly non-local: wants Claude (or another cloud AI) specifically for answer quality and personality, since Alexa/Google feel flat. This resolves the open "Claude API or Ollama" question (Claude API, decided) and reorders the Build Path into three phases: (1) core voice loop — wake word/Whisper/Claude/Piper, standalone, no HA, (2) Spotify + Bluetooth + language practice, (3) Home Assistant + real automation, deferred until there's actual hardware to automate. Raised but left open: whether HA belongs in the stack at all before Phase 3, since Spotify/Bluetooth/voice don't need it and HA's only role until then would be voice-pipeline glue that a small custom script can do directly against the Wyoming services.
+
 ## [2026-09-23] update | Baking/cooking wishlist additions + Le'bama build kickoff
 
 - `skills/baking.md` — added "Baked cheesecake with strawberry topping" to Cooked (2026-09-23); added "Deep dish cookie (Josh's favorite dessert)" to Wanna Bake

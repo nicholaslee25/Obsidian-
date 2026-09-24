@@ -8,9 +8,13 @@
 
 ## Concept
 
-Le'bama — a personal voice assistant running on a Raspberry Pi. Goal: replace Alexa/Google with something that actually answers instead of "sorry, I can't help with that," plus plays Spotify, works as a Bluetooth speaker, automates the house, and doubles as a multilingual language-practice partner (ties into [[chinese]]).
+Le'bama — a personal voice assistant running on a Raspberry Pi. **Primary goal: replace Alexa/Google with something that actually answers instead of "sorry, I can't help with that," and has a sense of humor** — explicitly *not* fully local, because a local model can't match Claude (or another cloud LLM) for quality and wit. Spotify, Bluetooth speaker duty, home automation, and language practice are all secondary — nice to have once the core voice loop works.
+
+**2026-09-23 priority clarification:** voice Q&A is THE point of this project, not one feature among several. Spotify/Bluetooth/automation are explicitly second-priority. This reorders the build path below — the voice loop (wake word → STT → Claude → TTS) now comes before Spotify/Bluetooth/HA setup, not after. Also resolves the "Claude API or Ollama" open question: **Claude API, decided** — the entire motivation is cloud-quality answers and personality, which rules out local models by definition.
 
 **2026-09-23 architecture revision:** original plan (below, kept for history) was built around Rhasspy, which its own creator archived in 2022-2023 when he joined the Home Assistant team to fold its functionality directly into HA's built-in "Assist" voice pipeline. Rhasspy is no longer the recommended path. Also decided: **Raspberry Pi OS (standard), not Home Assistant OS (HAOS)** — HAOS's locked-down, containerized model fights the two things that turned out to be core requirements (Spotify via Raspotify, and bidirectional Bluetooth audio), both of which need native OS-level access HAOS doesn't cleanly offer.
+
+**Open question raised 2026-09-23, unresolved:** given voice is primary and automation is explicitly secondary, is Home Assistant needed *at all* in the first build phase? None of Spotify (Raspotify), Bluetooth (BlueZ), or the voice loop itself require HA — HA's only role is (a) pre-built orchestration glue for wake word → STT → LLM → TTS via its Assist pipeline, and (b) actual smart-home device control, which doesn't exist yet. A lightweight custom bridge script can do (a) directly against the Wyoming services without running all of HA. Leaning toward: build the voice loop standalone first, add HA later only once there's real hardware to automate — see revised Build Path below. Not yet confirmed with Nykel.
 
 ---
 
@@ -65,14 +69,14 @@ Output routes to the wired speaker or a paired Bluetooth speaker; input can also
 
 ## LLM Options
 
-Two viable paths — both work with the Rhasspy + HA + Piper stack:
+**Decided 2026-09-23: Claude API.** Not close — the whole motivation for this project is answers with actual quality and personality ("Alexa doesn't have a sense of humor"), which a small local model running on a Pi can't deliver. Fully-local/offline was never the goal here. Ollama table kept below for reference only.
 
 | Option | What it is | Pros | Cons |
 |---|---|---|---|
-| **Ollama (local)** | Open-source model running on the Pi itself (Phi-3, Gemma, Llama 3) | Fully offline, free, private, no API key | Slower responses on Pi hardware; smaller models = less capable than Claude |
-| **Claude API** | Actual Claude, called over internet | Best quality by far | Needs internet + API key; small usage cost |
+| **Claude API** ✅ | Actual Claude, called over internet | Best quality by far, has personality | Needs internet + API key; small usage cost |
+| **Ollama (local)** | Open-source model running on the Pi itself (Phi-3, Gemma, Llama 3) | Fully offline, free, private, no API key | Slower responses on Pi hardware; smaller models = less capable; doesn't serve the actual goal |
 
-**Ollama on Pi — realistic expectations:**
+**Ollama on Pi — realistic expectations (reference only, not the chosen path):**
 
 | Model | Size | Pi 4 8GB | Pi 5 8GB |
 |---|---|---|---|
@@ -107,25 +111,30 @@ For Ollama to feel tolerable, Pi 5 8GB is the minimum. Pi 4 will frustrate you f
 
 ---
 
-## Build Path (revised 2026-09-23)
+## Build Path (revised 2026-09-23, reordered voice-first)
 
+**Phase 1 — Core voice loop (the actual point of the project):**
 - [x] Flash Raspberry Pi OS (64-bit) — done, Pi working and set up
 - [ ] Install Docker + Docker Compose
-- [ ] Install Raspotify — quick standalone win, test as a real Spotify Connect target before touching anything else
-- [ ] Set up BlueZ + bluez-alsa (or PulseAudio/PipeWire Bluetooth module) — test both directions: phone → Pi, and Pi → external BT speaker
-- [ ] Run Home Assistant as a Docker Container
-- [ ] Add Whisper, Piper, and openWakeWord as Wyoming-protocol Docker services, wire into HA's Assist pipeline
-- [ ] Wire up mic + speaker, test the voice pipeline end-to-end with zero AI involved (wake word → built-in HA command → Piper response)
+- [ ] Run Whisper, Piper, and openWakeWord as standalone Wyoming-protocol Docker services (no HA yet)
+- [ ] Wire up mic + speaker
+- [ ] Write a small bridge script: wake word event → stream audio to Whisper → send transcript to Claude API → send response text to Piper → play audio. This is standalone Python, not an HA integration
 - [ ] Train a custom wake word ("Le'bama" / "Hey Bama") via openWakeWord's Colab notebook, if not sticking with a stock wake word
-- [ ] Write the Claude bridge script (small local service, OpenAI-compatible endpoint backed by the Claude API)
-- [ ] Wire the bridge into HA as the Assist pipeline's fallback conversation agent (check HACS for a direct Anthropic integration first; "Extended OpenAI Conversation" + bridge is the documented fallback)
-- [ ] Test open-ended queries through the full voice loop
-- [ ] Set up HA's Spotify integration, confirm voice-triggered "play X on Spotify" routes to the Raspotify-connected Pi
-- [ ] Home automation: connect real devices/entities, test voice commands
+- [ ] System prompt + personality — define who Le'bama is (this is what's supposed to beat Alexa's blandness)
+- [ ] Test open-ended queries through the full voice loop end-to-end
 - [ ] Add internet search layer for live info queries (Tavily or DuckDuckGo API)
-- [ ] System prompt + personality — define who Le'bama is
 - [ ] Polish: conversation history, error handling, fallback responses
-- [ ] **Language practice mode (added 2026-09-23):** download a Piper voice model for the target practice language (Mandarin, per [[chinese]]); confirm Whisper transcribes it accurately; add a system-prompt mode where Claude corrects grammar/pronunciation notes and stays in the target language rather than just answering in it — this is the actual "practice" part the reference article's ElevenLabs example doesn't really do
+
+**Phase 2 — Secondary features (once Phase 1 works):**
+- [ ] Install Raspotify — standalone, makes the Pi a Spotify Connect target
+- [ ] Set up BlueZ + bluez-alsa (or PulseAudio/PipeWire Bluetooth module) — test both directions: phone → Pi, and Pi → external BT speaker
+- [ ] Add simple intent matching in the bridge script (e.g. "play X on Spotify") so those commands short-circuit before hitting Claude — no HA required for this
+- [ ] **Language practice mode:** download a Piper voice model for the target practice language (Mandarin, per [[chinese]]); confirm Whisper transcribes it accurately; add a system-prompt mode where Claude corrects grammar/pronunciation notes and stays in the target language rather than just answering in it — this is the actual "practice" part the reference article's ElevenLabs example doesn't really do
+
+**Phase 3 — Home automation (only once there's real hardware to automate):**
+- [ ] Run Home Assistant as a Docker Container
+- [ ] Decide then: migrate the bridge script's voice pipeline into HA's Assist (gets HA's device/entity handling for free), or keep the standalone script and have it call HA's API only for automation intents
+- [ ] Connect real devices/entities, test voice commands
 
 ---
 
@@ -134,7 +143,8 @@ For Ollama to feel tolerable, Pi 5 8GB is the minimum. Pi 4 will frustrate you f
 - [x] Rhasspy 2 vs. 3? — moot, Rhasspy dropped entirely in favor of HA's native Assist pipeline (2026-09-23)
 - [x] Same Pi for everything, or separate Pi for Home Assistant? — same Pi, one dedicated box for Le'bama (2026-09-23)
 - [x] HAOS or regular OS? — regular Raspberry Pi OS, decided 2026-09-23 specifically because of the Spotify/Bluetooth requirements
-- [ ] Claude API or Ollama (local)? — leaning Claude API per the original comparison table above, not revisited yet
+- [x] Claude API or Ollama (local)? — **Claude API, confirmed 2026-09-23.** Explicitly not-fully-local was the goal from the start; local models can't match the quality/personality bar this project is being built for.
+- [ ] Home Assistant in Phase 1 at all, or only add it in Phase 3 once there's real hardware to automate? — leaning "only in Phase 3" per 2026-09-23 priority clarification above, not yet confirmed
 - [ ] Piper voice — pick one from the voice list
 - [ ] Wake word — "Le'bama", "Hey Bama", or a stock option to start with and customize later?
 - [ ] Always-on listening vs. push-to-talk?
@@ -144,7 +154,7 @@ For Ollama to feel tolerable, Pi 5 8GB is the minimum. Pi 4 will frustrate you f
 
 ## Status
 
-Building — OS decided (Raspberry Pi OS), architecture locked in (see 2026-09-23 revision above), starting the build path for real
+Building — OS decided (Raspberry Pi OS), LLM decided (Claude API), priority order locked (voice loop first, Spotify/Bluetooth/automation second/third), build path reordered accordingly. Open question: whether Home Assistant belongs in Phase 1 at all (leaning no).
 
 ---
 
