@@ -8,7 +8,7 @@
 
 ## Concept
 
-Le'bama — a personal voice assistant running on a Raspberry Pi. Goal: replace Alexa/Google with something that actually answers instead of "sorry, I can't help with that," plus plays Spotify, works as a Bluetooth speaker, and automates the house.
+Le'bama — a personal voice assistant running on a Raspberry Pi. Goal: replace Alexa/Google with something that actually answers instead of "sorry, I can't help with that," plus plays Spotify, works as a Bluetooth speaker, automates the house, and doubles as a multilingual language-practice partner (ties into [[chinese]]).
 
 **2026-09-23 architecture revision:** original plan (below, kept for history) was built around Rhasspy, which its own creator archived in 2022-2023 when he joined the Home Assistant team to fold its functionality directly into HA's built-in "Assist" voice pipeline. Rhasspy is no longer the recommended path. Also decided: **Raspberry Pi OS (standard), not Home Assistant OS (HAOS)** — HAOS's locked-down, containerized model fights the two things that turned out to be core requirements (Spotify via Raspotify, and bidirectional Bluetooth audio), both of which need native OS-level access HAOS doesn't cleanly offer.
 
@@ -19,6 +19,7 @@ Le'bama — a personal voice assistant running on a Raspberry Pi. Goal: replace 
 1. [my local, AI Voice Assistant (I replaced Alexa!!)](https://www.youtube.com/watch?v=XvbVePuP7NY)
 2. [Create an AI Voice Assistant in 5 minutes - Powered by GPT-4o](https://www.youtube.com/watch?v=E7qxYWLWOtk) *(architecture reference — swap GPT-4o → Claude)*
 3. [I Built a Local AI Assistant: 100% Free & No Subscriptions!](https://www.youtube.com/watch?v=7ffF3fumhcQ)
+4. [How to build a multilingual conversational AI voice assistant](https://www.raspberrypi.com/news/how-to-build-a-multilingual-conversational-ai-voice-assistant/) *(uses ElevenLabs' commercial API, not a local stack — the multilingual concept transfers, the specific implementation doesn't. Whisper/Piper/Claude are all natively multilingual already, so no new tool needed — see Language Practice note below)*
 
 ---
 
@@ -124,6 +125,7 @@ For Ollama to feel tolerable, Pi 5 8GB is the minimum. Pi 4 will frustrate you f
 - [ ] Add internet search layer for live info queries (Tavily or DuckDuckGo API)
 - [ ] System prompt + personality — define who Le'bama is
 - [ ] Polish: conversation history, error handling, fallback responses
+- [ ] **Language practice mode (added 2026-09-23):** download a Piper voice model for the target practice language (Mandarin, per [[chinese]]); confirm Whisper transcribes it accurately; add a system-prompt mode where Claude corrects grammar/pronunciation notes and stays in the target language rather than just answering in it — this is the actual "practice" part the reference article's ElevenLabs example doesn't really do
 
 ---
 
@@ -136,6 +138,7 @@ For Ollama to feel tolerable, Pi 5 8GB is the minimum. Pi 4 will frustrate you f
 - [ ] Piper voice — pick one from the voice list
 - [ ] Wake word — "Le'bama", "Hey Bama", or a stock option to start with and customize later?
 - [ ] Always-on listening vs. push-to-talk?
+- [ ] Language practice: Mandarin only (matches current [[chinese]] goal), or also Spanish/English-vocab per [[english]]?
 
 ---
 
