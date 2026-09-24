@@ -2,7 +2,7 @@
 
 **Type:** Project
 **Tags:** #project #electronics #ai #raspberrypi #software #homeassistant
-**Last updated:** 2026-09-23
+**Last updated:** 2026-09-24
 
 ---
 
@@ -69,14 +69,16 @@ Output routes to the wired speaker or a paired Bluetooth speaker; input can also
 
 ## LLM Options
 
-**Decided 2026-09-23: Claude API.** Not close — the whole motivation for this project is answers with actual quality and personality ("Alexa doesn't have a sense of humor"), which a small local model running on a Pi can't deliver. Fully-local/offline was never the goal here. Ollama table kept below for reference only.
+**Decided 2026-09-24: Claude API as default, Ollama as a dormant fallback — swappable, not exclusive.** The bridge script exposes one function, `ask_llm(prompt) → response`, with the backend chosen by a config switch (`LLM_BACKEND=claude|ollama`). Claude API is the live default: fast (~1-3s, since the Pi just makes a network call — it doesn't run the model), has real web access via tool use, and has actual personality. Ollama stays wired in but idle, so if the recurring cost ever needs to go to zero, it's a config flag, not a rewrite — the project degrades to slower/dumber, it doesn't die.
+
+**Cost clarification (2026-09-24):** the Claude Pro chat subscription and the Claude API are billed separately — canceling Pro has zero effect on Le'bama. The bridge uses an Anthropic Console API key (pay-per-token). For home-assistant-scale volume (a few dozen short exchanges/day) this is directionally single-digit-dollars/month on a cheap model, not Pro-subscription money — confirm exact current pricing at console.anthropic.com before committing.
 
 | Option | What it is | Pros | Cons |
 |---|---|---|---|
-| **Claude API** ✅ | Actual Claude, called over internet | Best quality by far, has personality | Needs internet + API key; small usage cost |
-| **Ollama (local)** | Open-source model running on the Pi itself (Phi-3, Gemma, Llama 3) | Fully offline, free, private, no API key | Slower responses on Pi hardware; smaller models = less capable; doesn't serve the actual goal |
+| **Claude API** ✅ default | Actual Claude, called over internet | Fast (~1-3s), best quality/personality, native web-search tool | Needs internet + API key; small usage cost, billed separately from Claude Pro |
+| **Ollama (local)** — dormant fallback | Open-source model running on the Pi itself (Phi-3, Gemma, Llama 3) | Fully offline, free, private, no API key, zero-cost escape hatch | Slow on Pi hardware (~10-60s); smaller models = less capable; no native web access — you'd have to hand-wire a search tool and hope the small model calls it reliably |
 
-**Ollama on Pi — realistic expectations (reference only, not the chosen path):**
+**Ollama on Pi — realistic expectations (fallback path, kept wired in but not the live default):**
 
 | Model | Size | Pi 4 8GB | Pi 5 8GB |
 |---|---|---|---|
@@ -118,7 +120,7 @@ For Ollama to feel tolerable, Pi 5 8GB is the minimum. Pi 4 will frustrate you f
 - [ ] Install Docker + Docker Compose
 - [ ] Run Whisper, Piper, and openWakeWord as standalone Wyoming-protocol Docker services (no HA yet)
 - [ ] Wire up mic + speaker
-- [ ] Write a small bridge script: wake word event → stream audio to Whisper → send transcript to Claude API → send response text to Piper → play audio. This is standalone Python, not an HA integration
+- [ ] Write a small bridge script: wake word event → stream audio to Whisper → `ask_llm()` (backend-swappable: Claude API default, Ollama dormant fallback) → send response text to Piper → play audio. This is standalone Python, not an HA integration. Full step-by-step given in chat 2026-09-24
 - [ ] Train a custom wake word ("Le'bama" / "Hey Bama") via openWakeWord's Colab notebook, if not sticking with a stock wake word
 - [ ] System prompt + personality — define who Le'bama is (this is what's supposed to beat Alexa's blandness)
 - [ ] Test open-ended queries through the full voice loop end-to-end
@@ -143,7 +145,7 @@ For Ollama to feel tolerable, Pi 5 8GB is the minimum. Pi 4 will frustrate you f
 - [x] Rhasspy 2 vs. 3? — moot, Rhasspy dropped entirely in favor of HA's native Assist pipeline (2026-09-23)
 - [x] Same Pi for everything, or separate Pi for Home Assistant? — same Pi, one dedicated box for Le'bama (2026-09-23)
 - [x] HAOS or regular OS? — regular Raspberry Pi OS, decided 2026-09-23 specifically because of the Spotify/Bluetooth requirements
-- [x] Claude API or Ollama (local)? — **Claude API, confirmed 2026-09-23.** Explicitly not-fully-local was the goal from the start; local models can't match the quality/personality bar this project is being built for.
+- [x] Claude API or Ollama (local)? — **Claude API as default, Ollama wired in as dormant fallback, confirmed 2026-09-24.** Not exclusive — see LLM Options above for the swappable-backend design.
 - [ ] Home Assistant in Phase 1 at all, or only add it in Phase 3 once there's real hardware to automate? — leaning "only in Phase 3" per 2026-09-23 priority clarification above, not yet confirmed
 - [ ] Piper voice — pick one from the voice list
 - [ ] Wake word — "Le'bama", "Hey Bama", or a stock option to start with and customize later?
@@ -154,7 +156,7 @@ For Ollama to feel tolerable, Pi 5 8GB is the minimum. Pi 4 will frustrate you f
 
 ## Status
 
-Building — OS decided (Raspberry Pi OS), LLM decided (Claude API), priority order locked (voice loop first, Spotify/Bluetooth/automation second/third), build path reordered accordingly. Open question: whether Home Assistant belongs in Phase 1 at all (leaning no).
+Building — OS decided (Raspberry Pi OS), LLM decided (Claude API default + Ollama dormant fallback, swappable via config), priority order locked (voice loop first, Spotify/Bluetooth/automation second/third). Phase 1 (core voice loop) has a full step-by-step build guide as of 2026-09-24 — see chat. Open question: whether Home Assistant belongs in Phase 1 at all (leaning no).
 
 ---
 
