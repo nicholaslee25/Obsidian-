@@ -2,7 +2,7 @@
 
 **Type:** Personal
 **Tags:** #you #wishlist
-**Last updated:** 2026-05-31
+**Last updated:** 2026-09-29
 
 
 ---
@@ -17,6 +17,8 @@
 - Bone Swiss bearings
 - Camera gimbal *(or build one — see [[diy camera gimbal]])*
 - A nice hard drive (or two) for photo storage — ties to the Japan photos backlog in [[priorities]]
+- Arizona hoodie
+- Arizona coffee tumbler
 
 ## Big Purchases
 

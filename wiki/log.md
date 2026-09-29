@@ -4,6 +4,10 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 
 ---
 
+## [2026-09-29] update | Wishlist additions
+
+- `you/wishlist.md` — added Arizona hoodie, Arizona coffee tumbler
+
 ## [2026-09-24] update | Le'bama — swappable Claude/Ollama backend decided, Phase 1 build guide given
 
 - `projects/raspberry pi ai assistant.md` — Resolved the "don't want to kill the project if I stop paying" concern from a Claude-vs-Ollama cost/speed/web-access comparison: bridge script will expose one `ask_llm()` function with the backend swappable via config (`LLM_BACKEND=claude|ollama`), Claude API live by default, Ollama wired in but dormant as a free fallback. Clarified Claude Pro (chat subscription) and the Claude API (pay-per-token, console.anthropic.com) are billed separately — canceling Pro doesn't affect this project. Gave Nykel a full in-depth step-by-step for building Phase 1 (Docker + Wyoming services for wake word/STT/TTS, audio setup, Anthropic API key, the bridge script with backend abstraction, systemd service) — see chat for the complete walkthrough, not duplicated into the wiki per the existing "see chat" convention.
