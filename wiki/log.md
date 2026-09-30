@@ -4,6 +4,10 @@ Append-only record of all sessions and operations. Greppable by prefix: `## [YYY
 
 ---
 
+## [2026-09-30] update | Long Island engineering employer search
+
+- `you/potential employers.md` — researched mechanical/quality/manufacturing engineering firms hiring on Long Island (Nassau/Queens preferred, Suffolk/NYC acceptable per Nykel's ask). Queens has no real manufacturing-employer base. Nassau: AMETEK, Arkwin Industries, Schivo Medical, Aero Structures Long Island. Suffolk (the actual aerospace/defense/medical-device corridor): BAE Systems, TTM Technologies, Circor A&D, Curtiss-Wright, Cytiva, Spellman High Voltage, Leviton, Air Industries Group, U.S. Dynamics Corp, Modern Packaging, Magellan/GE Aerospace. Cytiva and Spellman flagged as closest match to the existing Philips/Spacelabs medical-device interest already on the page.
+
 ## [2026-09-29] update | Wishlist additions
 
 - `you/wishlist.md` — added Arizona hoodie, Arizona coffee tumbler
