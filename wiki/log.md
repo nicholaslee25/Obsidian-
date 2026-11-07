@@ -645,3 +645,8 @@ Pending (needs Nykel's input before Claude can process):
 - `projects/3d printed pascal triangle.md` — 3D printed Pascal's triangle display piece; representation TBD
 - `projects/woodwork hangboard.md` — wooden fingerboard for climbing training
 - `projects/wood radiator cover.md` — decorative wood cover for mom's radiator; waiting on measurements
+## [2026-11-07] update | Job pipeline agent
+
+- `projects/job pipeline agent.md` — new project page: dashboard link, setup checklist
+- `projects/job pipeline agent/` — skill (SKILL.md), setup README, dashboard source
+- index updated

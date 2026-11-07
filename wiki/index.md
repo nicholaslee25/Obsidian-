@@ -38,6 +38,7 @@ Master catalog of all wiki pages. Updated after every operation.
 - [[gardening]] — green onions, shampoo ginger lily, tomatoes, cabbage; wildlife defense; best practices
 
 ## Projects
+- [[job pipeline agent]] — background agent: finds jobs, fills approved apps, dashboard + action items
 - [[tensegrity table]] — compression + tension, floating structure
 - [[woodwork shelf]] — modular, adjustable heights, easy disassembly/reassembly
 - [[woodwork clock]] — idea / planning

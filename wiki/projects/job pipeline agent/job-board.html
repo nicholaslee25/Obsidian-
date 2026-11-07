@@ -1,0 +1,285 @@
+<title>Application Pipeline</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: slim header with run status, three working columns (Found / Ready / Action), submitted log + search settings below. */
+:root {
+  --bg: #f3f5f8;
+  --surface: #ffffff;
+  --fg: #141a26;
+  --muted: #5b6577;
+  --line: #dde2ea;
+  --accent: #2446c7;
+  --accent-soft: #e6ebfb;
+  --ready: #1b7a4b;
+  --ready-soft: #e2f3ea;
+  --warn: #a35a00;
+  --warn-soft: #fbefdc;
+  --danger: #b3261e;
+  --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f131b; --surface: #171d28; --fg: #e6e9f0; --muted: #98a2b5; --line: #2a3242;
+  --accent: #8aa4ff; --accent-soft: #1f2a4a; --ready: #5fd29a; --ready-soft: #15301f;
+  --warn: #f0b05a; --warn-soft: #33260f; --danger: #ff8a80; color-scheme: dark;
+} }
+:root[data-theme="dark"] {
+  --bg: #0f131b; --surface: #171d28; --fg: #e6e9f0; --muted: #98a2b5; --line: #2a3242;
+  --accent: #8aa4ff; --accent-soft: #1f2a4a; --ready: #5fd29a; --ready-soft: #15301f;
+  --warn: #f0b05a; --warn-soft: #33260f; --danger: #ff8a80; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 14px; line-height: 1.45; }
+.wrap { max-width: 1280px; margin: 0 auto; padding-block: 24px 48px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 24px; }
+header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: 28px; letter-spacing: -0.01em; margin: 0; text-wrap: balance; }
+.sub { color: var(--muted); margin: 4px 0 0; }
+.run { font-family: var(--font-mono); font-size: 12px; color: var(--muted); text-align: right; min-width: 0; }
+.run b { color: var(--fg); font-weight: 500; }
+.notice { background: var(--warn-soft); color: var(--warn); border-radius: 8px; padding: 10px 14px; }
+.board { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; align-items: start; }
+@media (max-width: 900px) { .board { grid-template-columns: 1fr; } }
+.col { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; min-width: 0; display: grid; grid-template-rows: auto 1fr; }
+.col-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 14px 16px 12px; border-bottom: 1px solid var(--line); }
+.col-head h2 { font-family: var(--font-display); font-weight: 500; font-size: 17px; margin: 0; display: flex; align-items: center; gap: 8px; }
+.count { font-family: var(--font-mono); font-size: 12px; background: var(--bg); border-radius: 99px; padding: 1px 8px; color: var(--muted); }
+.col-hint { color: var(--muted); font-size: 12px; padding: 8px 16px 0; margin: 0; }
+.list { display: grid; gap: 0; padding: 4px 0 8px; }
+.empty { color: var(--muted); padding: 20px 16px; font-size: 13px; }
+.job { padding: 12px 16px; border-top: 1px solid var(--line); display: grid; gap: 6px; min-width: 0; }
+.job:first-child { border-top: 0; }
+.job-top { display: flex; gap: 10px; align-items: start; }
+.job-top input[type=checkbox] { width: 18px; height: 18px; margin: 2px 0 0; accent-color: var(--accent); flex: none; cursor: pointer; }
+.job-main { min-width: 0; flex: 1; }
+.role { font-weight: 600; overflow-wrap: anywhere; }
+.role a { color: inherit; text-decoration: none; }
+.role a:hover { text-decoration: underline; }
+.meta { color: var(--muted); font-size: 12.5px; overflow-wrap: anywhere; }
+.why { font-size: 13px; overflow-wrap: anywhere; }
+.pill { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; border-radius: 4px; padding: 2px 6px; }
+.pill.queued { background: var(--accent-soft); color: var(--accent); }
+.pill.ready { background: var(--ready-soft); color: var(--ready); }
+.pill.warn { background: var(--warn-soft); color: var(--warn); }
+.q { font-size: 13px; border-left: 2px solid var(--warn); padding-left: 8px; overflow-wrap: anywhere; }
+.actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 2px; }
+button, .btn { font: inherit; font-size: 12.5px; font-weight: 500; border: 1px solid var(--line); background: var(--surface); color: var(--fg); border-radius: 6px; padding: 4px 10px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; }
+button:hover, .btn:hover { border-color: var(--accent); }
+button.primary, .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+button.quiet { border-color: transparent; color: var(--muted); }
+button:focus-visible, .btn:focus-visible, input:focus-visible, textarea:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+button:disabled { opacity: 0.5; cursor: default; }
+.lower { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+@media (max-width: 900px) { .lower { grid-template-columns: 1fr; } }
+details { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; min-width: 0; }
+summary { cursor: pointer; padding: 14px 16px; font-family: var(--font-display); font-weight: 500; font-size: 16px; }
+.inner { padding: 0 16px 16px; display: grid; gap: 12px; }
+.tablewrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { text-align: left; padding: 6px 8px; border-top: 1px solid var(--line); vertical-align: top; }
+th { color: var(--muted); font-weight: 500; font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; border-top: 0; }
+td.num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; white-space: nowrap; color: var(--muted); }
+label { display: grid; gap: 4px; font-size: 12.5px; color: var(--muted); }
+input[type=text], input[type=number], textarea { font: inherit; font-size: 14px; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 7px 9px; width: 100%; }
+textarea { min-height: 54px; resize: vertical; }
+.row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 480px) { .row2 { grid-template-columns: 1fr; } }
+.check { display: flex; align-items: center; gap: 8px; color: var(--fg); font-size: 14px; }
+.saved { font-size: 12px; color: var(--ready); min-height: 1em; }
+.toolbar { display: flex; gap: 6px; }
+@media (prefers-reduced-motion: no-preference) { .job { transition: background 0.15s; } .job:hover { background: var(--bg); } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Application Pipeline</h1>
+      <p class="sub">Tick a job to approve it. The agent fills it out and stops before Submit.</p>
+    </div>
+    <div class="run" id="run">Waiting for the first agent run</div>
+  </header>
+
+  <div class="notice" id="notice" hidden></div>
+
+  <section class="board" aria-label="Applications">
+    <div class="col">
+      <div class="col-head">
+        <h2>Found <span class="count" id="c-found">0</span></h2>
+        <div class="toolbar"><button id="approve-all" class="quiet" type="button">Approve all</button></div>
+      </div>
+      <div><p class="col-hint">Not applied to yet. Checked ones get filled on the next run.</p><div class="list" id="l-found"></div></div>
+    </div>
+    <div class="col">
+      <div class="col-head"><h2>Ready to review <span class="count" id="c-ready">0</span></h2></div>
+      <div><p class="col-hint">Filled out and left open on the review page in your browser. Check it, then click Submit on the site.</p><div class="list" id="l-ready"></div></div>
+    </div>
+    <div class="col">
+      <div class="col-head"><h2>Action items <span class="count" id="c-action">0</span></h2></div>
+      <div><p class="col-hint">The agent needs you here: an account, a question it couldn't answer, a CAPTCHA, or a test.</p><div class="list" id="l-action"></div></div>
+    </div>
+  </section>
+
+  <section class="lower">
+    <details id="d-done">
+      <summary>Submitted &amp; dismissed <span class="count" id="c-done">0</span></summary>
+      <div class="inner"><div class="tablewrap"><table>
+        <thead><tr><th>Company</th><th>Role</th><th>Status</th><th>Date</th><th></th></tr></thead>
+        <tbody id="t-done"></tbody>
+      </table></div></div>
+    </details>
+    <details id="d-search">
+      <summary>What to search for</summary>
+      <form class="inner" id="search-form">
+        <label for="s-roles">Job titles (one per line)
+          <textarea id="s-roles" placeholder="Mechanical Engineer&#10;Manufacturing Engineer"></textarea></label>
+        <div class="row2">
+          <label for="s-locations">Locations
+            <input type="text" id="s-locations" placeholder="Boston, MA; Worcester, MA"></label>
+          <label for="s-salary">Minimum salary (USD / yr)
+            <input type="number" id="s-salary" min="0" step="1000" placeholder="70000"></label>
+        </div>
+        <label class="check" for="s-remote"><input type="checkbox" id="s-remote"> Include remote jobs</label>
+        <div class="row2">
+          <label for="s-level">Experience level
+            <input type="text" id="s-level" placeholder="Entry level, Associate"></label>
+          <label for="s-max">New jobs to find per run
+            <input type="number" id="s-max" min="1" max="50" placeholder="15"></label>
+        </div>
+        <label for="s-exclude">Skip these companies or keywords
+          <input type="text" id="s-exclude" placeholder="Staffing agencies, Senior, Principal"></label>
+        <div class="actions"><button class="primary" type="submit" id="s-save">Save search</button><span class="saved" id="s-saved" aria-live="polite"></span></div>
+      </form>
+    </details>
+  </section>
+</div>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const safeUrl = (u) => /^https?:\/\//i.test(String(u || "")) ? String(u) : "";
+  const fmtDate = (iso) => { const d = new Date(iso); return isNaN(d) ? "" : d.toLocaleDateString(undefined, { month: "short", day: "numeric" }); };
+  const fmtTime = (iso) => { const d = new Date(iso); return isNaN(d) ? "" : d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }); };
+  const REASONS = {
+    account: "Make an account", review: "Check before continuing", question: "Unanswered question",
+    captcha: "CAPTCHA", "2fa": "Two-factor code", assessment: "Assessment / test",
+    upload: "File upload failed", cover_letter: "Cover letter required", failed: "Site error", other: "Needs you"
+  };
+  let db = null, jobs = [];
+
+  function showNotice(msg) { $("notice").textContent = msg; $("notice").hidden = !msg; }
+
+  async function setStatus(id, status, extra = {}) {
+    if (!db) return;
+    try { await db.doc("jobs/" + id).update({ status, updatedAt: new Date().toISOString(), ...extra }); }
+    catch (e) { showNotice("Couldn't save that change (" + (e && e.code || "error") + "). Reload and try again."); }
+  }
+
+  function card(j, kind) {
+    const url = safeUrl(j.url);
+    const title = url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(j.role || "Untitled role")}</a>` : esc(j.role || "Untitled role");
+    const meta = [j.company, j.location, j.salary].filter(Boolean).map(esc).join(" · ");
+    const found = j.foundAt ? `Found ${esc(fmtDate(j.foundAt))}${j.source ? " on " + esc(j.source) : ""}` : "";
+    let top = "", body = "", acts = "";
+    if (kind === "found") {
+      const approved = j.status === "approved";
+      top = `<input type="checkbox" id="ap-${esc(j.id)}" data-act="toggle" data-id="${esc(j.id)}" ${approved ? "checked" : ""} aria-label="Approve filling out ${esc(j.role)} at ${esc(j.company)}">`;
+      body = (approved ? `<div><span class="pill queued">Approved · fills next run</span></div>` : "") +
+        (j.match ? `<div class="why">${esc(j.match)}</div>` : "") +
+        (found ? `<div class="meta">${found}</div>` : "");
+      acts = `<button type="button" class="quiet" data-act="dismiss" data-id="${esc(j.id)}">Not interested</button>`;
+    } else if (kind === "ready") {
+      body = `<div><span class="pill ready">Filled ${esc(fmtTime(j.filledAt || j.updatedAt))}</span></div>` +
+        (j.note ? `<div class="why">${esc(j.note)}</div>` : "");
+      acts = (url ? `<a class="btn" href="${esc(url)}" target="_blank" rel="noopener">Open posting</a>` : "") +
+        `<button type="button" class="primary" data-act="submitted" data-id="${esc(j.id)}">I submitted it</button>` +
+        `<button type="button" class="quiet" data-act="dismiss" data-id="${esc(j.id)}">Drop it</button>`;
+    } else {
+      body = `<div><span class="pill warn">${esc(REASONS[j.reason] || REASONS.other)}</span></div>` +
+        (j.note ? `<div class="why">${esc(j.note)}</div>` : "") +
+        (j.question ? `<div class="q">“${esc(j.question)}”</div>` : "");
+      acts = (url ? `<a class="btn" href="${esc(url)}" target="_blank" rel="noopener">Open posting</a>` : "") +
+        `<button type="button" class="primary" data-act="retry" data-id="${esc(j.id)}">Done, retry it</button>` +
+        `<button type="button" data-act="submitted" data-id="${esc(j.id)}">I submitted it</button>` +
+        `<button type="button" class="quiet" data-act="dismiss" data-id="${esc(j.id)}">Drop it</button>`;
+    }
+    return `<article class="job"><div class="job-top">${top}<div class="job-main"><div class="role">${title}</div>${meta ? `<div class="meta">${meta}</div>` : ""}</div></div>${body}<div class="actions">${acts}</div></article>`;
+  }
+
+  function render() {
+    const by = (s) => jobs.filter((j) => s.includes(j.status));
+    const newest = (a, b) => String(b.updatedAt || b.foundAt || "").localeCompare(String(a.updatedAt || a.foundAt || ""));
+    const found = by(["found", "approved"]).sort((a, b) => (a.status === b.status ? newest(a, b) : a.status === "approved" ? -1 : 1));
+    const ready = by(["ready"]).sort(newest);
+    const action = by(["action"]).sort(newest);
+    const done = by(["submitted", "dismissed"]).sort(newest);
+    const fill = (id, list, kind, empty) => { $(id).innerHTML = list.length ? list.map((j) => card(j, kind)).join("") : `<div class="empty">${empty}</div>`; };
+    fill("l-found", found, "found", "No new jobs yet. The agent adds matches here each time it runs. Set what it looks for under <b>What to search for</b>.");
+    fill("l-ready", ready, "ready", "Nothing to review yet. Approved jobs show up here once they're filled out.");
+    fill("l-action", action, "action", "Nothing needs you right now.");
+    $("c-found").textContent = found.length; $("c-ready").textContent = ready.length;
+    $("c-action").textContent = action.length; $("c-done").textContent = done.length;
+    $("approve-all").disabled = !found.some((j) => j.status === "found");
+    $("t-done").innerHTML = done.length ? done.map((j) => `<tr><td>${esc(j.company)}</td><td>${safeUrl(j.url) ? `<a href="${esc(safeUrl(j.url))}" target="_blank" rel="noopener">${esc(j.role)}</a>` : esc(j.role)}</td><td>${j.status === "submitted" ? '<span class="pill ready">Submitted</span>' : '<span class="pill queued">Dismissed</span>'}</td><td class="num">${esc(fmtDate(j.updatedAt))}</td><td><button type="button" class="quiet" data-act="restore" data-id="${esc(j.id)}">Undo</button></td></tr>`).join("") : `<tr><td colspan="5" class="empty">Nothing here yet.</td></tr>`;
+  }
+
+  document.addEventListener("click", (ev) => {
+    const el = ev.target.closest("[data-act]"); if (!el || el.dataset.act === "toggle") return;
+    const id = el.dataset.id, j = jobs.find((x) => x.id === id); if (!j) return;
+    const act = el.dataset.act;
+    if (act === "dismiss") setStatus(id, "dismissed", { prevStatus: j.status });
+    if (act === "submitted") setStatus(id, "submitted", { prevStatus: j.status, submittedAt: new Date().toISOString() });
+    if (act === "retry") setStatus(id, "approved", { prevStatus: j.status });
+    if (act === "restore") setStatus(id, j.prevStatus && j.prevStatus !== j.status ? j.prevStatus : "found");
+  });
+  document.addEventListener("change", (ev) => {
+    const el = ev.target; if (el.dataset?.act !== "toggle") return;
+    setStatus(el.dataset.id, el.checked ? "approved" : "found", el.checked ? { approvedAt: new Date().toISOString() } : {});
+  });
+  $("approve-all").addEventListener("click", async () => {
+    const now = new Date().toISOString();
+    for (const j of jobs.filter((x) => x.status === "found")) await setStatus(j.id, "approved", { approvedAt: now });
+  });
+
+  const fields = { roles: "s-roles", locations: "s-locations", minSalary: "s-salary", remote: "s-remote", level: "s-level", maxPerRun: "s-max", exclude: "s-exclude" };
+  $("search-form").addEventListener("submit", async (ev) => {
+    ev.preventDefault(); if (!db) return;
+    const data = {};
+    for (const [k, id] of Object.entries(fields)) {
+      const el = $(id);
+      data[k] = el.type === "checkbox" ? el.checked : el.type === "number" ? (el.value === "" ? null : Number(el.value)) : el.value.trim();
+    }
+    data.updatedAt = new Date().toISOString();
+    $("s-save").disabled = true;
+    try { await db.doc("config/search").set(data); $("s-saved").textContent = "Saved. The next run uses this."; }
+    catch (e) { $("s-saved").textContent = ""; showNotice("Couldn't save the search settings (" + (e && e.code || "error") + ")."); }
+    $("s-save").disabled = false;
+  });
+
+  render();
+  (async () => {
+    db = await window.claude?.use?.("db");
+    if (!db) { showNotice("This view can't load your saved jobs. Open the page from claude.ai while signed in."); return; }
+    db.collection("jobs").onSnapshot((snap) => {
+      jobs = snap.docs.map((d) => ({ id: d.id, ...(d.data() || {}) }));
+      render();
+    }, (e) => showNotice("Live updates stopped (" + e.code + "). Reload the page."));
+    db.doc("meta/lastRun").onSnapshot((d) => {
+      const r = d.exists ? d.data() : null;
+      $("run").innerHTML = r ? `Last agent run <b>${esc(fmtTime(r.at))}</b><br>${esc(r.summary || "")}` : "Waiting for the first agent run";
+    });
+    try {
+      const s = await db.doc("config/search").get();
+      if (s.exists) {
+        const v = s.data();
+        for (const [k, id] of Object.entries(fields)) {
+          const el = $(id); if (v[k] == null) continue;
+          if (el.type === "checkbox") el.checked = !!v[k]; else el.value = v[k];
+        }
+      } else { $("d-search").open = true; }
+    } catch (e) { /* settings form stays usable */ }
+  })();
+})();
+</script>
