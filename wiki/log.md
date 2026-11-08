@@ -650,3 +650,7 @@ Pending (needs Nykel's input before Claude can process):
 - `projects/job pipeline agent.md` — new project page: dashboard link, setup checklist
 - `projects/job pipeline agent/` — skill (SKILL.md), setup README, dashboard source
 - index updated
+
+## [2026-11-08] update | Job pipeline agent skill zip
+
+- added `projects/job pipeline agent/job-pipeline.zip` so the skill can be downloaded from GitHub
